@@ -1,8 +1,10 @@
+# Archivos de log
 *.log
+
+# Salidas de Stata
 *.dta
 *.smcl
 *.gph
-*.pdf
-output/
+
+# Carpeta de logs internos
 log/
-data/raw/
