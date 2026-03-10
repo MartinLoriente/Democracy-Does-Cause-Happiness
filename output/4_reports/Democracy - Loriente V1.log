@@ -1,0 +1,2011 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.10) (preloaded format=pdflatex 2023.10.31)  11 FEB 2026 13:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**"./Democracy - Loriente V18.tex"
+(Democracy - Loriente V18.tex
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/base\size11.clo
+File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/eurosym\eurosym.sty
+Package: eurosym 1998/08/06 v1.1 European currency symbol ``Euro''
+\@eurobox=\box51
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics\dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+) (C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks18
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks19
+\thm@bodyfont=\toks20
+\thm@headfont=\toks21
+\thm@notefont=\toks22
+\thm@headpunct=\toks23
+\thm@preskip=\skip50
+\thm@postskip=\skip51
+\thm@headsep=\skip52
+\dth@everypar=\toks24
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip53
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks25
+\ex@=\dimen143
+))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen144
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count196
+\DOTSCASE@=\count197
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box52
+\strutbox@=\box53
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen145
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count198
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count199
+\dotsspace@=\muskip16
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks26
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks27
+\eqnshift@=\dimen146
+\alignsep@=\dimen147
+\tagshift@=\dimen148
+\tagwidth@=\dimen149
+\totwidth@=\dimen150
+\lineht@=\dimen151
+\@envbody=\toks28
+\multlinegap=\skip54
+\multlinetaggap=\skip55
+\mathdisplay@stack=\toks29
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count271
+\@cmidlb=\count272
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count273
+\@lastruleclass=\count274
+\@thisrulewidth=\dimen164
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip56
+\enit@outerparindent=\dimen165
+\enit@toks=\toks30
+\enit@inbox=\box54
+\enit@count@id=\count275
+\enitdp@description=\count276
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/tools\multicol.sty
+Package: multicol 2023/03/30 v1.9f multicolumn formatting (FMi)
+\c@tracingmulticols=\count277
+\mult@box=\box55
+\multicol@leftmargin=\dimen166
+\c@unbalance=\count278
+\c@collectmore=\count279
+\doublecol@number=\count280
+\multicoltolerance=\count281
+\multicolpretolerance=\count282
+\full@width=\dimen167
+\page@free=\dimen168
+\premulticols=\dimen169
+\postmulticols=\dimen170
+\multicolsep=\skip57
+\multicolbaselineskip=\skip58
+\partial@page=\box56
+\last@line=\box57
+\mc@boxedresult=\box58
+\maxbalancingoverflow=\dimen171
+\mult@rightbox=\box59
+\mult@grightbox=\box60
+\mult@firstbox=\box61
+\mult@gfirstbox=\box62
+\@tempa=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\c@minrows=\count283
+\c@columnbadness=\count284
+\c@finalcolumnbadness=\count285
+\last@try=\dimen172
+\multicolovershoot=\dimen173
+\multicolundershoot=\dimen174
+\mult@nat@firstbox=\box99
+\colbreak@box=\box100
+\mc@col@check@num=\count286
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count287
+\multirow@dima=\skip60
+\bigstrutjot=\dimen175
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip61
+\LTright=\skip62
+\LTpre=\skip63
+\LTpost=\skip64
+\LTchunksize=\count288
+\LTcapwidth=\dimen176
+\LT@head=\box101
+\LT@firsthead=\box102
+\LT@foot=\box103
+\LT@lastfoot=\box104
+\LT@gbox=\box105
+\LT@cols=\count289
+\LT@rows=\count290
+\c@LT@tables=\count291
+\c@LT@chunks=\count292
+\LT@p@ftn=\toks31
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
+Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\c@r@tfl@t=\count293
+\rotFPtop=\skip65
+\rotFPbot=\skip66
+\rot@float@box=\box106
+\rot@mess@toks=\toks32
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/morefloats\morefloats.s
+ty
+Package: morefloats 2015/07/22 v1.0h Raise limit of unprocessed floats (HMM)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+))
+Package morefloats Info: Maximum number of possible floats asked for: 30
+(morefloats)             (i.e. 12 more floats).
+(morefloats)             LaTeX might run out of memory before this
+(morefloats)             (in which case it will notify you).
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count294
+\Gm@cntv=\count295
+\c@Gm@tempcnt=\count296
+\Gm@bindingoffset=\dimen177
+\Gm@wd@mp=\dimen178
+\Gm@odd@mp=\dimen179
+\Gm@even@mp=\dimen180
+\Gm@layoutwidth=\dimen181
+\Gm@layoutheight=\dimen182
+\Gm@layouthoffset=\dimen183
+\Gm@layoutvoffset=\dimen184
+\Gm@dimlist=\toks33
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen185
+\captionmargin=\dimen186
+\caption@leftmargin=\dimen187
+\caption@rightmargin=\dimen188
+\caption@width=\dimen189
+\caption@indent=\dimen190
+\caption@parindent=\dimen191
+\caption@hangindent=\dimen192
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count297
+\c@continuedfloat=\count298
+Package caption Info: longtable package is loaded.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)
+Package caption Info: rotating package is loaded.
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape-nom
+etadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/placeins\placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count299
+\float@exts=\toks34
+\float@box=\box107
+\@float@everytoks=\toks35
+\@floatcapt=\box108
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+y
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+y
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-common.tex
+\pgfutil@everybye=\toks36
+\pgfutil@tempdima=\dimen193
+\pgfutil@tempdimb=\dimen194
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+-latex.def
+\pgfutil@abb=\box109
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+code.tex
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+ty
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+.code.tex
+\pgfkeys@pathtoks=\toks37
+\pgfkeys@temptoks=\toks38
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+libraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks39
+)))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+.tex
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+code.tex
+\pgf@x=\dimen195
+\pgf@xa=\dimen196
+\pgf@xb=\dimen197
+\pgf@xc=\dimen198
+\pgf@y=\dimen199
+\pgf@ya=\dimen256
+\pgf@yb=\dimen257
+\pgf@yc=\dimen258
+\c@pgf@counta=\count300
+\c@pgf@countb=\count301
+\c@pgf@countc=\count302
+\c@pgf@countd=\count303
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+r.code.tex
+\pgfmath@dimen=\dimen259
+\pgfmath@count=\count304
+\pgfmath@box=\box110
+\pgfmath@toks=\toks40
+\pgfmath@stack@operand=\toks41
+\pgfmath@stack@operation=\toks42
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.code.tex)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.basic.code.tex)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.trigonometric.code.tex)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.random.code.tex)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.comparison.code.tex)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.base.code.tex)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.round.code.tex)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.misc.code.tex)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+ions.integerarithmetics.code.tex)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+code.tex)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+.code.tex
+\c@pgfmathroundto@lastzeros=\count305
+)))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen260
+\pgffor@skip=\dimen261
+\pgffor@stack=\toks43
+\pgffor@toks=\toks44
+))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count306
+\calc@Bcount=\count307
+\calc@Adimen=\dimen262
+\calc@Bdimen=\dimen263
+\calc@Askip=\skip67
+\calc@Bskip=\skip68
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count308
+\calc@Cskip=\skip69
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen264
+\ar@mcellbox=\box111
+\extrarowheight=\dimen265
+\NC@list=\toks45
+\extratabsurround=\skip70
+\backup@length=\skip71
+\ar@cellbox=\box112
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/comment\comment.sty
+\CommentStream=\write3
+
+Excluding comment 'comment')
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/bbm\bbm.sty
+Package: bbm 1999/03/15 V 1.2 provides fonts for set symbols - TH
+LaTeX Font Info:    Overwriting math alphabet `\mathbbm' in version `bold'
+(Font)                  U/bbm/m/n --> U/bbm/bx/n on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathbbmss' in version `bold'
+(Font)                  U/bbmss/m/n --> U/bbmss/bx/n on input line 35.
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count309
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count310
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+sty
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+sty
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+sty
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen266
+\pgf@y=\dimen267
+\pgf@xa=\dimen268
+\pgf@ya=\dimen269
+\pgf@xb=\dimen270
+\pgf@yb=\dimen271
+\pgf@xc=\dimen272
+\pgf@yc=\dimen273
+\pgf@xd=\dimen274
+\pgf@yd=\dimen275
+\w@pgf@writea=\write4
+\r@pgf@reada=\read2
+\c@pgf@counta=\count311
+\c@pgf@countb=\count312
+\c@pgf@countc=\count313
+\c@pgf@countd=\count314
+\t@pgf@toka=\toks46
+\t@pgf@tokb=\toks47
+\t@pgf@tokc=\toks48
+\pgf@sys@id@count=\count315
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+fg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-pdftex.def
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+s-common-pdf.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+ssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count316
+\pgfsyssoftpath@bigbuffer@items=\count317
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+sprotocol.code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+e.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+tex)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epoints.code.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen276
+\pgf@picmaxx=\dimen277
+\pgf@picminy=\dimen278
+\pgf@picmaxy=\dimen279
+\pgf@pathminx=\dimen280
+\pgf@pathmaxx=\dimen281
+\pgf@pathminy=\dimen282
+\pgf@pathmaxy=\dimen283
+\pgf@xx=\dimen284
+\pgf@xy=\dimen285
+\pgf@yx=\dimen286
+\pgf@yy=\dimen287
+\pgf@zx=\dimen288
+\pgf@zy=\dimen289
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen290
+\pgf@path@lasty=\dimen291
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathusage.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen292
+\pgf@shorten@start@additional=\dimen293
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+escopes.code.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box113
+\pgf@hbox=\box114
+\pgf@layerbox@main=\box115
+\pgf@picture@serial@count=\count318
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+egraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen294
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransformations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen295
+\pgf@pt@y=\dimen296
+\pgf@pt@temp=\dimen297
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+equick.code.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eobjects.code.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+earrows.code.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen298
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eshade.code.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen299
+\pgf@sys@shading@range@num=\count319
+\pgf@shadingcount=\count320
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eimage.code.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+eexternal.code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box116
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+elayers.code.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+etransparency.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+epatterns.code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+erdf.code.tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+shapes.code.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box117
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+plot.code.tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen300
+\pgf@nodesepend=\dimen301
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+mp-version-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z\tikz.code.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count321
+\pgfplotmarksize=\dimen302
+)
+\tikz@lastx=\dimen303
+\tikz@lasty=\dimen304
+\tikz@lastxsaved=\dimen305
+\tikz@lastysaved=\dimen306
+\tikz@lastmovetox=\dimen307
+\tikz@lastmovetoy=\dimen308
+\tikzleveldistance=\dimen309
+\tikzsiblingdistance=\dimen310
+\tikz@figbox=\box118
+\tikz@figbox@bg=\box119
+\tikz@tempbox=\box120
+\tikz@tempbox@bg=\box121
+\tikztreelevel=\count322
+\tikznumberofchildren=\count323
+\tikznumberofcurrentchild=\count324
+\tikz@fig@count=\count325
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+matrix.code.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count326
+\pgfmatrixcurrentcolumn=\count327
+\pgf@matrix@numberofcolumns=\count328
+)
+\tikz@expandcount=\count329
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count330
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count331
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+\c@tabx@nest=\count332
+\c@listtotal=\count333
+\c@listcount=\count334
+\c@liststart=\count335
+\c@liststop=\count336
+\c@citecount=\count337
+\c@citetotal=\count338
+\c@multicitecount=\count339
+\c@multicitetotal=\count340
+\c@instcount=\count341
+\c@maxnames=\count342
+\c@minnames=\count343
+\c@maxitems=\count344
+\c@minitems=\count345
+\c@citecounter=\count346
+\c@maxcitecounter=\count347
+\c@savedcitecounter=\count348
+\c@uniquelist=\count349
+\c@uniquename=\count350
+\c@refsection=\count351
+\c@refsegment=\count352
+\c@maxextratitle=\count353
+\c@maxextratitleyear=\count354
+\c@maxextraname=\count355
+\c@maxextradate=\count356
+\c@maxextraalpha=\count357
+\c@abbrvpenalty=\count358
+\c@highnamepenalty=\count359
+\c@lownamepenalty=\count360
+\c@maxparens=\count361
+\c@parenlevel=\count362
+\blx@tempcnta=\count363
+\blx@tempcntb=\count364
+\blx@tempcntc=\count365
+\c@blx@maxsection=\count366
+\blx@maxsegment@0=\count367
+\blx@notetype=\count368
+\blx@parenlevel@text=\count369
+\blx@parenlevel@foot=\count370
+\blx@sectionciteorder@0=\count371
+\blx@sectionciteorderinternal@0=\count372
+\blx@entrysetcounter=\count373
+\blx@biblioinstance=\count374
+\labelnumberwidth=\skip72
+\labelalphawidth=\skip73
+\biblabelsep=\skip74
+\bibitemsep=\skip75
+\bibnamesep=\skip76
+\bibinitsep=\skip77
+\bibparsep=\skip78
+\bibhang=\skip79
+\blx@bcfin=\read3
+\blx@bcfout=\write5
+\blx@langwohyphens=\language79
+\c@mincomprange=\count375
+\c@maxcomprange=\count376
+\c@mincompwidth=\count377
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'apa.dbx' found.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.dbx
+File: apa.dbx 2025/08/27 v9.20 APA biblatex style data model
+)
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count378
+\c@savedafterword=\count379
+\c@annotator=\count380
+\c@savedannotator=\count381
+\c@author=\count382
+\c@savedauthor=\count383
+\c@bookauthor=\count384
+\c@savedbookauthor=\count385
+\c@commentator=\count386
+\c@savedcommentator=\count387
+\c@editor=\count388
+\c@savededitor=\count389
+\c@editora=\count390
+\c@savededitora=\count391
+\c@editorb=\count392
+\c@savededitorb=\count393
+\c@editorc=\count394
+\c@savededitorc=\count395
+\c@foreword=\count396
+\c@savedforeword=\count397
+\c@holder=\count398
+\c@savedholder=\count399
+\c@introduction=\count400
+\c@savedintroduction=\count401
+\c@namea=\count402
+\c@savednamea=\count403
+\c@nameb=\count404
+\c@savednameb=\count405
+\c@namec=\count406
+\c@savednamec=\count407
+\c@translator=\count408
+\c@savedtranslator=\count409
+\c@shortauthor=\count410
+\c@savedshortauthor=\count411
+\c@shorteditor=\count412
+\c@savedshorteditor=\count413
+\c@narrator=\count414
+\c@savednarrator=\count415
+\c@execproducer=\count416
+\c@savedexecproducer=\count417
+\c@execdirector=\count418
+\c@savedexecdirector=\count419
+\c@with=\count420
+\c@savedwith=\count421
+\c@labelname=\count422
+\c@savedlabelname=\count423
+\c@institution=\count424
+\c@savedinstitution=\count425
+\c@lista=\count426
+\c@savedlista=\count427
+\c@listb=\count428
+\c@savedlistb=\count429
+\c@listc=\count430
+\c@savedlistc=\count431
+\c@listd=\count432
+\c@savedlistd=\count433
+\c@liste=\count434
+\c@savedliste=\count435
+\c@listf=\count436
+\c@savedlistf=\count437
+\c@location=\count438
+\c@savedlocation=\count439
+\c@organization=\count440
+\c@savedorganization=\count441
+\c@origlocation=\count442
+\c@savedoriglocation=\count443
+\c@origpublisher=\count444
+\c@savedorigpublisher=\count445
+\c@publisher=\count446
+\c@savedpublisher=\count447
+\c@language=\count448
+\c@savedlanguage=\count449
+\c@origlanguage=\count450
+\c@savedoriglanguage=\count451
+\c@citation=\count452
+\c@savedcitation=\count453
+\c@pageref=\count454
+\c@savedpageref=\count455
+\shorthandwidth=\skip80
+\shortjournalwidth=\skip81
+\shortserieswidth=\skip82
+\shorttitlewidth=\skip83
+\shortauthorwidth=\skip84
+\shorteditorwidth=\skip85
+\locallabelnumberwidth=\skip86
+\locallabelalphawidth=\skip87
+\localshorthandwidth=\skip88
+\localshortjournalwidth=\skip89
+\localshortserieswidth=\skip90
+\localshorttitlewidth=\skip91
+\localshortauthorwidth=\skip92
+\localshorteditorwidth=\skip93
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+\c@textcitecount=\count456
+\c@textcitetotal=\count457
+\c@textcitemaxnames=\count458
+\c@biburlbigbreakpenalty=\count459
+\c@biburlbreakpenalty=\count460
+\c@biburlnumpenalty=\count461
+\c@biburlucpenalty=\count462
+\c@biburllcpenalty=\count463
+\biburlbigskip=\muskip18
+\biburlnumskip=\muskip19
+\biburlucskip=\muskip20
+\biburllcskip=\muskip21
+\c@smartand=\count464
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-natbib.def
+File: blx-natbib.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'apa'...
+Package biblatex Info: ... file 'apa.bbx' found.
+ (C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.bbx
+File: apa.bbx 2025/08/27 v9.20 APA biblatex references style
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+bx
+File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count465
+\c@bbx:relatedtotal=\count466
+)
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
+ed, overwriting.
+Package biblatex Info: Delimiter 'nameyeardelim' in context 'biblist' already d
+efined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'bib' already def
+ined, overwriting.
+Package biblatex Info: Delimiter 'nonameyeardelim' in context 'biblist' already
+ defined, overwriting.
+)
+Package biblatex Info: Trying to load citation style 'apa'...
+Package biblatex Info: ... file 'apa.cbx' found.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\apa.cbx
+File: apa.cbx 2025/08/27 v9.20 APA biblatex citation style
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined,
+ overwriting.
+Package biblatex Info: Delimiter 'andothersdelim' in context '' already defined
+, overwriting.
+Package biblatex Info: Redefining '\fullcite'.
+Package biblatex Info: Redefining '\citeauthor'.
+Package biblatex Info: Redefining '\citeyear'.
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcites'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\footcitetexts'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\smartcites'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2023-08-29 L3 programming layer (loader) 
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count467
+\l__pdf_internal_box=\box122
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2023-08-29 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+.sty
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+e.sty
+Package: xparse 2023-08-29 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
+))
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+aryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowinset=\dimen311
+\pgfarrowlength=\dimen312
+\pgfarrowwidth=\dimen313
+\pgfarrowlinewidth=\dimen314
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+z/libraries\tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2023-07-08 v7.01b Hypertext links for LaTeX
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2023-08-07 v2.53 Cross-referencing by name of section
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count468
+)
+\@linkdim=\dimen315
+\Hy@linkcounter=\count469
+\Hy@pagecounter=\count470
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2023-07-08 v7.01b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+\Hy@SavedSpaceFactor=\count471
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2023-07-08 v7.01b Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4167.
+Package hyperref Info: Link nesting OFF on input line 4172.
+Package hyperref Info: Hyper index ON on input line 4175.
+Package hyperref Info: Plain pages OFF on input line 4182.
+Package hyperref Info: Backreferencing OFF on input line 4187.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4434.
+\c@Hy@tempcnt=\count472
+LaTeX Info: Redefining \url on input line 4772.
+\XeTeXLinkMargin=\dimen316
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count473
+\Field@Width=\dimen317
+\Fld@charsize=\dimen318
+Package hyperref Info: Hyper figures OFF on input line 6051.
+Package hyperref Info: Link nesting OFF on input line 6056.
+Package hyperref Info: Hyper index ON on input line 6059.
+Package hyperref Info: backreferencing OFF on input line 6066.
+Package hyperref Info: Link coloring OFF on input line 6071.
+Package hyperref Info: Link coloring with OCG OFF on input line 6076.
+Package hyperref Info: PDF/A mode OFF on input line 6081.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count474
+\c@Item=\count475
+\c@Hfootnote=\count476
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2023-07-08 v7.01b Hyperref driver for pdfTeX
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count477
+\c@bookmark@seq@number=\count478
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip94
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 55.
+\@quotelevel=\count479
+\@quotereset=\count480
+ (Democracy - Loriente V18.aux)
+\openout1 = `"Democracy - Loriente V18.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 97.
+LaTeX Font Info:    ... okay on input line 97.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count481
+\scratchdimen=\dimen319
+\scratchbox=\box123
+\nofMPsegments=\count482
+\nofMParguments=\count483
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count484
+\MPscratchDim=\dimen320
+\MPnumerator=\count485
+\makeMPintoPDFobject=\count486
+\everyMPtoPDFconversion=\toks50
+)
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(65.04256pt, 484.20988pt, 65.04256pt)
+* v-part:(T,H,B)=(57.81621pt, 679.33757pt, 57.81621pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=484.20988pt
+* \textheight=679.33757pt
+* \oddsidemargin=-7.22743pt
+* \evensidemargin=-7.22743pt
+* \topmargin=-51.45378pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package biblatex Info: Trying to load language 'english' -> 'english-apa'...
+Package biblatex Info: ... file 'english-apa.lbx' found.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\english-ap
+a.lbx
+File: english-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
+x
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+)
+Package biblatex Info: Trying to load language 'american' -> 'american-apa'...
+Package biblatex Info: ... file 'american-apa.lbx' found.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex-apa\american-a
+pa.lbx
+File: american-apa.lbx 2025/08/27 v9.20 APA biblatex localisation
+Package biblatex Info: Trying to load language 'american'...
+Package biblatex Info: ... file 'american.lbx' found.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\american.l
+bx
+File: american.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
+x
+File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
+))))
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout5 = `"Democracy - Loriente V18.bcf"'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '"Democracy - Loriente V18".bbl' found.
+ (Democracy - Loriente V18.bbl)
+Package biblatex Info: Reference section=0 on input line 97.
+Package biblatex Info: Reference segment=0 on input line 97.
+Package hyperref Info: Link coloring ON on input line 97.
+ (Democracy - Loriente V18.out)
+(Democracy - Loriente V18.out)
+\@outlinefile=\write6
+\openout6 = `"Democracy - Loriente V18.out"'.
+
+<logo_UdeSA.png, id=66, 1600.47937pt x 1245.15187pt>
+File: logo_UdeSA.png Graphic file (type png)
+<use logo_UdeSA.png>
+Package pdftex.def Info: logo_UdeSA.png  used on input line 102.
+(pdftex.def)             Requested size: 242.10493pt x 188.34167pt.
+ [1
+
+{C:/Users/lorie/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./logo_UdeSA
+.png>]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 150
+.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 150
+.
+
+(C:\Users\lorie\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.162 \end{titlepage}
+                      [1
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.180 
+       [1
+
+]
+
+Package xcolor Warning: Incompatible color definition on input line 183.
+
+[2] [3] [4]
+
+Package xcolor Warning: Incompatible color definition on input line 212.
+
+
+Package xcolor Warning: Incompatible color definition on input line 212.
+
+[5]
+
+Package xcolor Warning: Incompatible color definition on input line 218.
+
+
+Package xcolor Warning: Incompatible color definition on input line 218.
+
+
+Package xcolor Warning: Incompatible color definition on input line 218.
+
+[6]
+
+Package xcolor Warning: Incompatible color definition on input line 261.
+
+
+Package xcolor Warning: Incompatible color definition on input line 261.
+
+[7] [8]
+
+Package xcolor Warning: Incompatible color definition on input line 301.
+
+
+Package xcolor Warning: Incompatible color definition on input line 301.
+
+
+Package xcolor Warning: Incompatible color definition on input line 301.
+
+
+Package xcolor Warning: Incompatible color definition on input line 301.
+
+
+Package xcolor Warning: Incompatible color definition on input line 301.
+
+
+Package xcolor Warning: Incompatible color definition on input line 301.
+
+[9] [10]
+
+Package xcolor Warning: Incompatible color definition on input line 358.
+
+
+Package xcolor Warning: Incompatible color definition on input line 360.
+
+
+Package xcolor Warning: Incompatible color definition on input line 360.
+
+[11]
+
+Package xcolor Warning: Incompatible color definition on input line 371.
+
+
+Package xcolor Warning: Incompatible color definition on input line 373.
+
+[12]
+
+Package xcolor Warning: Incompatible color definition on input line 377.
+
+
+Package xcolor Warning: Incompatible color definition on input line 377.
+
+
+Package xcolor Warning: Incompatible color definition on input line 379.
+
+[13]
+
+Package xcolor Warning: Incompatible color definition on input line 387.
+
+[14]
+
+Package xcolor Warning: Incompatible color definition on input line 389.
+
+
+Package xcolor Warning: Incompatible color definition on input line 389.
+
+
+Package xcolor Warning: Incompatible color definition on input line 389.
+
+
+Package xcolor Warning: Incompatible color definition on input line 389.
+
+
+Package xcolor Warning: Incompatible color definition on input line 397.
+
+[15]
+
+Package xcolor Warning: Incompatible color definition on input line 408.
+
+
+Package xcolor Warning: Incompatible color definition on input line 408.
+
+
+Package xcolor Warning: Incompatible color definition on input line 408.
+
+
+Package xcolor Warning: Incompatible color definition on input line 408.
+
+[16]
+
+Package xcolor Warning: Incompatible color definition on input line 412.
+
+
+Package xcolor Warning: Incompatible color definition on input line 422.
+
+
+Package xcolor Warning: Incompatible color definition on input line 422.
+
+[17]
+
+Package xcolor Warning: Incompatible color definition on input line 434.
+
+
+Package xcolor Warning: Incompatible color definition on input line 434.
+
+
+Package xcolor Warning: Incompatible color definition on input line 434.
+
+
+Package xcolor Warning: Incompatible color definition on input line 434.
+
+
+Package xcolor Warning: Incompatible color definition on input line 438.
+
+[18]
+
+Package xcolor Warning: Incompatible color definition on input line 442.
+
+
+Package xcolor Warning: Incompatible color definition on input line 444.
+
+[19] [20]
+
+Package xcolor Warning: Incompatible color definition on input line 456.
+
+[21] [22] (3tables/v18/header.tex) (3tables/v18/x2s1c1iy.tex)
+(3tables/v18/x1s1c1iy.tex) (3tables/v18/x2s1c1lt.tex) (3tables/v18/x1s1c1lt.tex
+) (3tables/v18/headerHRL.tex) (3tables/v18/hrlyincomex2s1c1.tex)
+(3tables/v18/hrlyhealthx2s1c1.tex) (3tables/v18/hrlyautonomyx2s1c1.tex)
+(3tables/v18/hrlysatisfactionx2s1c1.tex) (3tables/v18/hrlyhappinessx2s1c1.tex)
+
+LaTeX Warning: Float too large for page by 32.3775pt on input line 532.
+
+(3tables/v18/headerHR.tex) (3tables/v18/hrsyincomex2s1c1.tex)
+(3tables/v18/hrsyhealthx2s1c1.tex) (3tables/v18/hrsyautonomyx2s1c1.tex)
+(3tables/v18/hrsysatisfactionx2s1c1.tex) (3tables/v18/hrsyhappinessx2s1c1.tex)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+(3tables/v18/header.tex) (3tables/v18/px2s1c1iy.tex) (3tables/v18/px1s1c1iy.tex
+)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/header.tex) (3tables/v18/suc1x2s1c1iy.tex)
+(3tables/v18/suc2x2s1c1iy.tex) (3tables/v18/suc3x2s1c1iy.tex)
+(3tables/v18/suc4x2s1c1iy.tex)
+
+Package xcolor Warning: Incompatible color definition on input line 609.
+
+
+LaTeX Warning: Float too large for page by 17.05699pt on input line 611.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/header.tex) (3tables/v18/suc1x2s1c1lt.tex)
+(3tables/v18/suc2x2s1c1lt.tex) (3tables/v18/suc3x2s1c1lt.tex)
+(3tables/v18/suc4x2s1c1lt.tex)
+
+Package xcolor Warning: Incompatible color definition on input line 640.
+
+
+LaTeX Warning: Float too large for page by 17.05699pt on input line 642.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[23
+
+] [24] [25] [26] [27] [28]
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/befc1iy.pdf): PDF inclusion: 
+found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/befc1iy.pdf, id=560, 397.485pt x 289.08pt>
+File: ./2figures/v18/befc1iy.pdf Graphic file (type pdf)
+<use ./2figures/v18/befc1iy.pdf>
+Package pdftex.def Info: ./2figures/v18/befc1iy.pdf  used on input line 707.
+(pdftex.def)             Requested size: 397.48402pt x 289.07928pt.
+[29
+
+]
+Overfull \hbox (27.93971pt too wide) in paragraph at lines 712--713
+ []$ 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/plaiy.pdf): PDF inclusion: fo
+und PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/plaiy.pdf, id=566, 397.485pt x 289.08pt>
+File: ./2figures/v18/plaiy.pdf Graphic file (type pdf)
+<use ./2figures/v18/plaiy.pdf>
+Package pdftex.def Info: ./2figures/v18/plaiy.pdf  used on input line 721.
+(pdftex.def)             Requested size: 437.23485pt x 317.98897pt.
+[30 <./2figures/v18/befc1iy.pdf>]
+Overfull \hbox (27.93971pt too wide) in paragraph at lines 726--727
+ []$ 
+ []
+
+[31 <./2figures/v18/plaiy.pdf>]
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+[32
+
+]
+Overfull \hbox (11.05646pt too wide) in paragraph at lines 731--731
+[][]\OT1/cmr/m/n/10.95 Boix, C., Miller, M., & Rosato, S. (2018). \OT1/cmr/m/it
+/10.95 Boix-miller-rosato di-choto-mous cod-ing of democ-racy, 1800{2015
+ []
+
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+[33]
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+[34]
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+
+Package xcolor Warning: Incompatible color definition on input line 730.
+
+[35] [36] (3tables/v18/statsexposure.tex) (3tables/v18/statsoutcomes.tex)
+(3tables/v18/statsprebirth.tex) (3tables/v18/statsplacebo.tex) [37
+
+]
+(3tables/v18/statsmechanisms.tex) (3tables/v18/statsfeclgr.tex)
+(3tables/v18/statsapp.tex) (3tables/v18/statsess.tex) (3tables/v18/regions.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/headerFE.tex) (3tables/v18/ftable_incomeiy.txt)
+(3tables/v18/ftable_healthiy.txt) (3tables/v18/ftable_autonomyiy.txt)
+(3tables/v18/ftable_satisfactioniy.txt) (3tables/v18/ftable_happinessiy.txt)
+Overfull \hbox (3.87286pt too wide) in paragraph at lines 842--843
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/headerFE.tex) (3tables/v18/ctable_incomeiy.txt)
+(3tables/v18/ctable_healthiy.txt) (3tables/v18/ctable_autonomyiy.txt)
+(3tables/v18/ctable_satisfactioniy.txt) (3tables/v18/ctable_happinessiy.txt)
+Overfull \hbox (3.87286pt too wide) in paragraph at lines 869--870
+ [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/header.tex) (3tables/v18/demcapx2.tex) (3tables/v18/demcapx1.tex)
+(3tables/v18/header.tex) (3tables/v18/x2s1c1iy_noAfrica.tex)
+(3tables/v18/x2s1c1iy_noAsia.tex) (3tables/v18/x2s1c1iy_noEurope.tex)
+(3tables/v18/x2s1c1iy_noLatin_America.tex)
+(3tables/v18/x2s1c1iy_noAS_America.tex) (3tables/v18/x2s1c1iy_noOceania.tex)
+(3tables/v18/x2s1c1iy_Europe.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/header.tex) (3tables/v18/x2s1c1lt_noAfrica.tex)
+(3tables/v18/x2s1c1lt_noAsia.tex) (3tables/v18/x2s1c1lt_noEurope.tex)
+(3tables/v18/x2s1c1lt_noLatin_America.tex)
+(3tables/v18/x2s1c1lt_noAS_America.tex) (3tables/v18/x2s1c1lt_noOceania.tex)
+(3tables/v18/x2s1c1lt_Europe.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/header.tex) (3tables/v18/x2s1c1iy_male0.tex)
+(3tables/v18/x2s1c1iy_male1.tex) (3tables/v18/x2s1c1iy_town0.tex)
+(3tables/v18/x2s1c1iy_town1.tex) (3tables/v18/x2s1c1iy_age1.tex)
+(3tables/v18/x2s1c1iy_age2.tex) (3tables/v18/x2s1c1iy_age3.tex)
+(3tables/v18/x2s1c1iy_pol1.tex) (3tables/v18/x2s1c1iy_pol2.tex)
+(3tables/v18/x2s1c1iy_pol3.tex)
+
+LaTeX Warning: Float too large for page by 15.95497pt on input line 992.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/i1.tex) (3tables/v18/i1x2s1c1iy.tex) (3tables/v18/i1x1s1c1iy.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/i2.tex) (3tables/v18/i2x2s1c1iy.tex) (3tables/v18/i2x1s1c1iy.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/i3.tex) (3tables/v18/i3x2s1c1iy.tex) (3tables/v18/i3x1s1c1iy.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/i4.tex) (3tables/v18/i4x2s1c1iy.tex) (3tables/v18/i4x1s1c1iy.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/headerFSIY.tex) (3tables/v18//fsdemx2iy.tex)
+(3tables/v18//fsdemx1iy.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/header.tex) (3tables/v18//ivdemx2s1iy.tex)
+(3tables/v18//ivdemx1s1iy.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/headerFS.tex) (3tables/v18//fsdemx2lt.tex)
+(3tables/v18//fsdemx1lt.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/header.tex) (3tables/v18//ivdemx2s1lt.tex)
+(3tables/v18//ivdemx1s1lt.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/header.tex) (3tables/v18/eventdemx1s1.tex)
+(3tables/v18/eventdemx1s1Years5.tex)
+
+Package xcolor Warning: Incompatible color definition on input line 1192.
+
+(3tables/v18/header.tex) (3tables/v18/x2s1c1iyess.tex)
+(3tables/v18/x1s1c1iyess.tex) (3tables/v18/x2s1c1ltess.tex)
+(3tables/v18/x1s1c1ltess.tex) [38
+
+]
+
+LaTeX Warning: Text page 39 contains only floats.
+
+[39]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(3tables/v18/header.tex) (3tables/v18/x2s1c1iyessi1.tex)
+(3tables/v18/x2s1c1iyessi2.tex) (3tables/v18/x2s1c1iyessi3.tex)
+(3tables/v18/x1s1c1iyessi1.tex) (3tables/v18/x1s1c1iyessi2.tex)
+(3tables/v18/x1s1c1iyessi3.tex)
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51]
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/dem2_selected_countries.pdf):
+ PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/dem2_selected_countries.pdf, id=698, 397.485pt x 289.08pt>
+File: ./2figures/v18/dem2_selected_countries.pdf Graphic file (type pdf)
+<use ./2figures/v18/dem2_selected_countries.pdf>
+Package pdftex.def Info: ./2figures/v18/dem2_selected_countries.pdf  used on in
+put line 1276.
+(pdftex.def)             Requested size: 317.98842pt x 231.2643pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/exp_dem2_selected_countries.p
+df): PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/exp_dem2_selected_countries.pdf, id=699, 397.485pt x 289.08pt>
+File: ./2figures/v18/exp_dem2_selected_countries.pdf Graphic file (type pdf)
+<use ./2figures/v18/exp_dem2_selected_countries.pdf>
+Package pdftex.def Info: ./2figures/v18/exp_dem2_selected_countries.pdf  used o
+n input line 1276.
+(pdftex.def)             Requested size: 317.98842pt x 231.2643pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/befc1lt.pdf): PDF inclusion: 
+found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/befc1lt.pdf, id=700, 397.485pt x 289.08pt>
+File: ./2figures/v18/befc1lt.pdf Graphic file (type pdf)
+<use ./2figures/v18/befc1lt.pdf>
+Package pdftex.def Info: ./2figures/v18/befc1lt.pdf  used on input line 1285.
+(pdftex.def)             Requested size: 397.48402pt x 289.07928pt.
+[52
+
+ <./2figures/v18/dem2_selected_countries.pdf> <./2figures/v18/exp_dem2_selected
+_countries.pdf>]
+Overfull \hbox (27.93971pt too wide) in paragraph at lines 1290--1291
+ []$ 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/befsuc1iy.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/befsuc1iy.pdf, id=725, 578.16pt x 289.08pt>
+File: ./2figures/v18/befsuc1iy.pdf Graphic file (type pdf)
+<use ./2figures/v18/befsuc1iy.pdf>
+Package pdftex.def Info: ./2figures/v18/befsuc1iy.pdf  used on input line 1299.
+
+(pdftex.def)             Requested size: 520.33919pt x 260.16959pt.
+
+Overfull \hbox (36.1293pt too wide) in paragraph at lines 1299--1300
+ [] 
+ []
+
+[53 <./2figures/v18/befc1lt.pdf>]
+Overfull \hbox (27.93971pt too wide) in paragraph at lines 1304--1305
+ []$ 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/befsuc2iy.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/befsuc2iy.pdf, id=745, 578.16pt x 289.08pt>
+File: ./2figures/v18/befsuc2iy.pdf Graphic file (type pdf)
+<use ./2figures/v18/befsuc2iy.pdf>
+Package pdftex.def Info: ./2figures/v18/befsuc2iy.pdf  used on input line 1312.
+
+(pdftex.def)             Requested size: 520.33919pt x 260.16959pt.
+
+Overfull \hbox (36.1293pt too wide) in paragraph at lines 1312--1313
+ [] 
+ []
+
+[54 <./2figures/v18/befsuc1iy.pdf>]
+Overfull \hbox (27.93971pt too wide) in paragraph at lines 1317--1318
+ []$ 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/befsuc1lt.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/befsuc1lt.pdf, id=771, 578.16pt x 289.08pt>
+File: ./2figures/v18/befsuc1lt.pdf Graphic file (type pdf)
+<use ./2figures/v18/befsuc1lt.pdf>
+Package pdftex.def Info: ./2figures/v18/befsuc1lt.pdf  used on input line 1325.
+
+(pdftex.def)             Requested size: 520.33919pt x 260.16959pt.
+
+Overfull \hbox (36.1293pt too wide) in paragraph at lines 1325--1326
+ [] 
+ []
+
+[55 <./2figures/v18/befsuc2iy.pdf>]
+Overfull \hbox (27.93971pt too wide) in paragraph at lines 1330--1331
+ []$ 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/befsuc2lt.pdf): PDF inclusion
+: found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/befsuc2lt.pdf, id=842, 578.16pt x 289.08pt>
+File: ./2figures/v18/befsuc2lt.pdf Graphic file (type pdf)
+<use ./2figures/v18/befsuc2lt.pdf>
+Package pdftex.def Info: ./2figures/v18/befsuc2lt.pdf  used on input line 1338.
+
+(pdftex.def)             Requested size: 520.33919pt x 260.16959pt.
+
+Overfull \hbox (36.1293pt too wide) in paragraph at lines 1338--1339
+ [] 
+ []
+
+[56 <./2figures/v18/befsuc1lt.pdf>]
+Overfull \hbox (27.93971pt too wide) in paragraph at lines 1343--1344
+ []$ 
+ []
+
+[57 <./2figures/v18/befsuc2lt.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/europevsasia.pdf): PDF inclus
+ion: found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/europevsasia.pdf, id=924, 397.485pt x 289.08pt>
+File: ./2figures/v18/europevsasia.pdf Graphic file (type pdf)
+<use ./2figures/v18/europevsasia.pdf>
+Package pdftex.def Info: ./2figures/v18/europevsasia.pdf  used on input line 13
+51.
+(pdftex.def)             Requested size: 317.98842pt x 231.2643pt.
+
+Overfull \hbox (27.93971pt too wide) in paragraph at lines 1356--1357
+ []$ 
+ []
+
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/correlation_income.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/correlation_income.pdf, id=925, 397.485pt x 289.08pt>
+File: ./2figures/v18/correlation_income.pdf Graphic file (type pdf)
+<use ./2figures/v18/correlation_income.pdf>
+Package pdftex.def Info: ./2figures/v18/correlation_income.pdf  used on input l
+ine 1367.
+(pdftex.def)             Requested size: 139.12183pt x 101.1795pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/correlation_health.pdf): PDF 
+inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/correlation_health.pdf, id=926, 397.485pt x 289.08pt>
+File: ./2figures/v18/correlation_health.pdf Graphic file (type pdf)
+<use ./2figures/v18/correlation_health.pdf>
+Package pdftex.def Info: ./2figures/v18/correlation_health.pdf  used on input l
+ine 1370.
+(pdftex.def)             Requested size: 139.12183pt x 101.1795pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/correlation_autonomy.pdf): PD
+F inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/correlation_autonomy.pdf, id=927, 397.485pt x 289.08pt>
+File: ./2figures/v18/correlation_autonomy.pdf Graphic file (type pdf)
+<use ./2figures/v18/correlation_autonomy.pdf>
+Package pdftex.def Info: ./2figures/v18/correlation_autonomy.pdf  used on input
+ line 1374.
+(pdftex.def)             Requested size: 139.12183pt x 101.1795pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/correlation_satisfaction.pdf)
+: PDF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/correlation_satisfaction.pdf, id=928, 397.485pt x 289.08pt>
+File: ./2figures/v18/correlation_satisfaction.pdf Graphic file (type pdf)
+<use ./2figures/v18/correlation_satisfaction.pdf>
+Package pdftex.def Info: ./2figures/v18/correlation_satisfaction.pdf  used on i
+nput line 1377.
+(pdftex.def)             Requested size: 139.12183pt x 101.1795pt.
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/correlation_happiness.pdf): P
+DF inclusion: found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/correlation_happiness.pdf, id=929, 397.485pt x 289.08pt>
+File: ./2figures/v18/correlation_happiness.pdf Graphic file (type pdf)
+<use ./2figures/v18/correlation_happiness.pdf>
+Package pdftex.def Info: ./2figures/v18/correlation_happiness.pdf  used on inpu
+t line 1380.
+(pdftex.def)             Requested size: 139.12183pt x 101.1795pt.
+[58
+
+ <./2figures/v18/europevsasia.pdf> <./2figures/v18/correlation_income.pdf> <./2
+figures/v18/correlation_health.pdf> <./2figures/v18/correlation_autonomy.pdf> <
+./2figures/v18/correlation_satisfaction.pdf> <./2figures/v18/correlation_happin
+ess.pdf>]
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/rfBefiy.pdf): PDF inclusion: 
+found PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/rfBefiy.pdf, id=994, 397.485pt x 289.08pt>
+File: ./2figures/v18/rfBefiy.pdf Graphic file (type pdf)
+<use ./2figures/v18/rfBefiy.pdf>
+Package pdftex.def Info: ./2figures/v18/rfBefiy.pdf  used on input line 1396.
+(pdftex.def)             Requested size: 476.97961pt x 346.89426pt.
+
+Package xcolor Warning: Incompatible color definition on input line 1399.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1399.
+
+
+
+pdfTeX warning: pdflatex.exe (file ./2figures/v18/rfBef.pdf): PDF inclusion: fo
+und PDF version <1.6>, but at most version <1.5> allowed
+<./2figures/v18/rfBef.pdf, id=997, 397.485pt x 289.08pt>
+File: ./2figures/v18/rfBef.pdf Graphic file (type pdf)
+<use ./2figures/v18/rfBef.pdf>
+Package pdftex.def Info: ./2figures/v18/rfBef.pdf  used on input line 1409.
+(pdftex.def)             Requested size: 476.97961pt x 346.89426pt.
+
+Package xcolor Warning: Incompatible color definition on input line 1412.
+
+
+Package xcolor Warning: Incompatible color definition on input line 1412.
+
+[59 <./2figures/v18/rfBefiy.pdf>] [60 <./2figures/v18/rfBef.pdf>]
+(Democracy - Loriente V18.aux)
+ ***********
+LaTeX2e <2023-06-01> patch level 1
+L3 programming layer <2023-08-29>
+ ***********
+Package rerunfilecheck Info: File `"Democracy - Loriente V18".out' has not chan
+ged.
+(rerunfilecheck)             Checksum: F579DB2204D7F58CDF87E8BE99DD5EA8;2129.
+Package logreq Info: Writing requests to '"Democracy - Loriente V18".run.xml'.
+\openout1 = `"Democracy - Loriente V18.run.xml"'.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 165 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 33317 strings out of 475248
+ 654082 string characters out of 5757812
+ 2091785 words of memory out of 5000000
+ 53775 multiletter control sequences out of 15000+600000
+ 574450 words of font info for 98 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 81i,17n,89p,2068b,5050s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\lorie\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/
+ec/dpi600\tcrm1095.pk> <C:\Users\lorie\AppData\Local\MiKTeX\fonts/pk/ljfour/jkn
+appen/ec/dpi600\tcrm0600.pk> <C:\Users\lorie\AppData\Local\MiKTeX\fonts/pk/ljfo
+ur/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\lorie\AppData\Local\MiKTeX\fonts/p
+k/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/lorie/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/lorie/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/lorie/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/lor
+ie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/U
+sers/lorie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.
+pfb><C:/Users/lorie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb><C:/Users/lorie/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmmi8.pfb><C:/Users/lorie/AppData/Local/Programs/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmr10.pfb><C:/Users/lorie/AppData/Local/Programs/MiKTeX/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/lorie/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/lorie/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/lorie/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/lorie/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/l
+orie/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on "Democracy - Loriente V18.pdf" (62 pages, 2586645 bytes).
+PDF statistics:
+ 1156 PDF objects out of 1200 (max. 8388607)
+ 210 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+

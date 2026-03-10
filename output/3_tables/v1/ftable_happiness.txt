@@ -1,0 +1,21 @@
+Exposure to Democracy&0.155***&0.149***&0.149***&0.143***&0.136***&0.136***&0.138***&0.133***&0.133***&0.133*** \\
+&(0.030)&(0.028)&(0.028)&(0.027)&(0.028)&(0.028)&(0.028)&(0.027)&(0.027)&(0.027) \\
+
+\\ 
+Observations & 414145 \\\\ 
+Countries & 103 \\\\ 
+\hline \\
+Gender & NO & NO & YES & YES & YES & YES & YES & YES & YES & YES \\
+Town size & NO & YES & NO & YES & YES & YES & YES & YES & YES & YES \\
+Wave & NO & YES & YES & NO & YES & YES & YES & YES & YES & YES \\
+Cohort & YES & NO & NO & YES & NO & YES & YES & YES & NO & NO \\
+Country & YES & YES & YES & YES & YES & YES & YES & NO & NO & NO \\
+Age & YES & YES & YES & YES & YES & YES & YES & YES & YES & YES \\
+Year of survey & NO & NO & NO & NO & NO & NO & YES & NO & NO & NO \\
+Language & NO & NO & NO & YES & YES & YES & YES & YES & YES & YES \\
+Subregion & NO & NO & NO & YES & NO & NO & YES & NO & NO & YES \\
+Region & NO & NO & NO & NO & NO & NO & NO & YES & YES & NO \\
+Country x year of survey & NO & NO & NO & NO & NO & NO & NO & YES & YES & NO \\
+Cohort by decade & NO & NO & NO & NO & NO & NO & NO & NO & YES & NO \\
+Region x year of survey & NO & NO & NO & NO & NO & NO & NO & NO & NO & YES \\
+Country x wave & NO & NO & NO & NO & NO & NO & NO & NO & NO & YES \\

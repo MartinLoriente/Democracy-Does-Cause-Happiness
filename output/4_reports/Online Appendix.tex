@@ -1,0 +1,903 @@
+%2multibyte Version: 5.50.0.2960 CodePage: 65001
+%\input{tcilatex}
+
+\documentclass[11pt]{article}
+\usepackage{eurosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{graphicx}
+\usepackage{amsfonts,amsthm,amssymb,amsmath}
+\usepackage{booktabs}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{multirow}
+\usepackage{longtable}
+\usepackage{rotating}
+\usepackage[maxfloats=30]{morefloats}
+\usepackage[margin=1in]{geometry}
+\usepackage{color}
+\usepackage[center]{caption}
+\usepackage{pdflscape}
+\usepackage{placeins}
+\usepackage{longtable}
+\usepackage[bookmarks=false]{hyperref}
+\usepackage{setspace}
+\usepackage{apacite}
+\usepackage{float}
+\usepackage{pgffor}
+\usepackage{calc}
+\usepackage{graphics}
+\usepackage{array}
+\usepackage{comment}
+\usepackage{bbm}
+\usepackage{subcaption}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning}
+
+\setcounter{MaxMatrixCols}{10}
+
+\captionsetup{compatibility=false}
+\captionsetup{font=footnotesize}
+\captionsetup[table]{justification=centering, labelfont=large, textfont=large}
+\hypersetup{urlcolor=Blue,colorlinks=true,linkcolor=Blue,citecolor=Blue,urlcolor=Blue}
+\newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
+\geometry{left=0.9in,right=0.9in,top=0.8in,bottom=0.8in}
+\makeatletter
+\newcommand*\ExpandableInput[1]{\@@input#1 }
+\makeatother
+\edef\savet{./3tables/v17}
+\edef\savef{./2figures/v17}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+\newcommand\defComment[2]{\expandafter\def\csname Comment#1\endcsname{#2}}
+\newcommand\CommentText[1]{\csname Comment#1\endcsname}
+
+\begin{document}
+	
+\renewcommand\thefootnote{\fnsymbol{footnote}}
+\begin{titlepage}
+	
+	\title{\textbf{Democracy Does Cause Happiness: ONLINE APPENDIX}\footnote{This work owes a great debt to the guidance and support of Cevat Giray Aksoy and Carlos Molina. Their mentorship, expertise, and constructive feedback have been instrumental in shaping the direction and quality of the research. Any remaining errors or shortcomings are solely the responsibility of the author.}}
+	
+	\normalsize
+	
+	\bigskip
+	
+	\renewcommand{\thefootnote}{\arabic{footnote}}
+	\addtocounter{footnote}{+2}
+	
+	\bigskip
+	
+	\author{\Large{Martin Iñaki Loriente}\thanks{Universidad de San Andrés. Email: mloriente@udesa.edu.ar}\qquad \vspace{5mm}}
+	
+	\vspace{5mm}
+	
+	\date{\vspace{5mm} October 2025}
+	
+	\singlespacing
+	\clearpage\maketitle
+	\thispagestyle{empty}
+	
+	\vspace{3mm}
+	
+	\begin{abstract}
+		This paper provides causal evidence that democracy enhances individual well-being. Drawing on harmonized microdata from more than 110 countries and exploiting variation across birth cohorts and survey waves, we show that greater exposure to democratic institutions increases income, improves health, strengthens personal autonomy, and raises both life satisfaction and subjective happiness. Building on Acemoglu et al. (2019), who document the effect of democratic transitions on economic growth, we shift the focus from national aggregates to individual-level outcomes to examine how democracy shapes personal welfare. The effects remain robust across alternative model specifications, clustering approaches, estimation strategies, and subsamples. The temporal dynamics further support our interpretation, as exposure during impressionable years plays a critical role. Mechanism analyses indicate that institutional performance is central: countries with higher growth, greater transparency, stronger state capacity, and more redistribution exhibit substantially larger effects, typically between 1.5 and three times those observed in lower-performing democracies. Overall, the findings underscore the broad and enduring human benefits of democratic institutions.
+		\begin{center}
+			\hspace{-0.5cm}\textbf{Keywords:} democracy, happiness, health, income, autonomy, subjective well-being. \\
+			\hspace{-8cm}\textbf{JEL:} I31, O43, P16.   
+		\end{center}
+	\end{abstract}
+	
+\end{titlepage}
+
+\clearpage
+\section{Equations}
+\vspace*{1cm}
+
+These equations are relevant to understand the footnotes of our appendix tables and figures:
+
+\begin{equation}
+	\label{1}
+	\begin{aligned}
+		\text{Exposure to Democracy}_{c,s,a} 
+		&= \sum_{t=s-a+k}^{s} D_{c,t} \\[1em]
+		\text{Exposure to Democracy 18--25}_{c,s,a} 
+		&= \sum_{t = s-a+18}^{\,\,s-a+25} D_{c,t}
+	\end{aligned}
+\end{equation}
+
+\begin{equation}
+	\label{2}
+	\text{Outcome}_{i,w,c,s,a} = \beta \text{Exposure to Democracy 18-25}_{c,s,a} + \gamma^{\prime}X_{i,w,c,s,a} + \varepsilon_{i,w,c,s,a} 
+\end{equation}
+
+\begin{equation}
+	\label{3}
+	\begin{aligned}
+		Outcome_{i,w,c,s,a} 
+		&= \tilde{\beta}_{1} \, \text{Exposure to Successful Democracy}_{c,s,a} 
+		+ \tilde{\beta}_{2} \, \text{Exposure to Unsuccessful Democracy}_{c,s,a} \\
+		&\quad + \tilde{\beta}_{3} \, \text{Exposure to Unsuccessful Autocracy}_{c,s,a} 
+		+ \tilde{\gamma}' X_{i,w,c,s,a} 
+		+ \tilde{\varepsilon}_{i,w,c,s,a}
+	\end{aligned}
+\end{equation}
+
+\begin{equation}
+	\label{4}
+	\begin{aligned}
+		\text{Exposure to Successful Democracy}_{i,c,s,a} 
+		&= \sum_{t=s-a+k}^{s} D_{c,t} \times M_{c,t} \\[1em]
+		\text{Exposure to Unsuccessful Democracy}_{i,c,s,a} 
+		&= \sum_{t=s-a+k}^{s} D_{c,t} \times (1 - M_{c,t}) \\[1em]
+		\text{Exposure to Unsuccessful Autocracy}_{i,c,s,a} 
+		&= \sum_{t=s-a+k}^{s} (1 - D_{c,t}) \times (1 - M_{c,t}) \\[1em]
+		\text{Exposure to Successful Democracy 18--25}_{i,c,s,a} 
+		&= \sum_{t = s-a+18}^{\,\,s-a+25} D_{c,t} \times M_{c,t} \\[1em]
+		\text{Exposure to Unsuccessful Democracy 18--25}_{i,c,s,a} 
+		&= \sum_{t = s-a+18}^{\,\,s-a+25} D_{c,t} \times (1 - M_{c,t}) \\[1em]
+		\text{Exposure to Unsuccessful Autocracy 18--25}_{i,c,s,a} 
+		&= \sum_{t = s-a+18}^{\,\,s-a+25} (1 - D_{c,t}) \times (1 - M_{c,t}),
+	\end{aligned}
+\end{equation}
+
+\begin{equation}
+	\label{5}
+	\text{Exposure to Democracy}_{i,c,s,a}
+	= \sum_{j=1}^{p} \alpha_j Z_{c,s,a,j} + \pi' X_{i,w,c,s,a} + v_{i,w,c,s,a},
+\end{equation}
+
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{O\arabic{figure}}
+\setcounter{table}{0}
+\renewcommand{\thetable}{O\arabic{table}}
+
+\clearpage
+\section{Tables}
+
+\vspace*{1cm}
+\begin{table}[h!]
+	\caption{Lifetime Exposure to Democracy, Diverse Fixed Effects}
+	\label{o1}
+	\begin{center}
+		\scalebox{0.7}{
+			\begin{tabular}{lcccccccccc}\hline \hline
+				\ExpandableInput{\savet/headerFE.tex} 
+				\hline \\
+				\textbf{Income} \\ 
+				\ExpandableInput{\savet/ftable_income.txt} \hline \\
+				\textbf{Health} \\ 
+				\ExpandableInput{\savet/ftable_health.txt} \hline \\
+				\textbf{Autonomy} \\ 
+				\ExpandableInput{\savet/ftable_autonomy.txt} \hline \\
+				\textbf{Satisfaction} \\ 
+				\ExpandableInput{\savet/ftable_satisfaction.txt} \hline \\
+				\textbf{Happiness} \\ 
+				\ExpandableInput{\savet/ftable_happiness.txt} \hline \\
+				\multicolumn{11}{l}{\parbox{23cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown for the continuous measure of democracy. This table uses V-DEM (1911-2023) and IVS (1981-2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\vspace*{0cm}
+\begin{table}[h!]
+	\caption{Lifetime Exposure to Democracy, Diverse Clusters}
+	\label{o2}
+	\begin{center}
+		\scalebox{0.7}{
+			\begin{tabular}{lcccccccccc}\hline \hline
+				\ExpandableInput{\savet/headerFE.tex} 
+				\hline \\
+				\textbf{Income} \\ 
+				\ExpandableInput{\savet/ctable_income.txt} \hline \\
+				\textbf{Health} \\ 
+				\ExpandableInput{\savet/ctable_health.txt} \hline \\
+				\textbf{Autonomy} \\ 
+				\ExpandableInput{\savet/ctable_autonomy.txt} \hline \\
+				\textbf{Satisfaction} \\ 
+				\ExpandableInput{\savet/ctable_satisfaction.txt} \hline \\
+				\textbf{Happiness} \\ 
+				\ExpandableInput{\savet/ctable_happiness.txt} \hline \\
+				\multicolumn{11}{l}{\parbox{23cm}{\footnotesize \textbf{Notes:}
+						Results are shown for the continuous measure of democracy. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. This table uses V-DEM (1911-2023) and IVS (1981-2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\begin{table}[h!]
+	\caption{Lifetime Exposure to Democracy --- Different Exposure Cuts (Continuous)}
+	\label{o3}
+	\begin{center}
+		\scalebox{0.7}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex} 
+				\hline \\
+				\ExpandableInput{\savet/dem0x2s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem2x2s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem4x2s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem6x2s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem8x2s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem10x2s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem12x2s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem14x2s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem16x2s1c1lt.tex} \hline \\
+				\multicolumn{6}{l}{\parbox{17.5cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. Each of these variables includes an additional category for missing values. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. This table uses V-DEM (1911-2023) and IVS (1981-2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\begin{table}[h!]
+	\caption{Lifetime Exposure to Democracy --- Different Exposure Cuts (Dichotomous)}
+	\label{o4}
+	\begin{center}
+		\scalebox{0.7}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex} 
+				\hline \\
+				\ExpandableInput{\savet/dem0x1s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem2x1s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem4x1s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem6x1s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem8x1s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem10x1s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem12x1s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem14x1s1c1lt.tex} \hline \\
+				\hline \\
+				\ExpandableInput{\savet/dem16x1s1c1lt.tex} \hline \\
+				\multicolumn{6}{l}{\parbox{17.5cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. Each of these variables includes an additional category for missing values. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. This table uses V-DEM (1911-2023) and IVS (1981-2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\vspace*{0cm}
+\begin{table}[h!]
+	\caption{Alternative Sample Construction}
+	\label{o5}
+	\begin{center}
+		\scalebox{0.75}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex} 
+				\hline \\
+				\textbf{Continuous: Impressionable Years} \\
+				\hline \\
+				\ExpandableInput{\savet/x2s1c1iy2} \hline \\
+				\textbf{Continuous: Lifetime} \\
+				\hline \\
+				\ExpandableInput{\savet/x2s1c1lt2} \hline \\
+				\textbf{Dichotomous: Impressionable Years} \\
+				\hline \\
+				\ExpandableInput{\savet/x1s1c1iy2} \hline \\
+				\textbf{Dichotomous: Lifetime} \\
+				\hline \\
+				\ExpandableInput{\savet/x1s1c1lt2} \hline \\
+				\multicolumn{6}{l}{\parbox{17.5cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. Each of these variables includes an additional category for missing values. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. This table uses V-DEM (1911-2023) and IVS (1981-2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\begin{table}[h!]
+	\caption{\large Heterogeneity 18-25 (Dichotomous)}
+	\label{o6}
+	\begin{center}
+		\scalebox{0.7}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header}
+				\hline \\
+				\textbf{Growth} \\
+				\hline \\
+				\ExpandableInput{\savet/suc1x1s1c1iy} \hline 
+				\\
+				\textbf{Transparency} \\
+				\hline \\
+				\ExpandableInput{\savet/suc2x1s1c1iy} \hline 
+				\\
+				\textbf{Capacity} \\
+				\hline \\
+				\ExpandableInput{\savet/suc3x1s1c1iy} \hline 
+				\\
+				\textbf{Redistribution} \\
+				\hline \\
+				\ExpandableInput{\savet/suc4x1s1c1iy} \hline 
+				\\
+				\multicolumn{6}{l}{\parbox{20cm}{\footnotesize \textbf{Notes:} 
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. The table presents results based on standardized versions of both continuous outcomes and independent variables. We subtract the mean from each observation and then divide by the standard deviation to ensure that all variables have a mean of zero and a standard deviation of one, facilitating comparison and interpretation of the coefficients. Each of these variables includes an additional category for missing values. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. We interact the new variable with ``Lifetime Exposure to Democracy''. This table uses V-DEM (1911-2023) and IVS (1981-2022) datasets.}} \\
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\begin{table}[h!]
+	\caption{\large Heterogeneity Lifetime (Dichotomous)}
+	\label{o7}
+	\begin{center}
+		\scalebox{0.7}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header}
+				\hline \\
+				\textbf{Growth} \\
+				\hline \\
+				\ExpandableInput{\savet/suc1x1s1c1lt} \hline 
+				\\
+				\textbf{Transparency} \\
+				\hline \\
+				\ExpandableInput{\savet/suc2x1s1c1lt} \hline 
+				\\
+				\textbf{Capacity} \\
+				\hline \\
+				\ExpandableInput{\savet/suc3x1s1c1lt} \hline 
+				\\
+				\textbf{Redistribution} \\
+				\hline \\
+				\ExpandableInput{\savet/suc4x1s1c1lt} \hline 
+				\\
+				\multicolumn{6}{l}{\parbox{20cm}{\footnotesize \textbf{Notes:} 
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. The table presents results based on standardized versions of both continuous outcomes and independent variables. We subtract the mean from each observation and then divide by the standard deviation to ensure that all variables have a mean of zero and a standard deviation of one, facilitating comparison and interpretation of the coefficients. Each of these variables includes an additional category for missing values. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. We interact the new variable with ``Lifetime Exposure to Democracy''. This table uses V-DEM (1911-2023) and IVS (1981-2022) datasets.}} \\
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\vspace*{0cm}
+\begin{table}[h!]
+	\caption{Exposure to Democracy 18-25 --- Heterogeneities (Dichotomous)}
+	\label{o8}
+	\begin{center}
+		\scalebox{0.68}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex} 
+				\hline \\
+				\textbf{Only Female} \\
+				\ExpandableInput{\savet/x1s1c1iy_male0} \hline \\
+				\textbf{Only Male} \\
+				\ExpandableInput{\savet/x1s1c1iy_male1} \hline \\
+				\textbf{Only Big Cities} \\
+				\ExpandableInput{\savet/x1s1c1iy_town0} \hline \\
+				\textbf{Only Small Cities} \\
+				\ExpandableInput{\savet/x1s1c1iy_town1} \hline \\
+				\textbf{Only Young} \\
+				\ExpandableInput{\savet/x1s1c1iy_age1} \hline \\
+				\textbf{Only Middle-aged} \\
+				\ExpandableInput{\savet/x1s1c1iy_age2} \hline \\
+				\textbf{Only Old People} \\
+				\ExpandableInput{\savet/x1s1c1iy_age3} \hline \\
+				\textbf{Only Left-Wing} \\
+				\ExpandableInput{\savet/x1s1c1iy_pol1} \hline \\
+				\textbf{Only Centrists} \\
+				\ExpandableInput{\savet/x1s1c1iy_pol2} \hline \\
+				\textbf{Only Right-Wing} \\
+				\ExpandableInput{\savet/x1s1c1iy_pol3} \hline \\
+				\multicolumn{6}{l}{\parbox{16cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown for the continuous measure of democracy. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. Each of these variables includes an additional category for missing values. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. This table uses V-DEM (1911-2023) and IVS (1981-2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\vspace*{0cm}
+\begin{table}[h!]
+	\caption{Lifetime Exposure to Democracy --- Heterogeneities}
+	\label{o9}
+	\begin{center}
+		\scalebox{0.68}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex} 
+				\hline \\
+				\textbf{Only Female} \\
+				\ExpandableInput{\savet/x2s1c1lt_male0} \hline \\
+				\textbf{Only Male} \\
+				\ExpandableInput{\savet/x2s1c1lt_male1} \hline \\
+				\textbf{Only Big Cities} \\
+				\ExpandableInput{\savet/x2s1c1lt_town0} \hline \\
+				\textbf{Only Small Cities} \\
+				\ExpandableInput{\savet/x2s1c1lt_town1} \hline \\
+				\textbf{Only Young} \\
+				\ExpandableInput{\savet/x2s1c1lt_age1} \hline \\
+				\textbf{Only Middle-aged} \\
+				\ExpandableInput{\savet/x2s1c1lt_age2} \hline \\
+				\textbf{Only Old People} \\
+				\ExpandableInput{\savet/x2s1c1lt_age3} \hline \\
+				\textbf{Only Left-Wing} \\
+				\ExpandableInput{\savet/x2s1c1lt_pol1} \hline \\
+				\textbf{Only Centrists} \\
+				\ExpandableInput{\savet/x2s1c1lt_pol2} \hline \\
+				\textbf{Only Right-Wing} \\
+				\ExpandableInput{\savet/x2s1c1lt_pol3} \hline \\
+				\multicolumn{6}{l}{\parbox{16cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown for the continuous measure of democracy. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. Each of these variables includes an additional category for missing values. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. This table uses V-DEM (1911-2023) and IVS (1981-2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\vspace*{0cm}
+\begin{table}[h!]
+	\caption{Lifetime Exposure to Democracy --- Heterogeneities (Dichotomous)}
+	\label{o10}
+	\begin{center}
+		\scalebox{0.68}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex} 
+				\hline \\
+				\textbf{Only Female} \\
+				\ExpandableInput{\savet/x1s1c1lt_male0} \hline \\
+				\textbf{Only Male} \\
+				\ExpandableInput{\savet/x1s1c1lt_male1} \hline \\
+				\textbf{Only Big Cities} \\
+				\ExpandableInput{\savet/x1s1c1lt_town0} \hline \\
+				\textbf{Only Small Cities} \\
+				\ExpandableInput{\savet/x1s1c1lt_town1} \hline \\
+				\textbf{Only Young} \\
+				\ExpandableInput{\savet/x1s1c1lt_age1} \hline \\
+				\textbf{Only Middle-aged} \\
+				\ExpandableInput{\savet/x1s1c1lt_age2} \hline \\
+				\textbf{Only Old People} \\
+				\ExpandableInput{\savet/x1s1c1lt_age3} \hline \\
+				\textbf{Only Left-Wing} \\
+				\ExpandableInput{\savet/x1s1c1lt_pol1} \hline \\
+				\textbf{Only Centrists} \\
+				\ExpandableInput{\savet/x1s1c1lt_pol2} \hline \\
+				\textbf{Only Right-Wing} \\
+				\ExpandableInput{\savet/x1s1c1lt_pol3} \hline \\
+				\multicolumn{6}{l}{\parbox{16cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown for the continuous measure of democracy. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. Each of these variables includes an additional category for missing values. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. This table uses V-DEM (1911-2023) and IVS (1981-2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\vspace*{0cm}
+\begin{table}[h!]
+	\caption{Exposure to Democracy 18-25, Leave one Out (Dichotomous)}
+	\label{o11}
+	\begin{center}
+		\scalebox{0.7}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex} 
+				\hline \\
+				\textbf{Without Africa} \\
+				\ExpandableInput{\savet/x1s1c1iy_noAfrica} \hline \\
+				\textbf{Without Asia} \\
+				\ExpandableInput{\savet/x1s1c1iy_noAsia} \hline \\
+				\textbf{Without Europe} \\
+				\ExpandableInput{\savet/x1s1c1iy_noEurope} \hline \\
+				\textbf{Without Latin America} \\
+				\ExpandableInput{\savet/x1s1c1iy_noLatin_America} \hline \\
+				\textbf{Without Anglo-Saxon America} \\
+				\ExpandableInput{\savet/x1s1c1iy_noAS_America} \hline \\
+				\textbf{Without Oceania} \\
+				\ExpandableInput{\savet/x1s1c1iy_noOceania} \hline \\ 
+				\textbf{Only Europe} \\
+				\ExpandableInput{\savet/x1s1c1iy_Europe} \hline \\
+				\multicolumn{6}{l}{\parbox{16.5cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown for the continuous measure of democracy. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. Each of these variables includes an additional category for missing values. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. This table uses V-DEM (1911-2023) and IVS (1981-2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\vspace*{0cm}
+\begin{table}[h!]
+	\caption{Lifetime Exposure to Democracy, Leave one Out (Dichotomous)}
+	\label{o12}
+	\begin{center}
+		\scalebox{0.7}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex} 
+				\hline \\
+				\textbf{Without Africa} \\
+				\ExpandableInput{\savet/x1s1c1lt_noAfrica} \hline \\
+				\textbf{Without Asia} \\
+				\ExpandableInput{\savet/x1s1c1lt_noAsia} \hline \\
+				\textbf{Without Europe} \\
+				\ExpandableInput{\savet/x1s1c1lt_noEurope} \hline \\
+				\textbf{Without Latin America} \\
+				\ExpandableInput{\savet/x1s1c1lt_noLatin_America} \hline \\
+				\textbf{Without Anglo-Saxon America} \\
+				\ExpandableInput{\savet/x1s1c1lt_noAS_America} \hline \\
+				\textbf{Without Oceania} \\
+				\ExpandableInput{\savet/x1s1c1lt_noOceania} \hline \\ 
+				\textbf{Only Europe} \\
+				\ExpandableInput{\savet/x1s1c1lt_Europe} \hline \\
+				\multicolumn{6}{l}{\parbox{16.5cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown for the continuous measure of democracy. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. Each of these variables includes an additional category for missing values. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. This table uses V-DEM (1911-2023) and IVS (1981-2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\vspace*{0cm} 
+\begin{table}[h!]
+	\caption{Impressionable Years Exposure, Different Time Windows (Dichotomous)}
+	\label{o13}
+	\begin{center}
+		\scalebox{0.7}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex} 
+				\hline \\
+				
+				\textbf{Panel A. Baseline and Nearby Windows} \\
+				\ExpandableInput{\savet/R1x1s1c1iy.tex} \\
+				\ExpandableInput{\savet/R2x1s1c1iy.tex} \\
+				\ExpandableInput{\savet/R3x1s1c1iy.tex} \hline \\
+				
+				\textbf{Panel B. Narrow Impressionable Windows} \\
+				\ExpandableInput{\savet/R4x1s1c1iy.tex} \\
+				\ExpandableInput{\savet/R5x1s1c1iy.tex} \\
+				\ExpandableInput{\savet/R6x1s1c1iy.tex} \hline \\
+				
+				\textbf{Panel C. Extended Impressionable Windows} \\
+				\ExpandableInput{\savet/R7x1s1c1iy.tex} \\
+				\ExpandableInput{\savet/R8x1s1c1iy.tex} \\
+				\ExpandableInput{\savet/R9x1s1c1iy.tex} \hline \\
+				
+				\multicolumn{6}{l}{\parbox{19cm}{\footnotesize \textbf{Notes:}
+						This table reports estimates using a dichotomous measure of democracy. Each panel corresponds to a different definition of impressionable years exposure. Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. Each variable includes an additional category for missing values. All regressions include the baseline set of fixed effects: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. Data sources are V-Dem (1911–2023) and IVS (1981–2022).
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\vspace*{0cm} 
+\begin{table}[h!]
+	\caption{Impressionable Years Exposure, Different Time Windows (Continuous)}
+	\label{o14}
+	\begin{center}
+		\scalebox{0.7}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex} 
+				\hline \\
+				
+				\textbf{Panel A. Baseline and Nearby Windows} \\
+				\ExpandableInput{\savet/R1x2s1c1iy.tex} \\
+				\ExpandableInput{\savet/R2x2s1c1iy.tex} \\
+				\ExpandableInput{\savet/R3x2s1c1iy.tex} \hline \\
+				
+				\textbf{Panel B. Narrow Impressionable Windows} \\
+				\ExpandableInput{\savet/R4x2s1c1iy.tex} \\
+				\ExpandableInput{\savet/R5x2s1c1iy.tex} \\
+				\ExpandableInput{\savet/R6x2s1c1iy.tex} \hline \\
+				
+				\textbf{Panel C. Extended Impressionable Windows} \\
+				\ExpandableInput{\savet/R7x2s1c1iy.tex} \\
+				\ExpandableInput{\savet/R8x2s1c1iy.tex} \\
+				\ExpandableInput{\savet/R9x2s1c1iy.tex} \hline \\
+				
+				\multicolumn{6}{l}{\parbox{19cm}{\footnotesize \textbf{Notes:}
+						This table reports estimates using a continuous measure of democracy. Each panel corresponds to a different definition of impressionable years exposure. Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. Each variable includes an additional category for missing values. All regressions include the baseline set of fixed effects: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. Data sources are V-Dem (1911–2023) and IVS (1981–2022).
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\clearpage
+\section{Figures}
+
+\begin{figure}
+	\caption{Pre-Birth Exposure to Unsuccessful Democracy and Autocracy, 18-25 --- IV}
+	\label{of1}
+	\begin{center}
+		\scalebox{0.9}{
+			\includegraphics[scale=1]{\savef/rfBefSuc2iy}
+		} \vspace{-1cm} 
+		\parbox{18cm}{{\scriptsize \textbf{Notes:} 
+				Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. This figure plots the reduced form coefficient estimates for each one of our measures of an extended version of equation \eqref{4} that simultaneously includes the baseline (post-birth) and thepre-birth measures of exposure to successful democracy, unsuccessful democracy, and unsuccessful autocracy. The pre-birth exposure measures are constructed from a country's democracy score before the relevant cohort's birth, using a variant of equation \eqref{2} (see text for details). The instrument for Exposure to Democracy is constructed using regional waves of democratization as Acemoglu et al. (2019). Each panel presents the results for a measure of successful performance (growth of GDP per capita in Panels A and E, transparency in Panels B and F, state capacity in Panels C and G, and redistribution in Panels D and H). For each outcome, in each panel, we show the placebo estimates of Pre-Birth Exposure to Unsuccessful Democracy (Panels A-D) and Unsuccessful Autocracy (Panels E-H) from both our baseline specification (specification 1), and an extended specification (specification 2). All regressions include fixed effects for: subregion, gender, language, wave of the survey, cohort, age and dummies of categories identifying the size of the city. The first specification adds fixed effects for country, year of interview and year born. The second specification adds fixed effects for: region $\times$ year of interview and country $\times$ wave. We also report the estimates for Exposure to Unsuccessful Democracy and Unsuccessful Autocracy for comparison. When the estimates for Exposure to Unsuccessful Democracy and Unsuccessful Autocracy are statistically different from the estimates for the pre-birth exposure at 5\%, we depict them in black solid circles and triangles; when they are not statistically different, we depict them in grey hollowed circles and triangles. The whiskers indicate the 95 percent confidence intervals.  All coefficients are standardized (beta coefficients). See text for additional details.
+		}}
+	\end{center}
+\end{figure}
+
+\begin{figure}
+	\caption{Pre-Birth Exposure to Successful Democracy, Lifetime --- IV}
+	\label{of2}
+	\begin{center}
+		\scalebox{0.9}{
+			\includegraphics[scale=1]{\savef/rfBefSuc1}
+		} \vspace{-1cm} 
+		\parbox{18cm}{{\scriptsize \textbf{Notes:} 
+				Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. This figure plots reduced form coefficient estimates for each one of our measures of an extended version of equation \eqref{4} that simultaneously includes the baseline (post-birth) and thepre-birth measures of exposure to successful democracy, unsuccessful democracy, and unsuccessful autocracy. The pre-birth exposure measures are constructed from a country's democracy score before the relevant cohort's birth, using a variant of equation \eqref{2} (see text for details). The instrument for Exposure to Democracy is constructed using regional waves of democratization as Acemoglu et al. (2019). Each panel presents the results for a measure of successful performance (growth of GDP per capita in Panel A, transparency in Panel B, state capacity in Panel C, and redistribution in Panel D). For each outcome, in each panel, we show the placebo estimate (Pre-Birth Exposure to Successful Democracy) from both our baseline specification (specification 1), and an extended specification (specification 2). All regressions include fixed effects for: subregion, gender, language, wave of the survey, cohort, age and dummies of categories identifying the size of the city. The first specification adds fixed effects for country, year of interview and year born. The second specification adds fixed effects for: region $\times$ year of interview and country $\times$ wave. We also report the estimates for Exposure to Successful Democracy for comparison. When the estimates for Exposure to Successful Democracy are statistically different from the estimates for Pre-Birth Exposure to Successful Democracy at 5\%, we depict them in black solid circles and triangles; when they are not statistically different, we depict them in grey hollowed circles and triangles. The whiskers indicate the 95 percent confidence intervals.  All coefficients are standardized (beta coefficients). See text for additional details.
+		}}
+	\end{center}
+\end{figure}
+
+\begin{figure}
+	\caption{Pre-Birth Exposure to Unsuccessful Democracy and Autocracy, Lifetime --- IV}
+	\label{of3}
+	\begin{center}
+		\scalebox{0.9}{
+			\includegraphics[scale=1]{\savef/rfBefSuc2}
+		} \vspace{-1cm} 
+		\parbox{18cm}{{\scriptsize \textbf{Notes:} 
+				Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. This figure plots the reduced form coefficient estimates for each one of our measures of an extended version of equation \eqref{4} that simultaneously includes the baseline (post-birth) and thepre-birth measures of exposure to successful democracy, unsuccessful democracy, and unsuccessful autocracy. The pre-birth exposure measures are constructed from a country's democracy score before the relevant cohort's birth, using a variant of equation \eqref{1} (see text for details). The instrument for Exposure to Democracy is constructed using regional waves of democratization as Acemoglu et al. (2019). Each panel presents the results for a measure of successful performance (growth of GDP per capita in Panels A and E, transparency in Panels B and F, state capacity in Panels C and G, and redistribution in Panels D and H). For each outcome, in each panel, we show the placebo estimates of Pre-Birth Exposure to Unsuccessful Democracy (Panels A-D) and Unsuccessful Autocracy (Panels E-H) from both our baseline specification (specification 1), and an extended specification (specification 2). All regressions include fixed effects for: subregion, gender, language, wave of the survey, cohort, age and dummies of categories identifying the size of the city. The first specification adds fixed effects for country, year of interview and year born. The second specification adds fixed effects for: region $\times$ year of interview and country $\times$ wave. We also report the estimates for Exposure to Unsuccessful Democracy and Unsuccessful Autocracy for comparison. When the estimates for Exposure to Unsuccessful Democracy and Unsuccessful Autocracy are statistically different from the estimates for the pre-birth exposure at 5\%, we depict them in black solid circles and triangles; when they are not statistically different, we depict them in grey hollowed circles and triangles. The whiskers indicate the 95 percent confidence intervals.  All coefficients are standardized (beta coefficients). See text for additional details.
+		}}
+	\end{center}
+\end{figure}
+
+\begin{figure}[tbp]
+	\caption{Lifetime Exposure to Democracy and Placebo Variables --- IV}
+	\label{of4}
+	\begin{center}
+		\scalebox{1}{
+			\includegraphics[scale=1.1]{\savef/rfPla}
+		} \vspace{-1cm} 
+		\parbox{18cm}{{\scriptsize \textbf{Notes:} 
+				Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. This figure plots reduced form coefficient estimates of Exposure to Democracy in equation \eqref{2} for various non-political attitudinal questions. Exposure to Democracy is defined in equation \eqref{1}. The instrument for Exposure to Democracy is constructed using regional waves of democratization as Acemoglu et al. (2019). The left-hand side panel uses the dichotomous democracy score, while the right-hand side panel uses the continuous measure. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. The whiskers indicate the 95 percent confidence intervals. All coefficients are standardized (beta coefficients). See text for additional details.
+		}}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+	\caption{Binned Scatterplots of the Relationship between Exposure to (Successful) Democracy and Income}
+	\label{of5}
+	\begin{center}
+		\scalebox{0.95}{
+			\begin{tabular}{cc}
+				\multicolumn{2}{c}{A. Exposure to Democracy and Income} \\
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery1x1s1v2} & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery1x2s1v2} \\
+				\multicolumn{2}{c}{B. Exposure to Successful Democracy and Income} \\
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery1x1s1suc1v2} & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery1x1s1suc2v2}   \\ 
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery1x1s1suc3v2}  & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery1x1s1suc4v2}  \\
+				\multicolumn{2}{l}{\parbox{16cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels. This figure presents binned scatterplots of the relationship between Income and Exposure to Democracy (Panel A), and the relationship between Income and Exposure to Successful Democracy (Panel B). Exposure to Democracy is defined in equation \eqref{1} in the text. Exposure to Successful Democracy is defined in equation \eqref{4}. Panel B presents the result for our main measures of successful performance (growth of GDP per capita, transparency, state capacity, and redistribution). Each panel plots the residualised values of our Income using the set of covariates as in regression equation \eqref{2}, which are a full set of fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview.
+				}} \\
+			\end{tabular}
+		}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+	\caption{Binned Scatterplots of the Relationship between Exposure to (Successful) Democracy and Health}
+	\label{of6}
+	\begin{center}
+		\scalebox{0.95}{
+			\begin{tabular}{cc}
+				\multicolumn{2}{c}{A. Exposure to Democracy and Health} \\
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery2x1s1v2} & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery2x2s1v2} \\
+				\multicolumn{2}{c}{B. Exposure to Successful Democracy and Health} \\
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery2x1s1suc1v2} & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery2x1s1suc2v2}   \\ 
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery2x1s1suc3v2}  & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery2x1s1suc4v2}  \\
+				\multicolumn{2}{l}{\parbox{16cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels. This figure presents binned scatterplots of the relationship between Health and Exposure to Democracy (Panel A), and the relationship between Health and Exposure to Successful Democracy (Panel B). Exposure to Democracy is defined in equation \eqref{1} in the text. Exposure to Successful Democracy is defined in equation \eqref{4}. Panel B presents the result for our main measures of successful performance (growth of GDP per capita, transparency, state capacity, and redistribution). Each panel plots the residualised values of Health using the set of covariates as in regression equation \eqref{2}, which are a full set of fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview.
+				}} \\
+			\end{tabular}
+		}
+	\end{center}
+\end{figure}
+
+\clearpage
+\begin{figure}[h!]
+	\caption{Binned Scatterplots of the Relationship between Exposure to (Successful) Democracy and Autonomy}
+	\label{of7}
+	\begin{center}
+		\scalebox{0.95}{
+			\begin{tabular}{cc}
+				\multicolumn{2}{c}{A. Exposure to Democracy and Autonomy} \\
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery3x1s1v2} & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery3x2s1v2} \\
+				\multicolumn{2}{c}{B. Exposure to Successful Democracy and Autonomy} \\
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery3x1s1suc1v2} & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery3x1s1suc2v2}   \\ 
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery3x1s1suc3v2}  & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery3x1s1suc4v2}  \\
+				\multicolumn{2}{l}{\parbox{16cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels. This figure presents binned scatterplots of the relationship between Autonomy and Exposure to Democracy (Panel A), and the relationship between Autonomy and Exposure to Successful Democracy (Panel B). Exposure to Democracy is defined in equation \eqref{1} in the text. Exposure to Successful Democracy is defined in equation \eqref{4}. Panel B presents the result for our main measures of successful performance (growth of GDP per capita, transparency, state capacity, and redistribution). Each panel plots the residualised values of Autonomy using the set of covariates as in regression equation \eqref{2}, which are a full set of fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview.
+				}} \\
+			\end{tabular}
+		}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+	\caption{Binned Scatterplots of the Relationship between Exposure to (Successful) Democracy and Satisfaction}
+	\label{of8}
+	\begin{center}
+		\scalebox{0.95}{
+			\begin{tabular}{cc}
+				\multicolumn{2}{c}{A. Exposure to Democracy and Satisfaction} \\
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery4x1s1v2} & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery4x2s1v2} \\
+				\multicolumn{2}{c}{B. Exposure to Successful Democracy and Satisfaction} \\
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery4x1s1suc1v2} & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery4x1s1suc2v2}   \\ 
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery4x1s1suc3v2}  & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery4x1s1suc4v2}  \\
+				\multicolumn{2}{l}{\parbox{16cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels. This figure presents binned scatterplots of the relationship between Satisfaction and Exposure to Democracy (Panel A), and the relationship between Satisfaction and Exposure to Successful Democracy (Panel B). Exposure to Democracy is defined in equation \eqref{1} in the text. Exposure to Successful Democracy is defined in equation \eqref{4}. Panel B presents the result for our main measures of successful performance (growth of GDP per capita, transparency, state capacity, and redistribution). Each panel plots the residualised values of our Satisfaction using the set of covariates as in regression equation \eqref{2}, which are a full set of fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview.
+				}} \\
+			\end{tabular}
+		}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+	\caption{Binned Scatterplots of the Relationship between Exposure to (Successful) Democracy and Happiness}
+	\label{of9}
+	\begin{center}
+		\scalebox{0.95}{
+			\begin{tabular}{cc}
+				\multicolumn{2}{c}{A. Exposure to Democracy and Happiness} \\
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery5x1s1v2} & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery5x2s1v2} \\
+				\multicolumn{2}{c}{B. Exposure to Successful Democracy and Happiness} \\
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery5x1s1suc1v2} & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery5x1s1suc2v2}   \\ 
+				\hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery5x1s1suc3v2}  & \hspace{-0cm}\includegraphics[scale=0.52]{\savef/scattery5x1s1suc4v2}  \\
+				\multicolumn{2}{l}{\parbox{16cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels. This figure presents binned scatterplots of the relationship between Happiness and Exposure to Democracy (Panel A), and the relationship between Happiness and Exposure to Successful Democracy (Panel B). Exposure to Democracy is defined in equation \eqref{1} in the text. Exposure to Successful Democracy is defined in equation \eqref{4}. Panel B presents the result for our main measures of successful performance (growth of GDP per capita, transparency, state capacity, and redistribution). Each panel plots the residualised values of Happiness using the set of covariates as in regression equation \eqref{2}, which are a full set of fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview.
+				}} \\
+			\end{tabular}
+		}
+	\end{center}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\caption{Quantile Effects of Democracy 18-25 on Well-Being}
+	\label{of10}
+	\vspace{0.5cm}
+	\subfloat[Income]{
+		\includegraphics[scale=0.3]{\savef/decilesincomeiy}
+	}
+	\subfloat[Health]{
+		\includegraphics[scale=0.3]{\savef/decileshealthiy}
+	}
+	\vspace{0.5cm}
+	\subfloat[Autonomy]{
+		\includegraphics[scale=0.3]{\savef/decilesautonomyiy}
+	}
+	\subfloat[Satisfaction]{
+		\includegraphics[scale=0.3]{\savef/decilessatisfactioniy}
+	}	
+	\subfloat[Happiness]{
+		\includegraphics[scale=0.3]{\savef/decileshappinessiy}
+	}
+	\vspace{0.5cm}
+	\parbox{15cm}{\scriptsize  
+		\textbf{Notes:} Dots represent the mean difference of the outcome with respect to the first bin (omitted) estimated using the first specification. Bars show 95\% CI’s with standard errors clustered at country and year of survey level. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. Regressions use the continuous treatment. These figures use IVS (1981-2022) dataset.}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\caption{Quantile Effects of Lifetime Democracy on Well-Being}
+	\label{of11}
+	\vspace{0.5cm}
+	\subfloat[Income]{
+		\includegraphics[scale=0.3]{\savef/decilesincomelt}
+	}
+	\subfloat[Health]{
+		\includegraphics[scale=0.3]{\savef/decileshealthlt}
+	}
+	\vspace{0.5cm}
+	\subfloat[Autonomy]{
+		\includegraphics[scale=0.3]{\savef/decilesautonomylt}
+	}
+	\subfloat[Satisfaction]{
+		\includegraphics[scale=0.3]{\savef/decilessatisfactionlt}
+	}	
+	\subfloat[Happiness]{
+		\includegraphics[scale=0.3]{\savef/decileshappinesslt}
+	}
+	\vspace{0.5cm}
+	\parbox{15cm}{\scriptsize  
+		\textbf{Notes:} Dots represent the mean difference of the outcome with respect to the first bin (omitted) estimated using the first specification. Bars show 95\% CI’s with standard errors clustered at country and year of survey level. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. Regressions use the continuous treatment. These figures use IVS (1981-2022) dataset.}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\caption{Results by 18-25 Democratic Exposure}
+	\label{of12}
+	\vspace{0.5cm}
+	\subfloat[Income]{
+		\includegraphics[scale=0.3]{\savef/binsyincomex2iy}
+	}
+	\subfloat[Health]{
+		\includegraphics[scale=0.3]{\savef/binsyhealthx2iy}
+	}
+	\vspace{0.5cm}
+	\subfloat[Autonomy]{
+		\includegraphics[scale=0.3]{\savef/binsyautonomyx2iy}
+	}
+	\subfloat[Satisfaction]{
+		\includegraphics[scale=0.3]{\savef/binsysatisfactionx2iy}
+	}	
+	\subfloat[Happiness]{
+		\includegraphics[scale=0.3]{\savef/binsyhappinessx2iy}
+	}
+	\vspace{0.5cm}
+	\parbox{15cm}{\scriptsize  
+		\textbf{Notes:} Dots represent the mean difference of the outcome with respect to the first bin (omitted) estimated using the first specification. Bars show 95\% CI’s with standard errors clustered at country and year of survey level. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. Regressions use the continuous treatment. These figures use IVS (1981-2022) dataset.}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\caption{Results by Lifetime Democratic Exposure}
+	\label{of13}
+	\vspace{0.5cm}
+	\subfloat[Income]{
+		\includegraphics[scale=0.3]{\savef/binsyincomex2}
+	}
+	\subfloat[Health]{
+		\includegraphics[scale=0.3]{\savef/binsyhealthx2}
+	}
+	\vspace{0.5cm}
+	\subfloat[Autonomy]{
+		\includegraphics[scale=0.3]{\savef/binsyautonomyx2}
+	}
+	\subfloat[Satisfaction]{
+		\includegraphics[scale=0.3]{\savef/binsysatisfactionx2}
+	}	
+	\subfloat[Happiness]{
+		\includegraphics[scale=0.3]{\savef/binsyhappinessx2}
+	}
+	\vspace{0.5cm}
+	\parbox{15cm}{\scriptsize  
+		\textbf{Notes:} Dots represent the mean difference of the outcome with respect to the first bin (omitted) estimated using the first specification. Bars show 95\% CI’s with standard errors clustered at country and year of survey level. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. Regressions use the continuous treatment. These figures use IVS (1981-2022) dataset.}
+\end{figure}
+
+\begin{figure}
+	\caption{Pre-Birth Exposure to Successful Democracy, 18-25 --- IV}
+	\label{of14}
+	\begin{center}
+		\scalebox{0.9}{
+			\includegraphics[scale=1]{\savef/rfBefSuc1iy}
+		} \vspace{-1cm} 
+		\parbox{18cm}{{\scriptsize \textbf{Notes:} 
+				Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. This figure plots reduced form coefficient estimates for each one of our measures of an extended version of equation \eqref{4} that simultaneously includes the baseline (post-birth) and thepre-birth measures of exposure to successful democracy, unsuccessful democracy, and unsuccessful autocracy. The pre-birth exposure measures are constructed from a country's democracy score before the relevant cohort's birth, using a variant of equation \eqref{2} (see text for details). The instrument for Exposure to Democracy is constructed using regional waves of democratization as Acemoglu et al. (2019). Each panel presents the results for a measure of successful performance (growth of GDP per capita in Panel A, transparency in Panel B, state capacity in Panel C, and redistribution in Panel D). For each outcome, in each panel, we show the placebo estimate (Pre-Birth Exposure to Successful Democracy) from both our baseline specification (specification 1), and an extended specification (specification 2). All regressions include fixed effects for: subregion, gender, language, wave of the survey, cohort, age and dummies of categories identifying the size of the city. The first specification adds fixed effects for country, year of interview and year born. The second specification adds fixed effects for: region $\times$ year of interview and country $\times$ wave. We also report the estimates for Exposure to Successful Democracy for comparison. When the estimates for Exposure to Successful Democracy are statistically different from the estimates for Pre-Birth Exposure to Successful Democracy at 5\%, we depict them in black solid circles and triangles; when they are not statistically different, we depict them in grey hollowed circles and triangles. The whiskers indicate the 95 percent confidence intervals.  All coefficients are standardized (beta coefficients). See text for additional details.
+		}}
+	\end{center}
+\end{figure}
+
+\clearpage
+\vspace*{4cm}
+\begin{figure}[h!]
+	\begin{center}
+		\caption{Placebo Variables Lifetime}
+		\label{of15}
+		%%%%%%%%%%%
+		\includegraphics[scale=1.1]{\savef/plalt} 
+	\end{center}
+\end{figure}
+\begin{center}
+	\vspace{-1cm}
+	\parbox{18cm}{\scriptsize \textbf{Notes:} Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. This figure plots OLS coefficient estimates of Lifetime Exposure to Democracy for various non-labor attitudinal questions. The left-hand side panel uses the dichotomous democracy score, while the right-hand side panel uses the continuous measure. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. The whiskers indicate the 95 percent confidence intervals. All coefficients are standardized (beta coefficients).}
+\end{center}
+
+\begin{figure}[h!]
+	\caption{Exposure to Democracy 18-25 and Placebo Variables --- IV}
+	\label{of16}
+	\begin{center}
+		\scalebox{1}{
+			\includegraphics[scale=1.1]{\savef/rfPlaiy}
+		} \vspace{-1cm} 
+		\parbox{18cm}{{\scriptsize \textbf{Notes:} 
+				Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. This figure plots reduced form coefficient estimates of Exposure to Democracy in equation \eqref{2} for various non-political attitudinal questions. Exposure to Democracy 18-25 is defined in equation \eqref{1}. The instrument for Exposure to Democracy is constructed using regional waves of democratization as Acemoglu et al. (2019). The left-hand side panel uses the dichotomous democracy score, while the right-hand side panel uses the continuous measure. All regressions include fixed effects following our baseline specification: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. The whiskers indicate the 95 percent confidence intervals. All coefficients are standardized (beta coefficients). See text for additional details.
+		}}
+	\end{center}
+\end{figure}
+
+\end{document}

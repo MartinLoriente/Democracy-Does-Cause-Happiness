@@ -1,0 +1,13 @@
+Exposure to Democracy 18-25&0.067***&0.067***&0.067***&0.067**&0.067**&0.067***&0.067***&0.067***&0.067***&0.067** \\
+&(0.007)&(0.011)&(0.012)&(0.019)&(0.019)&(0.020)&(0.020)&(0.020)&(0.020)&(0.025) \\
+
+\\ 
+Observations & 349363 \\\\ 
+Countries & 103 \\\\ 
+\hline \\
+Cohort & YES & NO & YES & YES & YES & NO & NO & YES & YES & NO \\
+Year of survey & NO & YES & YES & YES & NO & NO & YES & NO & YES & NO \\
+Region & NO & NO & NO & YES & YES & NO & NO & NO & NO & NO \\
+Wave & NO & NO & NO & NO & YES & NO & NO & NO & NO & NO \\
+Country & NO & NO & NO & NO & NO & YES & YES & YES & YES & NO \\
+Subregion & NO & NO & NO & NO & NO & NO & NO & NO & NO & YES \\
