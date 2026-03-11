@@ -1681,3 +1681,66 @@ xlabel(-0.3(0.1)0.3,format(%10.1fc)) ///
 ytitle("") xtitle("") ///
  yscale(reverse) plotregion(style(none))
 gr export "${savef}/plalt.pdf",replace
+
+
+/*==============================================================================
+Figure FigComp: V-Dem Component ETDs — Coefficient Plot (IY, ages 18-25)
+5 components × 5 outcomes. Shows which democratic dimension predicts wellbeing.
+Interpretation note: components are correlated; regressions run individually.
+*=============================================================================*/
+gl vdem_comp v2x_polyarchy v2x_liberal v2x_partip v2xdl_delib v2x_egal
+
+*Collect coefficients using postfile
+tempname pf
+tempfile pfdata
+postfile `pf' int compn int outcome double bcomp llcomp ulcomp using `pfdata', replace
+
+local ci = 0
+foreach v in ${vdem_comp} {
+    local ++ci
+    local oi = 0
+    foreach y in $a {
+        local ++oi
+        cap estimates use "${savee}/tot/olsMainIY/comp`v'y`y's1c1iy.ster"
+        if _rc == 0 {
+            local b  = _b[compiy_`v']
+            local se = _se[compiy_`v']
+            local ll = `b' - 1.96 * `se'
+            local ul = `b' + 1.96 * `se'
+            post `pf' (`ci') (`oi') (`b') (`ll') (`ul')
+        }
+    }
+}
+postclose `pf'
+
+qui count if 1==1 using `pfdata'
+if r(N) == 0 {
+    noi di as error "FigComp: no estimates found — run 5_tables.do (Tables O16) first"
+}
+else {
+    use `pfdata', clear
+
+    gen llc = max(-0.5, llcomp)
+    gen ulc = min(0.5, ulcomp)
+    gen ulcapped = ulc != ulcomp
+    gen llcapped = llc != llcomp
+
+    la def comp_lbl 1 "Electoral" 2 "Liberal" 3 "Participatory" 4 "Deliberative" 5 "Egalitarian"
+    la val compn comp_lbl
+    la def out_lbl 1 "Income" 2 "Health" 3 "Autonomy" 4 "Satisfaction" 5 "Happiness"
+    la val outcome out_lbl
+
+    tw (rspike llc ulc outcome, horizontal lcolor(gs6) lwidth(*0.8)) ///
+       (rcap ulc ulc outcome if ulcapped==0, horizontal lcolor(gs6) lwidth(*0.8)) ///
+       (rcap llc llc outcome if llcapped==0, horizontal lcolor(gs6) lwidth(*0.8)) ///
+       (sc outcome bcomp, mcolor(maroon) msymbol(circle) msize(*1.1)) ///
+       , by(compn, note("") legend(off) title("V-Dem Components and Well-Being (IY)", size(*0.9))) ///
+       subtitle(, size(*0.9) lcolor(none)) ///
+       xline(0, lcolor(gs4) lpattern(dash)) ///
+       ylabel(1 "Income" 2 "Health" 3 "Autonomy" 4 "Satisfaction" 5 "Happiness", ///
+           valuelabel angle(h) grid labsize(*0.9)) ///
+       xlabel(-0.5(0.1)0.5, format(%10.1fc)) ///
+       ytitle("") xtitle("Coefficient (SD units)", size(*0.9)) ///
+       yscale(reverse) plotregion(style(none))
+    gr export "${savef}/FigComp/compiy.pdf", replace
+}

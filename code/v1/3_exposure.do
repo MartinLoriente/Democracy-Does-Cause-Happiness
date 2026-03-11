@@ -432,6 +432,56 @@ sa "${temp}/2_democracy/tot/dem",replace
 
 
 /*==============================================================================
+*B1.5. V-DEM COMPONENT ETDs (mechanism analysis: which dimension drives wellbeing)
+*Component indices available in panelDem2: v2x_polyarchy, v2x_liberal,
+*v2x_partip, v2xdl_delib, v2x_egal
+*=============================================================================*/
+u "${temp}/1_survey/censusCountryYearbYear",replace
+ren year yearsvy
+expand yearsvy-yearb+1
+bys id:g year=yearb-1+_n
+mer m:1 country year using "${temp}/2_democracy/panelDem2", ///
+    keep(1 3) nogen keepus(v2x_polyarchy v2x_liberal v2x_partip v2xdl_delib v2x_egal)
+qui count if v2x_polyarchy==.
+noi di as error "DIAGNOSTIC panelDem2 components (B1.5): `r(N)' census rows unmatched"
+
+gl vdem_comp v2x_polyarchy v2x_liberal v2x_partip v2xdl_delib v2x_egal
+
+*Lifetime exposure (age k+) for each V-Dem component
+foreach v of varlist ${vdem_comp} {
+    bys id: gegen t0=sum(missing(`v')) if year-yearb>=${k}
+    bys id: gegen t1=sum(`v') if year-yearb>=${k}&t0==0
+    bys id: gegen complt_`v'=mean(t1)
+    drop t0 t1
+}
+
+*Impressionable years exposure (ages 18-25) for each V-Dem component
+foreach v of varlist ${vdem_comp} {
+    bys id: gegen t0=sum(missing(`v')) if year-yearb>=18&year-yearb<26
+    bys id: gegen t1=sum(`v') if year-yearb>=18&year-yearb<26&t0==0
+    bys id: gegen compiy_`v'=mean(t1)
+    drop t0 t1
+}
+
+keep country yearsvy yearb comp*
+ren yearsvy year
+duplicates drop
+la var complt_v2x_polyarchy "LT Exposure: Electoral Democracy"
+la var complt_v2x_liberal    "LT Exposure: Liberal Component"
+la var complt_v2x_partip     "LT Exposure: Participatory Component"
+la var complt_v2xdl_delib    "LT Exposure: Deliberative Component"
+la var complt_v2x_egal       "LT Exposure: Egalitarian Component"
+la var compiy_v2x_polyarchy  "IY Exposure: Electoral Democracy"
+la var compiy_v2x_liberal    "IY Exposure: Liberal Component"
+la var compiy_v2x_partip     "IY Exposure: Participatory Component"
+la var compiy_v2xdl_delib    "IY Exposure: Deliberative Component"
+la var compiy_v2x_egal       "IY Exposure: Egalitarian Component"
+la data "V-Dem Component ETDs (LT and IY)"
+compress
+sa "${temp}/2_democracy/tot/demComponents",replace
+
+
+/*==============================================================================
 *B2. OLS BEFORE
 *=============================================================================*/
 u "${temp}/1_survey/censusCountryYearbYear",replace

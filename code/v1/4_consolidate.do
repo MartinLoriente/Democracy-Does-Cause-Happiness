@@ -125,6 +125,10 @@ qui count if demlt2==.
 noi di as error "LINEAGE CHECK: `r(N)' obs missing demlt2 after ETD merge (V-Dem coverage gaps — excluded from all LT/IY regressions)"
 qui count if demiy2==.
 noi di as error "LINEAGE CHECK: `r(N)' obs missing demiy2 after ETD merge"
+mer m:1 country year yearb using "${temp}/2_democracy/tot/demComponents", ///
+    keepus(comp*) keep(1 3) nogen
+qui count if compiy_v2x_polyarchy==.
+noi di as error "LINEAGE CHECK: `r(N)' obs missing component ETDs (V-Dem coverage or age<18)"
 sa "${temp}/ivs3",replace
 
 u "${temp}/ivs3",replace
@@ -160,6 +164,20 @@ gen autonomy = (autonomynew - ${autonomy_min}) / (${autonomy_max} - ${autonomy_m
 la var autonomy "Autonomy"
 drop autonomynew
 drop if autonomy==.
+
+*Mediator variables for mechanism analysis (country×year level)
+mer m:1 country year using "${temp}/3_addVars/gdp/gdp", ///
+    keepus(gdppc2gr) keep(1 3) nogen
+mer m:1 country year using "${temp}/3_addVars/corruption", ///
+    keepus(corruption) keep(1 3) nogen
+gen transparency = 1 - corruption
+la var transparency "Transparency (1 - V-Dem corruption)"
+mer m:1 country year using "${temp}/3_addVars/statecap", ///
+    keepus(statecapbase) keep(1 3) nogen
+mer m:1 country year using "${temp}/3_addVars/healthexp", ///
+    keepus(healthexp) keep(1 3) nogen
+qui count if healthexp==.
+noi di as error "LINEAGE CHECK: `r(N)' obs missing healthexp (expected large — WB starts 2000)"
 
 so country yearb year
 compress

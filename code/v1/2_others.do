@@ -1141,3 +1141,80 @@ gegen id=group(country yearb year)
 la da "Individuals census by country, year of birth and year of survey"
 compress
 sa "${temp}/1_survey/censusCountryYearbYearess",replace
+
+
+/*==============================================================================
+*B6. HEALTH EXPENDITURE (World Bank SH.XPD.CHEX.GD.ZS, % GDP)
+*Coverage: 2000–2021 for most countries; 2022–2023 sparse.
+*Format: wide (one column per year); rows 1–4 are preamble, row 5 is header.
+*Stata renames year columns with leading digit to v1960, v1961 ... v2023.
+*=============================================================================*/
+import delimited using "${raw}/3_additional_vars/10_health/health_exp_wb.csv", ///
+    varnames(1) rowrange(5:) encoding("utf-8") clear
+
+*Keep country name + year columns 2000–2021
+keep countryname v2000 v2001 v2002 v2003 v2004 v2005 v2006 v2007 ///
+     v2008 v2009 v2010 v2011 v2012 v2013 v2014 v2015 v2016 v2017 ///
+     v2018 v2019 v2020 v2021
+
+*Reshape wide → long
+reshape long v, i(countryname) j(year)
+ren v healthexp
+drop if missing(healthexp)
+
+*Normalize country names to pipeline canonical form (uppercase ASCII)
+gen country = upper(ustrto(ustrnormalize(countryname,"nfd"),"ascii",2))
+drop countryname
+
+*Harmonize WB country names to canonical pipeline names
+replace country = "CZECHIA"           if country == "CZECH REPUBLIC"
+*TURKIYE is already correct after ASCII normalization of "Turkiye"
+replace country = "SOUTH KOREA"       if country == "KOREA, REP."
+replace country = "RUSSIA"            if country == "RUSSIAN FEDERATION"
+replace country = "IRAN"              if country == "IRAN, ISLAMIC REP."
+replace country = "EGYPT"             if country == "EGYPT, ARAB REP."
+replace country = "VENEZUELA"         if country == "VENEZUELA, RB"
+replace country = "LAOS"              if country == "LAO PDR"
+replace country = "VIETNAM"           if country == "VIET NAM"
+replace country = "CONGO DR (ZAIRE)"  if country == "CONGO, DEM. REP."
+replace country = "CONGO (REPUBLIC)"  if country == "CONGO, REP."
+replace country = "SYRIA"             if country == "SYRIAN ARAB REPUBLIC"
+replace country = "PALESTINE"         if country == "WEST BANK AND GAZA"
+replace country = "SLOVAKIA"          if country == "SLOVAK REPUBLIC"
+replace country = "KYRGYZSTAN"        if country == "KYRGYZ REPUBLIC"
+replace country = "MACEDONIA"         if country == "NORTH MACEDONIA"
+replace country = "CAPE VERDE"        if country == "CABO VERDE"
+replace country = "GAMBIA"            if country == "GAMBIA, THE"
+replace country = "BAHAMAS"           if country == "BAHAMAS, THE"
+
+*Drop WB regional aggregates (not country-level rows)
+drop if inlist(country, "WORLD", "EAST ASIA & PACIFIC", "EUROPE & CENTRAL ASIA", ///
+    "LATIN AMERICA & CARIBBEAN", "MIDDLE EAST & NORTH AFRICA", ///
+    "NORTH AMERICA", "SOUTH ASIA", "SUB-SAHARAN AFRICA", ///
+    "LOW INCOME", "LOWER MIDDLE INCOME", "UPPER MIDDLE INCOME", "HIGH INCOME", ///
+    "LOW & MIDDLE INCOME", "MIDDLE INCOME", "FRAGILE AND CONFLICT AFFECTED SITUATIONS", ///
+    "HEAVILY INDEBTED POOR COUNTRIES (HIPC)", "LEAST DEVELOPED COUNTRIES: UN CLASSIFICATION", ///
+    "EARLY-DEMOGRAPHIC DIVIDEND", "LATE-DEMOGRAPHIC DIVIDEND", ///
+    "POST-DEMOGRAPHIC DIVIDEND", "PRE-DEMOGRAPHIC DIVIDEND", ///
+    "EURO AREA", "EUROPEAN UNION", "IBRD ONLY", "IDA & IBRD TOTAL", ///
+    "IDA BLEND", "IDA ONLY", "IDA TOTAL", "NOT CLASSIFIED", ///
+    "SMALL STATES", "OTHER SMALL STATES", "PACIFIC ISLAND SMALL STATES", ///
+    "CARIBBEAN SMALL STATES", "AFRICA EASTERN AND SOUTHERN", ///
+    "AFRICA WESTERN AND CENTRAL", "ARAB WORLD", "CENTRAL EUROPE AND THE BALTICS", ///
+    "CHANNEL ISLANDS", "EAST ASIA & PACIFIC (EXCLUDING HIGH INCOME)", ///
+    "EAST ASIA & PACIFIC (IDA & IBRD COUNTRIES)", ///
+    "EUROPE & CENTRAL ASIA (EXCLUDING HIGH INCOME)", ///
+    "EUROPE & CENTRAL ASIA (IDA & IBRD COUNTRIES)", ///
+    "LATIN AMERICA & CARIBBEAN (EXCLUDING HIGH INCOME)", ///
+    "LATIN AMERICA & THE CARIBBEAN (IDA & IBRD COUNTRIES)", ///
+    "MIDDLE EAST & NORTH AFRICA (EXCLUDING HIGH INCOME)", ///
+    "MIDDLE EAST & NORTH AFRICA (IDA & IBRD COUNTRIES)", ///
+    "SOUTH ASIA (IDA & IBRD)", "SUB-SAHARAN AFRICA (EXCLUDING HIGH INCOME)", ///
+    "SUB-SAHARAN AFRICA (IDA & IBRD COUNTRIES)")
+
+keep country year healthexp
+sort country year
+compress
+la var healthexp "Health expenditure, total (% of GDP) — World Bank SH.XPD.CHEX.GD.ZS"
+la da "Health expenditure panel (World Bank, 2000-2021)"
+sa "${temp}/3_addVars/healthexp", replace

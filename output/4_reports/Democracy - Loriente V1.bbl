@@ -19,47 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{apa/apasortcite//global/global}
-    \entry{Abdallah2008}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=41eeafe4b73ce34752ac0b6a10b4ba68}{%
-           family={Abdallah},
-           familyi={A\bibinitperiod},
-           given={Saamah},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=64f6a60d5dc8ebb51ab47f59c67410fd}{%
-           family={Thompson},
-           familyi={T\bibinitperiod},
-           given={Sam},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd1a3f19bcb90ad2d88efcfe49bb199c}{%
-           family={Marks},
-           familyi={M\bibinitperiod},
-           given={Nic},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{16ab19e04f6f51c7176d81dbb9929f7e}
-      \strng{fullhash}{eed1bbb6f71e097a2d7d712177e17665}
-      \strng{bibnamehash}{eed1bbb6f71e097a2d7d712177e17665}
-      \strng{authorbibnamehash}{eed1bbb6f71e097a2d7d712177e17665}
-      \strng{authornamehash}{16ab19e04f6f51c7176d81dbb9929f7e}
-      \strng{authorfullhash}{eed1bbb6f71e097a2d7d712177e17665}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ecological Economics}
-      \field{title}{Estimating Worldwide Life Satisfaction}
-      \field{volume}{65}
-      \field{year}{2008}
-      \field{pages}{35\bibrangedash 47}
-      \range{pages}{13}
-    \endentry
     \entry{Acemoglu2006}{book}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=d849e6f8de178bfb18aa67341c9f8d38}{%
@@ -390,7 +349,6 @@
       \strng{authorbibnamehash}{1b0292e4e20008db7d6fb79778acc76e}
       \strng{authornamehash}{900e3290371d844c5d66f6c2c208f489}
       \strng{authorfullhash}{1b0292e4e20008db7d6fb79778acc76e}
-      \field{extraname}{1}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -402,73 +360,6 @@
       \field{title}{The Political Scar of Epidemics}
       \field{type}{IZA Discussion Paper}
       \field{year}{2020}
-    \endentry
-    \entry{Aksoy2022}{report}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=98ff5d182c7800bb4d6c9d7466cbfb70}{%
-           family={Aksoy},
-           familyi={A\bibinitperiod},
-           given={Cevat\bibnamedelima Giray},
-           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e9d3a7735cc04a7d0321a6f5c8c9a31f}{%
-           family={Barrero},
-           familyi={B\bibinitperiod},
-           given={Jose\bibnamedelima Maria},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1f9ed1162402cc5a63ec1d1f470ea527}{%
-           family={Bloom},
-           familyi={B\bibinitperiod},
-           given={Nicholas},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=436e25609a5e8f78d485f754f4af4176}{%
-           family={Davis},
-           familyi={D\bibinitperiod},
-           given={Steven\bibnamedelima J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c7924bb62c3cab9fab6a38bb0f1b9cc9}{%
-           family={Dolls},
-           familyi={D\bibinitperiod},
-           given={Mathias},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bc47dbc9b89870952db5cb3ed5015aea}{%
-           family={Zarate},
-           familyi={Z\bibinitperiod},
-           given={Pablo},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {National Bureau of Economic Research}%
-      }
-      \strng{namehash}{900e3290371d844c5d66f6c2c208f489}
-      \strng{fullhash}{95cbd1fa46ba928055eff578cc853e4f}
-      \strng{bibnamehash}{95cbd1fa46ba928055eff578cc853e4f}
-      \strng{authorbibnamehash}{95cbd1fa46ba928055eff578cc853e4f}
-      \strng{authornamehash}{900e3290371d844c5d66f6c2c208f489}
-      \strng{authorfullhash}{95cbd1fa46ba928055eff578cc853e4f}
-      \field{extraname}{2}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{30446}
-      \field{title}{Working from Home Around the World}
-      \field{type}{NBER Working Paper Series}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb http://www.nber.org/papers/w30446
-      \endverb
-      \verb{url}
-      \verb http://www.nber.org/papers/w30446
-      \endverb
     \endentry
     \entry{Alesina1994}{article}{}
       \name{author}{2}{}{%
@@ -561,115 +452,6 @@
       \field{title}{The World Inequality Report 2018}
       \field{year}{2018}
     \endentry
-    \entry{Baicker2019}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=e9ef78e63d89425adcb55ed444a84ae6}{%
-           family={Baicker},
-           familyi={B\bibinitperiod},
-           given={Katherine},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8302593e3b893aa848cec33d5fabb13f}{%
-           family={Finkelstein},
-           familyi={F\bibinitperiod},
-           given={Amy},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=80c4a125d273379613b2af6191a77847}{%
-           family={Taubman},
-           familyi={T\bibinitperiod},
-           given={Sarah\bibnamedelima L.},
-           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{bb0302af2925ae542758a7fa22ed9189}
-      \strng{fullhash}{fb3b10da810ce09f324a3ac6edc85c5b}
-      \strng{bibnamehash}{fb3b10da810ce09f324a3ac6edc85c5b}
-      \strng{authorbibnamehash}{fb3b10da810ce09f324a3ac6edc85c5b}
-      \strng{authornamehash}{bb0302af2925ae542758a7fa22ed9189}
-      \strng{authorfullhash}{fb3b10da810ce09f324a3ac6edc85c5b}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Quarterly Journal of Political Science}
-      \field{number}{4}
-      \field{title}{The Impact of Medicaid on Political Participation: Evidence from the Oregon Health Insurance Experiment}
-      \field{volume}{14}
-      \field{year}{2019}
-      \field{pages}{383\bibrangedash 400}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1561/100.00019026
-      \endverb
-    \endentry
-    \entry{Bartolini2014}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=95a2fdb29c1d7a54d3f88cce42cf8b74}{%
-           family={Bartolini},
-           familyi={B\bibinitperiod},
-           given={Stefano},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=959d11dc6af7727cb38f9adb92f49939}{%
-           family={Sarracino},
-           familyi={S\bibinitperiod},
-           given={Francesco},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5c5994173f8799c773dd46505939be38}
-      \strng{fullhash}{5c5994173f8799c773dd46505939be38}
-      \strng{bibnamehash}{5c5994173f8799c773dd46505939be38}
-      \strng{authorbibnamehash}{5c5994173f8799c773dd46505939be38}
-      \strng{authornamehash}{5c5994173f8799c773dd46505939be38}
-      \strng{authorfullhash}{5c5994173f8799c773dd46505939be38}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ecological Economics}
-      \field{title}{Happy for How Long? How Social Capital and Economic Growth Relate to Happiness Over Time}
-      \field{volume}{108}
-      \field{year}{2014}
-      \field{pages}{242\bibrangedash 256}
-      \range{pages}{15}
-    \endentry
-    \entry{BenAfia2019}{thesis}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=29584e9c26dccdf599d4dbfb7b7a472f}{%
-           family={Ben\bibnamedelima Afia},
-           familyi={B\bibinitperiod\bibinitdelim A\bibinitperiod},
-           given={Noura},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {University of Sousse}%
-      }
-      \strng{namehash}{29584e9c26dccdf599d4dbfb7b7a472f}
-      \strng{fullhash}{29584e9c26dccdf599d4dbfb7b7a472f}
-      \strng{bibnamehash}{29584e9c26dccdf599d4dbfb7b7a472f}
-      \strng{authorbibnamehash}{29584e9c26dccdf599d4dbfb7b7a472f}
-      \strng{authornamehash}{29584e9c26dccdf599d4dbfb7b7a472f}
-      \strng{authorfullhash}{29584e9c26dccdf599d4dbfb7b7a472f}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Relationship Between Energy Consumption, Economic Growth, and Happiness}
-      \field{type}{phdthesis}
-      \field{year}{2019}
-    \endentry
     \entry{Blanchflower2004}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e4b54cc0cd2190ec61db4ae4c1a5b4cc}{%
@@ -678,12 +460,12 @@
            given={David\bibnamedelima G.},
            giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=043371a2acbb3792c6eac09038705134}{%
+        {{un=0,uniquepart=base,hash=043371a2acbb3792c6eac09038705134}{%
            family={Oswald},
            familyi={O\bibinitperiod},
            given={Andrew},
            giveni={A\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{fd69e3161dd56fa873e1f99a69cf3b77}
       \strng{fullhash}{fd69e3161dd56fa873e1f99a69cf3b77}
@@ -705,54 +487,6 @@
       \field{year}{2004}
       \field{pages}{1359\bibrangedash 1386}
       \range{pages}{28}
-    \endentry
-    \entry{Bloom2015}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1f9ed1162402cc5a63ec1d1f470ea527}{%
-           family={Bloom},
-           familyi={B\bibinitperiod},
-           given={Nicholas},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=eb9b1fe5fa3eac72a38dcccd3c657460}{%
-           family={Liang},
-           familyi={L\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7b39b57e9cfb66ab4a4d302e4f51ad91}{%
-           family={Roberts},
-           familyi={R\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=649bb256731d8642682bf5e5fe0c9c4a}{%
-           family={Ying},
-           familyi={Y\bibinitperiod},
-           given={Zhichun\bibnamedelima Jenny},
-           giveni={Z\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{bb325fe46940bbf5d2eabf28a8415da6}
-      \strng{fullhash}{2659902b245054648f3837389c7a4ce8}
-      \strng{bibnamehash}{2659902b245054648f3837389c7a4ce8}
-      \strng{authorbibnamehash}{2659902b245054648f3837389c7a4ce8}
-      \strng{authornamehash}{bb325fe46940bbf5d2eabf28a8415da6}
-      \strng{authorfullhash}{2659902b245054648f3837389c7a4ce8}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Quarterly Journal of Economics}
-      \field{number}{1}
-      \field{title}{Does Working from Home Work? Evidence from a Chinese Experiment}
-      \field{volume}{130}
-      \field{year}{2015}
-      \field{pages}{165\bibrangedash 218}
-      \range{pages}{54}
     \endentry
     \entry{Boix2018}{book}{}
       \name{author}{3}{}{%
@@ -928,57 +662,6 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1111/ssqu.13404
-      \endverb
-    \endentry
-    \entry{Cesarini2017}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1d424741d7d49b6d7e005fe6089deb9c}{%
-           family={Cesarini},
-           familyi={C\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7dbd099780b14287ec1cd2910d9cc49e}{%
-           family={Lindqvist},
-           familyi={L\bibinitperiod},
-           given={Erik},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae98351070bfe28c893a5221bcfd6073}{%
-           family={Notowidigdo},
-           familyi={N\bibinitperiod},
-           given={Matthew\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=543ca31ab1a8559365302de28192343f}{%
-           family={Östling},
-           familyi={Ö\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{cdd0d617b46e86a96b0ed5b00731fadf}
-      \strng{fullhash}{0dd0140beafc0ba24144076ad8a05061}
-      \strng{bibnamehash}{0dd0140beafc0ba24144076ad8a05061}
-      \strng{authorbibnamehash}{0dd0140beafc0ba24144076ad8a05061}
-      \strng{authornamehash}{cdd0d617b46e86a96b0ed5b00731fadf}
-      \strng{authorfullhash}{0dd0140beafc0ba24144076ad8a05061}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The American Economic Review}
-      \field{number}{12}
-      \field{title}{The Effect of Wealth on Individual and Household Labor Supply: Evidence from Swedish Lotteries}
-      \field{volume}{107}
-      \field{year}{2017}
-      \field{pages}{3918\bibrangedash 3948}
-      \range{pages}{31}
-      \verb{doi}
-      \verb 10.1257/aer.20151589
       \endverb
     \endentry
     \entry{Cheibub2010}{article}{}
@@ -1221,49 +904,6 @@
       \verb 10.23696/mcwt-fr58
       \endverb
     \endentry
-    \entry{Cotofan2020}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=88ad38d3316328bf6b5ba3eb02ab2f33}{%
-           family={Cotofan},
-           familyi={C\bibinitperiod},
-           given={Maria},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=393dc70f5b793eb64171e07fe3c21397}{%
-           family={Cassar},
-           familyi={C\bibinitperiod},
-           given={Lea},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=767c74a858db8f25ed7cf6a9ebe8ef9e}{%
-           family={Dur},
-           familyi={D\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e54a334dd0071f78e8e405cc18e45699}{%
-           family={Meier},
-           familyi={M\bibinitperiod},
-           given={Stephan},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ed78b8bb8c79b910b34731942e21934d}
-      \strng{fullhash}{39fb601bb4463605b613f3c086c70bbd}
-      \strng{bibnamehash}{39fb601bb4463605b613f3c086c70bbd}
-      \strng{authorbibnamehash}{39fb601bb4463605b613f3c086c70bbd}
-      \strng{authornamehash}{ed78b8bb8c79b910b34731942e21934d}
-      \strng{authorfullhash}{39fb601bb4463605b613f3c086c70bbd}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Macroeconomic Conditions When Young Shape Job Preferences for Life}
-      \field{year}{2020}
-    \endentry
     \entry{Dahlum2019}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=6aafac0d527eaa528c77bd94ce2cb5a1}{%
@@ -1306,51 +946,28 @@
       \field{pages}{1494\bibrangedash 1499}
       \range{pages}{6}
     \endentry
-    \entry{Davies2011}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bcb846ee4ec6a1f9156b8fa0278d9f5c}{%
-           family={Davies},
-           familyi={D\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod},
+    \entry{DiTellaMacCulloch2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4a62f089ec5b998d5549aa952dc43fef}{%
+           family={Di\bibnamedelima Tella},
+           familyi={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf911c9e8450a463466dff8986d6d05b}{%
+           family={MacCulloch},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{bcb846ee4ec6a1f9156b8fa0278d9f5c}
-      \strng{fullhash}{bcb846ee4ec6a1f9156b8fa0278d9f5c}
-      \strng{bibnamehash}{bcb846ee4ec6a1f9156b8fa0278d9f5c}
-      \strng{authorbibnamehash}{bcb846ee4ec6a1f9156b8fa0278d9f5c}
-      \strng{authornamehash}{bcb846ee4ec6a1f9156b8fa0278d9f5c}
-      \strng{authorfullhash}{bcb846ee4ec6a1f9156b8fa0278d9f5c}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{New Left Review}
-      \field{number}{5}
-      \field{title}{The Political Economy of Unhappiness}
-      \field{volume}{71}
-      \field{year}{2011}
-      \field{pages}{65\bibrangedash 80}
-      \range{pages}{16}
-    \endentry
-    \entry{Deaton2008}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=49e860b4f71d798fa4f5cf1c90103fc4}{%
-           family={Deaton},
-           familyi={D\bibinitperiod},
-           given={Angus},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{fullhash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{bibnamehash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{authorbibnamehash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{authornamehash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{authorfullhash}{49e860b4f71d798fa4f5cf1c90103fc4}
+      \strng{namehash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \strng{fullhash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \strng{bibnamehash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \strng{authorbibnamehash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \strng{authornamehash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \strng{authorfullhash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \field{extraname}{1}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -1359,12 +976,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Economic Perspectives}
-      \field{number}{2}
-      \field{title}{Income, Health, and Well-Being Around the World: Evidence from the Gallup World Poll}
-      \field{volume}{22}
-      \field{year}{2008}
-      \field{pages}{53\bibrangedash 72}
-      \range{pages}{20}
+      \field{number}{1}
+      \field{title}{Some Uses of Happiness Data in Economics}
+      \field{volume}{20}
+      \field{year}{2006}
+      \field{pages}{25\bibrangedash 46}
+      \range{pages}{22}
     \endentry
     \entry{DiTella2008}{article}{}
       \name{author}{2}{}{%
@@ -1387,6 +1004,7 @@
       \strng{authorbibnamehash}{d2a33dbc3339896732edb5e4cd146ef2}
       \strng{authornamehash}{d2a33dbc3339896732edb5e4cd146ef2}
       \strng{authorfullhash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -1434,43 +1052,6 @@
       \field{title}{Guns, Germs, and Steel: The Fates of Human Societies}
       \field{year}{1997}
     \endentry
-    \entry{Diener2012}{inbook}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=e2ac80cfe64cc8ea83eed403a28c46e0}{%
-           family={Diener},
-           familyi={D\bibinitperiod},
-           given={Ed},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=73f8a9b51d96dc58eb84d483b26036d6}{%
-           family={Tov},
-           familyi={T\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{ff341df66760410511ffe13c2b044b2b}
-      \strng{fullhash}{ff341df66760410511ffe13c2b044b2b}
-      \strng{bibnamehash}{ff341df66760410511ffe13c2b044b2b}
-      \strng{authorbibnamehash}{ff341df66760410511ffe13c2b044b2b}
-      \strng{authornamehash}{ff341df66760410511ffe13c2b044b2b}
-      \strng{authorfullhash}{ff341df66760410511ffe13c2b044b2b}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Handbook of Social Indicators and Quality of Life Research}
-      \field{title}{National Accounts of Well-Being}
-      \field{year}{2012}
-      \field{pages}{137\bibrangedash 157}
-      \range{pages}{21}
-    \endentry
     \entry{Dinas2013}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=63a4ea8f889b2d6eb3fde62c023fe9a2}{%
@@ -1500,34 +1081,6 @@
       \field{year}{2013}
       \field{pages}{868\bibrangedash 882}
       \range{pages}{15}
-    \endentry
-    \entry{Durkheim1893}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=132c404883320a7b65da54d2ee256814}{%
-           family={Durkheim},
-           familyi={D\bibinitperiod},
-           given={Émile},
-           giveni={É\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Macmillan}%
-      }
-      \strng{namehash}{132c404883320a7b65da54d2ee256814}
-      \strng{fullhash}{132c404883320a7b65da54d2ee256814}
-      \strng{bibnamehash}{132c404883320a7b65da54d2ee256814}
-      \strng{authorbibnamehash}{132c404883320a7b65da54d2ee256814}
-      \strng{authornamehash}{132c404883320a7b65da54d2ee256814}
-      \strng{authorfullhash}{132c404883320a7b65da54d2ee256814}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Division of Labour in Society}
-      \field{year}{1893}
     \endentry
     \entry{Easterlin1974}{inbook}{}
       \name{author}{1}{}{%
@@ -1767,6 +1320,42 @@
       \field{title}{Freedom in the World 2021}
       \field{year}{2021}
     \endentry
+    \entry{FreyStutzer2000}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=85d62cb6459945083935c5843811bc5e}{%
+           family={Frey},
+           familyi={F\bibinitperiod},
+           given={Bruno\bibnamedelima S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f37814509d5c3165f0d99c4d9418679}{%
+           family={Stutzer},
+           familyi={S\bibinitperiod},
+           given={Alois},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{932080d9f2a3ff3b54b2b6dc99171771}
+      \strng{fullhash}{932080d9f2a3ff3b54b2b6dc99171771}
+      \strng{bibnamehash}{932080d9f2a3ff3b54b2b6dc99171771}
+      \strng{authorbibnamehash}{932080d9f2a3ff3b54b2b6dc99171771}
+      \strng{authornamehash}{932080d9f2a3ff3b54b2b6dc99171771}
+      \strng{authorfullhash}{932080d9f2a3ff3b54b2b6dc99171771}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economic Journal}
+      \field{number}{466}
+      \field{title}{Happiness, Economy and Institutions}
+      \field{volume}{110}
+      \field{year}{2000}
+      \field{pages}{918\bibrangedash 938}
+      \range{pages}{21}
+    \endentry
     \entry{Haerpfer2022}{dataset}{}
       \name{author}{10}{}{%
         {{un=0,uniquepart=base,hash=d3e37e0ea608ef8f903f0af54b913cea}{%
@@ -1858,173 +1447,6 @@
       \verb 10.14281/18241.27
       \endverb
     \endentry
-    \entry{Haller2006}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=1ea74d23c305ae271b136e0bc824de86}{%
-           family={Haller},
-           familyi={H\bibinitperiod},
-           given={Max},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ce4561819a44cf3c002ae386468d6ffb}{%
-           family={Hadler},
-           familyi={H\bibinitperiod},
-           given={Markus},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2d10b0ad0ee4b2e2a111f7b4ebe5413a}
-      \strng{fullhash}{2d10b0ad0ee4b2e2a111f7b4ebe5413a}
-      \strng{bibnamehash}{2d10b0ad0ee4b2e2a111f7b4ebe5413a}
-      \strng{authorbibnamehash}{2d10b0ad0ee4b2e2a111f7b4ebe5413a}
-      \strng{authornamehash}{2d10b0ad0ee4b2e2a111f7b4ebe5413a}
-      \strng{authorfullhash}{2d10b0ad0ee4b2e2a111f7b4ebe5413a}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Social Indicators Research}
-      \field{number}{2}
-      \field{title}{How Social Relations and Structures Can Produce Happiness and Unhappiness: An International Comparative Analysis}
-      \field{volume}{75}
-      \field{year}{2006}
-      \field{pages}{169\bibrangedash 216}
-      \range{pages}{48}
-      \verb{doi}
-      \verb 10.1007/s11205-004-6297-y
-      \endverb
-    \endentry
-    \entry{Kahneman2004}{article}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
-           family={Kahneman},
-           familyi={K\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=34526c3bf548080921683822747fad7e}{%
-           family={Krueger},
-           familyi={K\bibinitperiod},
-           given={Alan\bibnamedelima B.},
-           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c1b20b871bba5b7554e50c00b1ca766a}{%
-           family={Schkade},
-           familyi={S\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f80adac13cc206bee44ac5e0c8dfa15f}{%
-           family={Schwarz},
-           familyi={S\bibinitperiod},
-           given={Norbert},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=797cd6d70aa664f29db6478664adeb65}{%
-           family={Stone},
-           familyi={S\bibinitperiod},
-           given={Arthur},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{fda2d383a773a3b6271dea8baf8c82dd}
-      \strng{fullhash}{f329bbbdd91605f60c79c26b94290663}
-      \strng{bibnamehash}{f329bbbdd91605f60c79c26b94290663}
-      \strng{authorbibnamehash}{f329bbbdd91605f60c79c26b94290663}
-      \strng{authornamehash}{fda2d383a773a3b6271dea8baf8c82dd}
-      \strng{authorfullhash}{f329bbbdd91605f60c79c26b94290663}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{American Economic Review}
-      \field{number}{2}
-      \field{title}{Toward National Well-Being Accounts}
-      \field{volume}{94}
-      \field{year}{2004}
-      \field{pages}{429\bibrangedash 434}
-      \range{pages}{6}
-    \endentry
-    \entry{Kline2013}{report}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=363dcbd1a614bc00963eda898f3bd139}{%
-           family={Kline},
-           familyi={K\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f58347226b88750723f89cb2b99cd2e9}{%
-           family={Moretti},
-           familyi={M\bibinitperiod},
-           given={Enrico},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {National Bureau of Economic Research}%
-      }
-      \strng{namehash}{432ba8d57d9bce4692d4b1d17c899880}
-      \strng{fullhash}{432ba8d57d9bce4692d4b1d17c899880}
-      \strng{bibnamehash}{432ba8d57d9bce4692d4b1d17c899880}
-      \strng{authorbibnamehash}{432ba8d57d9bce4692d4b1d17c899880}
-      \strng{authornamehash}{432ba8d57d9bce4692d4b1d17c899880}
-      \strng{authorfullhash}{432ba8d57d9bce4692d4b1d17c899880}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Local Economic Development, Agglomeration Economies, and the Big Push: 100 Years of Evidence from the Tennessee Valley Authority}
-      \field{type}{NBER Working Paper}
-      \field{year}{2013}
-    \endentry
-    \entry{Knight2011}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=6d7c1ea29c1d1d64e19fe44bbc136fe8}{%
-           family={Knight},
-           familyi={K\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=879b4722008de8a10aa1e84e7df32c2e}{%
-           family={Gunatilaka},
-           familyi={G\bibinitperiod},
-           given={Ramani},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{aacfa4fb67c938562f110d9dc51dc97c}
-      \strng{fullhash}{aacfa4fb67c938562f110d9dc51dc97c}
-      \strng{bibnamehash}{aacfa4fb67c938562f110d9dc51dc97c}
-      \strng{authorbibnamehash}{aacfa4fb67c938562f110d9dc51dc97c}
-      \strng{authornamehash}{aacfa4fb67c938562f110d9dc51dc97c}
-      \strng{authorfullhash}{aacfa4fb67c938562f110d9dc51dc97c}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Oxford Development Studies}
-      \field{number}{1}
-      \field{title}{Does Economic Growth Raise Happiness in China?}
-      \field{volume}{39}
-      \field{year}{2011}
-      \field{pages}{1\bibrangedash 24}
-      \range{pages}{24}
-      \verb{doi}
-      \verb 10.1080/13600818.2010.551006
-      \endverb
-    \endentry
     \entry{Krosnick1989}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a5089c9f0c9a15ef61c2cb7f543c5a2e}{%
@@ -2091,34 +1513,6 @@
       \field{pages}{1294\bibrangedash 1317}
       \range{pages}{24}
     \endentry
-    \entry{Liagouras2019}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e9428f2bde90d89e1a50e619da051fa3}{%
-           family={Liagouras},
-           familyi={L\bibinitperiod},
-           given={Georgios},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e9428f2bde90d89e1a50e619da051fa3}
-      \strng{fullhash}{e9428f2bde90d89e1a50e619da051fa3}
-      \strng{bibnamehash}{e9428f2bde90d89e1a50e619da051fa3}
-      \strng{authorbibnamehash}{e9428f2bde90d89e1a50e619da051fa3}
-      \strng{authornamehash}{e9428f2bde90d89e1a50e619da051fa3}
-      \strng{authorfullhash}{e9428f2bde90d89e1a50e619da051fa3}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{New Political Economy}
-      \field{number}{5}
-      \field{title}{Economic Growth, Happiness and Socialism: Durkheim’s Critique of Economic Reason and Beyond}
-      \field{volume}{24}
-      \field{year}{2019}
-    \endentry
     \entry{Luhrmann2017}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=2ad09c146163eed9eb34ed8f7bd94b47}{%
@@ -2158,62 +1552,6 @@
       \field{year}{2017}
       \field{pages}{1\bibrangedash 10}
       \range{pages}{10}
-    \endentry
-    \entry{Maestas2018}{report}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=dfe279360ee8c9a36d847dd924d1fb3b}{%
-           family={Maestas},
-           familyi={M\bibinitperiod},
-           given={Nicole},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=900a8e20eac1140a4e054cf915406f90}{%
-           family={Mullen},
-           familyi={M\bibinitperiod},
-           given={Kathleen\bibnamedelima J.},
-           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=89b56f53126a48cb58c0c2ead94beb17}{%
-           family={Powell},
-           familyi={P\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=46c8825e6d2398605fc8274805f7f32a}{%
-           family={Wachter},
-           familyi={W\bibinitperiod},
-           given={Till},
-           giveni={T\bibinitperiod},
-           givenun=0,
-           prefix={von},
-           prefixi={v\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=54c470477eb9ae7940f6a097632eb7fd}{%
-           family={Wenger},
-           familyi={W\bibinitperiod},
-           given={Jeffrey\bibnamedelima B.},
-           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {National Bureau of Economic Research}%
-      }
-      \strng{namehash}{4aa4d7702707e1ac82e8a38c829e9714}
-      \strng{fullhash}{1628167b9cccd00537c19949ec45a429}
-      \strng{bibnamehash}{1628167b9cccd00537c19949ec45a429}
-      \strng{authorbibnamehash}{1628167b9cccd00537c19949ec45a429}
-      \strng{authornamehash}{4aa4d7702707e1ac82e8a38c829e9714}
-      \strng{authorfullhash}{1628167b9cccd00537c19949ec45a429}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{25204}
-      \field{title}{The Value of Working Conditions in the United States and Implications for the Structure of Wages}
-      \field{type}{NBER Working Paper Series}
-      \field{year}{2018}
     \endentry
     \entry{Marshall2018}{report}{}
       \name{author}{3}{}{%
@@ -2330,61 +1668,6 @@
       \field{title}{Institutions, Institutional Change and Economic Performance}
       \field{year}{1990}
     \endentry
-    \entry{OConnor2017}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c9b10bc1999cfe5c6a5055d0a2b8a5f6}{%
-           family={O’Connor},
-           familyi={O\bibinitperiod},
-           given={Kelsey\bibnamedelima J.},
-           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c9b10bc1999cfe5c6a5055d0a2b8a5f6}
-      \strng{fullhash}{c9b10bc1999cfe5c6a5055d0a2b8a5f6}
-      \strng{bibnamehash}{c9b10bc1999cfe5c6a5055d0a2b8a5f6}
-      \strng{authorbibnamehash}{c9b10bc1999cfe5c6a5055d0a2b8a5f6}
-      \strng{authornamehash}{c9b10bc1999cfe5c6a5055d0a2b8a5f6}
-      \strng{authorfullhash}{c9b10bc1999cfe5c6a5055d0a2b8a5f6}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Review of Behavioral Economics}
-      \field{number}{4}
-      \field{title}{Happiness and Welfare State Policy Around the World}
-      \field{volume}{4}
-      \field{year}{2017}
-      \field{pages}{397\bibrangedash 420}
-      \range{pages}{24}
-      \verb{doi}
-      \verb 10.1561/105.00000071
-      \endverb
-    \endentry
-    \entry{OECD2011}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
-           family={{OECD}},
-           familyi={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
-      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
-      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
-      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
-      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
-      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{How’s Life? Measuring Well-Being}
-      \field{year}{2011}
-    \endentry
     \entry{Oishi2015}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a0910b06e203895cf97bf6235979d78d}{%
@@ -2457,72 +1740,6 @@
       \field{title}{Redistribution, Inequality, and Growth}
       \field{volume}{SDN/14/02}
       \field{year}{2014}
-    \endentry
-    \entry{Oswald2006}{report}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=34633db201e1335cfb8d7b674984a1b4}{%
-           family={Oswald},
-           familyi={O\bibinitperiod},
-           given={Andrew\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=c9c7c0cd51e52f1ad3f6c80b120fcdf8}{%
-           family={Powdthavee},
-           familyi={P\bibinitperiod},
-           given={Nattavudh},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Institute for the Study of Labor (IZA)}%
-      }
-      \strng{namehash}{dee9f916965d8b8b97db0f05c6610ce2}
-      \strng{fullhash}{dee9f916965d8b8b97db0f05c6610ce2}
-      \strng{bibnamehash}{dee9f916965d8b8b97db0f05c6610ce2}
-      \strng{authorbibnamehash}{dee9f916965d8b8b97db0f05c6610ce2}
-      \strng{authornamehash}{dee9f916965d8b8b97db0f05c6610ce2}
-      \strng{authorfullhash}{dee9f916965d8b8b97db0f05c6610ce2}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{2208}
-      \field{title}{Does Happiness Adapt? A Longitudinal Study of Disability with Implications for Economists and Judges}
-      \field{type}{IZA Discussion Paper}
-      \field{year}{2006}
-    \endentry
-    \entry{Pagan2011}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d1287dd9376d19eab24a63310126b7b2}{%
-           family={Pagán-Rodríguez},
-           familyi={P\bibinithyphendelim R\bibinitperiod},
-           given={Ricardo},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d1287dd9376d19eab24a63310126b7b2}
-      \strng{fullhash}{d1287dd9376d19eab24a63310126b7b2}
-      \strng{bibnamehash}{d1287dd9376d19eab24a63310126b7b2}
-      \strng{authorbibnamehash}{d1287dd9376d19eab24a63310126b7b2}
-      \strng{authornamehash}{d1287dd9376d19eab24a63310126b7b2}
-      \strng{authorfullhash}{d1287dd9376d19eab24a63310126b7b2}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Socio-Economics}
-      \field{number}{5}
-      \field{title}{Longitudinal Analysis of the Domains of Satisfaction Before and After Disability: Evidence from the German Socio-Economic Panel}
-      \field{volume}{40}
-      \field{year}{2011}
-      \field{pages}{672\bibrangedash 682}
-      \range{pages}{11}
     \endentry
     \entry{Pemstein2010}{article}{}
       \name{author}{3}{}{%
@@ -2709,38 +1926,6 @@
       \field{pages}{600\bibrangedash 621}
       \range{pages}{22}
     \endentry
-    \entry{Powdthavee2017}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c9c7c0cd51e52f1ad3f6c80b120fcdf8}{%
-           family={Powdthavee},
-           familyi={P\bibinitperiod},
-           given={Nattavudh},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c9c7c0cd51e52f1ad3f6c80b120fcdf8}
-      \strng{fullhash}{c9c7c0cd51e52f1ad3f6c80b120fcdf8}
-      \strng{bibnamehash}{c9c7c0cd51e52f1ad3f6c80b120fcdf8}
-      \strng{authorbibnamehash}{c9c7c0cd51e52f1ad3f6c80b120fcdf8}
-      \strng{authornamehash}{c9c7c0cd51e52f1ad3f6c80b120fcdf8}
-      \strng{authorfullhash}{c9c7c0cd51e52f1ad3f6c80b120fcdf8}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Economic Behavior \& Organization}
-      \field{title}{Less Money or Better Health? The Well-Being Valuation of Different Health Conditions with Income Endogeneity}
-      \field{volume}{137}
-      \field{year}{2017}
-      \field{pages}{104\bibrangedash 121}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1016/j.jebo.2017.01.010
-      \endverb
-    \endentry
     \entry{Putnam1993}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=58d11ede2c9722f382a142cb97f56745}{%
@@ -2768,81 +1953,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Making Democracy Work: Civic Traditions in Modern Italy}
       \field{year}{1993}
-    \endentry
-    \entry{Qin2024}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=874b050699ea125e31f92ba1a50a0a35}{%
-           family={Qin},
-           familyi={Q\bibinitperiod},
-           given={Ning},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8ea6e9df3b284bd3e1fa4968d6ceb2a1}{%
-           family={Kong},
-           familyi={K\bibinitperiod},
-           given={Dongmin},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=42b03d7a28c97c101e0a62ee7baba8f9}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Qiang},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{74a44fbde29388ad4a254e3962530465}
-      \strng{fullhash}{f9dcd38ec4b99cb2456d6c8710638efc}
-      \strng{bibnamehash}{f9dcd38ec4b99cb2456d6c8710638efc}
-      \strng{authorbibnamehash}{f9dcd38ec4b99cb2456d6c8710638efc}
-      \strng{authornamehash}{74a44fbde29388ad4a254e3962530465}
-      \strng{authorfullhash}{f9dcd38ec4b99cb2456d6c8710638efc}
-      \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of International Money and Finance}
-      \field{title}{Trade Liberalization and Entrepreneurship: Evidence from China’s WTO Accession}
-      \field{volume}{147}
-      \field{year}{2024}
-      \field{pages}{103155}
-      \range{pages}{1}
-    \endentry
-    \entry{Repucci2021}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=2e20899c4fc9f5fa88da1f8dab3d2bd1}{%
-           family={Repucci},
-           familyi={R\bibinitperiod},
-           given={Sarah},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=63feb693581d7d990ce04d1e38938ebf}{%
-           family={Slipowitz},
-           familyi={S\bibinitperiod},
-           given={Amy},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Freedom House}%
-      }
-      \strng{namehash}{9bb704fab8ba66430b91b39e380ecc7d}
-      \strng{fullhash}{9bb704fab8ba66430b91b39e380ecc7d}
-      \strng{bibnamehash}{9bb704fab8ba66430b91b39e380ecc7d}
-      \strng{authorbibnamehash}{9bb704fab8ba66430b91b39e380ecc7d}
-      \strng{authornamehash}{9bb704fab8ba66430b91b39e380ecc7d}
-      \strng{authorfullhash}{9bb704fab8ba66430b91b39e380ecc7d}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Freedom in the World 2021: Democracy under Siege}
-      \field{year}{2021}
     \endentry
     \entry{Sen1999}{book}{}
       \name{author}{1}{}{%
@@ -2972,6 +2082,42 @@
       \field{pages}{557\bibrangedash 586}
       \range{pages}{30}
     \endentry
+    \entry{StevensonWolfers2008}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4492593ec3b36af16a215b9dc5ca4100}{%
+           family={Stevenson},
+           familyi={S\bibinitperiod},
+           given={Betsey},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22e89001d0a128a8b110c57c90e2c403}{%
+           family={Wolfers},
+           familyi={W\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c3330c5ef8379f47a291a2b1fb4f165a}
+      \strng{fullhash}{c3330c5ef8379f47a291a2b1fb4f165a}
+      \strng{bibnamehash}{c3330c5ef8379f47a291a2b1fb4f165a}
+      \strng{authorbibnamehash}{c3330c5ef8379f47a291a2b1fb4f165a}
+      \strng{authornamehash}{c3330c5ef8379f47a291a2b1fb4f165a}
+      \strng{authorfullhash}{c3330c5ef8379f47a291a2b1fb4f165a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Brookings Papers on Economic Activity}
+      \field{number}{1}
+      \field{title}{Economic Growth and Subjective Well-Being: Reassessing the {Easterlin} Paradox}
+      \field{volume}{2008}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 87}
+      \range{pages}{87}
+    \endentry
     \entry{UNSD2023}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b3c53c5811927144252304f12172f67}{%
@@ -2996,41 +2142,6 @@
       \field{labeltitlesource}{title}
       \field{title}{UNdata: A World of Information}
       \field{year}{2023}
-    \endentry
-    \entry{Vemuri2006}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=040a6973598486e6dec132f2fbdfb799}{%
-           family={Vemuri},
-           familyi={V\bibinitperiod},
-           given={Amanda\bibnamedelima W.},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9cea31530438dc868664f38f0f38f35b}{%
-           family={Costanza},
-           familyi={C\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5542840b5097cc0dc959aef6d489bdd1}
-      \strng{fullhash}{5542840b5097cc0dc959aef6d489bdd1}
-      \strng{bibnamehash}{5542840b5097cc0dc959aef6d489bdd1}
-      \strng{authorbibnamehash}{5542840b5097cc0dc959aef6d489bdd1}
-      \strng{authornamehash}{5542840b5097cc0dc959aef6d489bdd1}
-      \strng{authorfullhash}{5542840b5097cc0dc959aef6d489bdd1}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ecological Economics}
-      \field{title}{The Role of Human, Social, Built, and Natural Capital in Explaining Life Satisfaction at the Country Level: Toward a National Well-Being Index (NWI)}
-      \field{volume}{58}
-      \field{year}{2006}
-      \field{pages}{119\bibrangedash 133}
-      \range{pages}{15}
     \endentry
     \entry{Wooldridge2021}{report}{}
       \name{author}{1}{}{%
@@ -3114,47 +2225,6 @@
     \endentry
   \enddatalist
   \datalist[entry]{apa/global//global/global}
-    \entry{Abdallah2008}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=41eeafe4b73ce34752ac0b6a10b4ba68}{%
-           family={Abdallah},
-           familyi={A\bibinitperiod},
-           given={Saamah},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=64f6a60d5dc8ebb51ab47f59c67410fd}{%
-           family={Thompson},
-           familyi={T\bibinitperiod},
-           given={Sam},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dd1a3f19bcb90ad2d88efcfe49bb199c}{%
-           family={Marks},
-           familyi={M\bibinitperiod},
-           given={Nic},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{16ab19e04f6f51c7176d81dbb9929f7e}
-      \strng{fullhash}{eed1bbb6f71e097a2d7d712177e17665}
-      \strng{bibnamehash}{eed1bbb6f71e097a2d7d712177e17665}
-      \strng{authorbibnamehash}{eed1bbb6f71e097a2d7d712177e17665}
-      \strng{authornamehash}{16ab19e04f6f51c7176d81dbb9929f7e}
-      \strng{authorfullhash}{eed1bbb6f71e097a2d7d712177e17665}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ecological Economics}
-      \field{title}{Estimating Worldwide Life Satisfaction}
-      \field{volume}{65}
-      \field{year}{2008}
-      \field{pages}{35\bibrangedash 47}
-      \range{pages}{13}
-    \endentry
     \entry{Acemoglu2023}{article}{}
       \name{author}{5}{}{%
         {{un=0,uniquepart=base,hash=d849e6f8de178bfb18aa67341c9f8d38}{%
@@ -3452,73 +2522,6 @@
       \field{title}{Why Nations Fail: The Origins of Power, Prosperity, and Poverty}
       \field{year}{2012}
     \endentry
-    \entry{Aksoy2022}{report}{}
-      \name{author}{6}{}{%
-        {{un=0,uniquepart=base,hash=98ff5d182c7800bb4d6c9d7466cbfb70}{%
-           family={Aksoy},
-           familyi={A\bibinitperiod},
-           given={Cevat\bibnamedelima Giray},
-           giveni={C\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e9d3a7735cc04a7d0321a6f5c8c9a31f}{%
-           family={Barrero},
-           familyi={B\bibinitperiod},
-           given={Jose\bibnamedelima Maria},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1f9ed1162402cc5a63ec1d1f470ea527}{%
-           family={Bloom},
-           familyi={B\bibinitperiod},
-           given={Nicholas},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=436e25609a5e8f78d485f754f4af4176}{%
-           family={Davis},
-           familyi={D\bibinitperiod},
-           given={Steven\bibnamedelima J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c7924bb62c3cab9fab6a38bb0f1b9cc9}{%
-           family={Dolls},
-           familyi={D\bibinitperiod},
-           given={Mathias},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=bc47dbc9b89870952db5cb3ed5015aea}{%
-           family={Zarate},
-           familyi={Z\bibinitperiod},
-           given={Pablo},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {National Bureau of Economic Research}%
-      }
-      \strng{namehash}{900e3290371d844c5d66f6c2c208f489}
-      \strng{fullhash}{95cbd1fa46ba928055eff578cc853e4f}
-      \strng{bibnamehash}{95cbd1fa46ba928055eff578cc853e4f}
-      \strng{authorbibnamehash}{95cbd1fa46ba928055eff578cc853e4f}
-      \strng{authornamehash}{900e3290371d844c5d66f6c2c208f489}
-      \strng{authorfullhash}{95cbd1fa46ba928055eff578cc853e4f}
-      \field{extraname}{1}
-      \field{sortinit}{A}
-      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{30446}
-      \field{title}{Working from Home Around the World}
-      \field{type}{NBER Working Paper Series}
-      \field{year}{2022}
-      \verb{urlraw}
-      \verb http://www.nber.org/papers/w30446
-      \endverb
-      \verb{url}
-      \verb http://www.nber.org/papers/w30446
-      \endverb
-    \endentry
     \entry{Aksoy2020}{report}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=98ff5d182c7800bb4d6c9d7466cbfb70}{%
@@ -3552,7 +2555,6 @@
       \strng{authorbibnamehash}{1b0292e4e20008db7d6fb79778acc76e}
       \strng{authornamehash}{900e3290371d844c5d66f6c2c208f489}
       \strng{authorfullhash}{1b0292e4e20008db7d6fb79778acc76e}
-      \field{extraname}{2}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -3656,115 +2658,6 @@
       \field{title}{The World Inequality Report 2018}
       \field{year}{2018}
     \endentry
-    \entry{Baicker2019}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=e9ef78e63d89425adcb55ed444a84ae6}{%
-           family={Baicker},
-           familyi={B\bibinitperiod},
-           given={Katherine},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8302593e3b893aa848cec33d5fabb13f}{%
-           family={Finkelstein},
-           familyi={F\bibinitperiod},
-           given={Amy},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=80c4a125d273379613b2af6191a77847}{%
-           family={Taubman},
-           familyi={T\bibinitperiod},
-           given={Sarah\bibnamedelima L.},
-           giveni={S\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{bb0302af2925ae542758a7fa22ed9189}
-      \strng{fullhash}{fb3b10da810ce09f324a3ac6edc85c5b}
-      \strng{bibnamehash}{fb3b10da810ce09f324a3ac6edc85c5b}
-      \strng{authorbibnamehash}{fb3b10da810ce09f324a3ac6edc85c5b}
-      \strng{authornamehash}{bb0302af2925ae542758a7fa22ed9189}
-      \strng{authorfullhash}{fb3b10da810ce09f324a3ac6edc85c5b}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Quarterly Journal of Political Science}
-      \field{number}{4}
-      \field{title}{The Impact of Medicaid on Political Participation: Evidence from the Oregon Health Insurance Experiment}
-      \field{volume}{14}
-      \field{year}{2019}
-      \field{pages}{383\bibrangedash 400}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1561/100.00019026
-      \endverb
-    \endentry
-    \entry{Bartolini2014}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=95a2fdb29c1d7a54d3f88cce42cf8b74}{%
-           family={Bartolini},
-           familyi={B\bibinitperiod},
-           given={Stefano},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=959d11dc6af7727cb38f9adb92f49939}{%
-           family={Sarracino},
-           familyi={S\bibinitperiod},
-           given={Francesco},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5c5994173f8799c773dd46505939be38}
-      \strng{fullhash}{5c5994173f8799c773dd46505939be38}
-      \strng{bibnamehash}{5c5994173f8799c773dd46505939be38}
-      \strng{authorbibnamehash}{5c5994173f8799c773dd46505939be38}
-      \strng{authornamehash}{5c5994173f8799c773dd46505939be38}
-      \strng{authorfullhash}{5c5994173f8799c773dd46505939be38}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ecological Economics}
-      \field{title}{Happy for How Long? How Social Capital and Economic Growth Relate to Happiness Over Time}
-      \field{volume}{108}
-      \field{year}{2014}
-      \field{pages}{242\bibrangedash 256}
-      \range{pages}{15}
-    \endentry
-    \entry{BenAfia2019}{thesis}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=29584e9c26dccdf599d4dbfb7b7a472f}{%
-           family={Ben\bibnamedelima Afia},
-           familyi={B\bibinitperiod\bibinitdelim A\bibinitperiod},
-           given={Noura},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {University of Sousse}%
-      }
-      \strng{namehash}{29584e9c26dccdf599d4dbfb7b7a472f}
-      \strng{fullhash}{29584e9c26dccdf599d4dbfb7b7a472f}
-      \strng{bibnamehash}{29584e9c26dccdf599d4dbfb7b7a472f}
-      \strng{authorbibnamehash}{29584e9c26dccdf599d4dbfb7b7a472f}
-      \strng{authornamehash}{29584e9c26dccdf599d4dbfb7b7a472f}
-      \strng{authorfullhash}{29584e9c26dccdf599d4dbfb7b7a472f}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Relationship Between Energy Consumption, Economic Growth, and Happiness}
-      \field{type}{phdthesis}
-      \field{year}{2019}
-    \endentry
     \entry{Blanchflower2004}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=e4b54cc0cd2190ec61db4ae4c1a5b4cc}{%
@@ -3773,12 +2666,12 @@
            given={David\bibnamedelima G.},
            giveni={D\bibinitperiod\bibinitdelim G\bibinitperiod},
            givenun=0}}%
-        {{un=1,uniquepart=given,hash=043371a2acbb3792c6eac09038705134}{%
+        {{un=0,uniquepart=base,hash=043371a2acbb3792c6eac09038705134}{%
            family={Oswald},
            familyi={O\bibinitperiod},
            given={Andrew},
            giveni={A\bibinitperiod},
-           givenun=1}}%
+           givenun=0}}%
       }
       \strng{namehash}{fd69e3161dd56fa873e1f99a69cf3b77}
       \strng{fullhash}{fd69e3161dd56fa873e1f99a69cf3b77}
@@ -3800,54 +2693,6 @@
       \field{year}{2004}
       \field{pages}{1359\bibrangedash 1386}
       \range{pages}{28}
-    \endentry
-    \entry{Bloom2015}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1f9ed1162402cc5a63ec1d1f470ea527}{%
-           family={Bloom},
-           familyi={B\bibinitperiod},
-           given={Nicholas},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=eb9b1fe5fa3eac72a38dcccd3c657460}{%
-           family={Liang},
-           familyi={L\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7b39b57e9cfb66ab4a4d302e4f51ad91}{%
-           family={Roberts},
-           familyi={R\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=649bb256731d8642682bf5e5fe0c9c4a}{%
-           family={Ying},
-           familyi={Y\bibinitperiod},
-           given={Zhichun\bibnamedelima Jenny},
-           giveni={Z\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{bb325fe46940bbf5d2eabf28a8415da6}
-      \strng{fullhash}{2659902b245054648f3837389c7a4ce8}
-      \strng{bibnamehash}{2659902b245054648f3837389c7a4ce8}
-      \strng{authorbibnamehash}{2659902b245054648f3837389c7a4ce8}
-      \strng{authornamehash}{bb325fe46940bbf5d2eabf28a8415da6}
-      \strng{authorfullhash}{2659902b245054648f3837389c7a4ce8}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Quarterly Journal of Economics}
-      \field{number}{1}
-      \field{title}{Does Working from Home Work? Evidence from a Chinese Experiment}
-      \field{volume}{130}
-      \field{year}{2015}
-      \field{pages}{165\bibrangedash 218}
-      \range{pages}{54}
     \endentry
     \entry{Boix2018}{book}{}
       \name{author}{3}{}{%
@@ -4023,57 +2868,6 @@
       \range{pages}{12}
       \verb{doi}
       \verb 10.1111/ssqu.13404
-      \endverb
-    \endentry
-    \entry{Cesarini2017}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=1d424741d7d49b6d7e005fe6089deb9c}{%
-           family={Cesarini},
-           familyi={C\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=7dbd099780b14287ec1cd2910d9cc49e}{%
-           family={Lindqvist},
-           familyi={L\bibinitperiod},
-           given={Erik},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ae98351070bfe28c893a5221bcfd6073}{%
-           family={Notowidigdo},
-           familyi={N\bibinitperiod},
-           given={Matthew\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=543ca31ab1a8559365302de28192343f}{%
-           family={Östling},
-           familyi={Ö\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{cdd0d617b46e86a96b0ed5b00731fadf}
-      \strng{fullhash}{0dd0140beafc0ba24144076ad8a05061}
-      \strng{bibnamehash}{0dd0140beafc0ba24144076ad8a05061}
-      \strng{authorbibnamehash}{0dd0140beafc0ba24144076ad8a05061}
-      \strng{authornamehash}{cdd0d617b46e86a96b0ed5b00731fadf}
-      \strng{authorfullhash}{0dd0140beafc0ba24144076ad8a05061}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The American Economic Review}
-      \field{number}{12}
-      \field{title}{The Effect of Wealth on Individual and Household Labor Supply: Evidence from Swedish Lotteries}
-      \field{volume}{107}
-      \field{year}{2017}
-      \field{pages}{3918\bibrangedash 3948}
-      \range{pages}{31}
-      \verb{doi}
-      \verb 10.1257/aer.20151589
       \endverb
     \endentry
     \entry{Cheibub2010}{article}{}
@@ -4316,49 +3110,6 @@
       \verb 10.23696/mcwt-fr58
       \endverb
     \endentry
-    \entry{Cotofan2020}{article}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=88ad38d3316328bf6b5ba3eb02ab2f33}{%
-           family={Cotofan},
-           familyi={C\bibinitperiod},
-           given={Maria},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=393dc70f5b793eb64171e07fe3c21397}{%
-           family={Cassar},
-           familyi={C\bibinitperiod},
-           given={Lea},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=767c74a858db8f25ed7cf6a9ebe8ef9e}{%
-           family={Dur},
-           familyi={D\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e54a334dd0071f78e8e405cc18e45699}{%
-           family={Meier},
-           familyi={M\bibinitperiod},
-           given={Stephan},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ed78b8bb8c79b910b34731942e21934d}
-      \strng{fullhash}{39fb601bb4463605b613f3c086c70bbd}
-      \strng{bibnamehash}{39fb601bb4463605b613f3c086c70bbd}
-      \strng{authorbibnamehash}{39fb601bb4463605b613f3c086c70bbd}
-      \strng{authornamehash}{ed78b8bb8c79b910b34731942e21934d}
-      \strng{authorfullhash}{39fb601bb4463605b613f3c086c70bbd}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Macroeconomic Conditions When Young Shape Job Preferences for Life}
-      \field{year}{2020}
-    \endentry
     \entry{Dahlum2019}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=6aafac0d527eaa528c77bd94ce2cb5a1}{%
@@ -4401,51 +3152,28 @@
       \field{pages}{1494\bibrangedash 1499}
       \range{pages}{6}
     \endentry
-    \entry{Davies2011}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bcb846ee4ec6a1f9156b8fa0278d9f5c}{%
-           family={Davies},
-           familyi={D\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod},
+    \entry{DiTellaMacCulloch2006}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4a62f089ec5b998d5549aa952dc43fef}{%
+           family={Di\bibnamedelima Tella},
+           familyi={D\bibinitperiod\bibinitdelim T\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=bf911c9e8450a463466dff8986d6d05b}{%
+           family={MacCulloch},
+           familyi={M\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{bcb846ee4ec6a1f9156b8fa0278d9f5c}
-      \strng{fullhash}{bcb846ee4ec6a1f9156b8fa0278d9f5c}
-      \strng{bibnamehash}{bcb846ee4ec6a1f9156b8fa0278d9f5c}
-      \strng{authorbibnamehash}{bcb846ee4ec6a1f9156b8fa0278d9f5c}
-      \strng{authornamehash}{bcb846ee4ec6a1f9156b8fa0278d9f5c}
-      \strng{authorfullhash}{bcb846ee4ec6a1f9156b8fa0278d9f5c}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{New Left Review}
-      \field{number}{5}
-      \field{title}{The Political Economy of Unhappiness}
-      \field{volume}{71}
-      \field{year}{2011}
-      \field{pages}{65\bibrangedash 80}
-      \range{pages}{16}
-    \endentry
-    \entry{Deaton2008}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=49e860b4f71d798fa4f5cf1c90103fc4}{%
-           family={Deaton},
-           familyi={D\bibinitperiod},
-           given={Angus},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{fullhash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{bibnamehash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{authorbibnamehash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{authornamehash}{49e860b4f71d798fa4f5cf1c90103fc4}
-      \strng{authorfullhash}{49e860b4f71d798fa4f5cf1c90103fc4}
+      \strng{namehash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \strng{fullhash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \strng{bibnamehash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \strng{authorbibnamehash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \strng{authornamehash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \strng{authorfullhash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \field{extraname}{1}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -4454,12 +3182,12 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Economic Perspectives}
-      \field{number}{2}
-      \field{title}{Income, Health, and Well-Being Around the World: Evidence from the Gallup World Poll}
-      \field{volume}{22}
-      \field{year}{2008}
-      \field{pages}{53\bibrangedash 72}
-      \range{pages}{20}
+      \field{number}{1}
+      \field{title}{Some Uses of Happiness Data in Economics}
+      \field{volume}{20}
+      \field{year}{2006}
+      \field{pages}{25\bibrangedash 46}
+      \range{pages}{22}
     \endentry
     \entry{DiTella2008}{article}{}
       \name{author}{2}{}{%
@@ -4482,6 +3210,7 @@
       \strng{authorbibnamehash}{d2a33dbc3339896732edb5e4cd146ef2}
       \strng{authornamehash}{d2a33dbc3339896732edb5e4cd146ef2}
       \strng{authorfullhash}{d2a33dbc3339896732edb5e4cd146ef2}
+      \field{extraname}{2}
       \field{sortinit}{D}
       \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
       \field{extradatescope}{labelyear}
@@ -4529,43 +3258,6 @@
       \field{title}{Guns, Germs, and Steel: The Fates of Human Societies}
       \field{year}{1997}
     \endentry
-    \entry{Diener2012}{inbook}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=e2ac80cfe64cc8ea83eed403a28c46e0}{%
-           family={Diener},
-           familyi={D\bibinitperiod},
-           given={Ed},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=73f8a9b51d96dc58eb84d483b26036d6}{%
-           family={Tov},
-           familyi={T\bibinitperiod},
-           given={William},
-           giveni={W\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Springer}%
-      }
-      \strng{namehash}{ff341df66760410511ffe13c2b044b2b}
-      \strng{fullhash}{ff341df66760410511ffe13c2b044b2b}
-      \strng{bibnamehash}{ff341df66760410511ffe13c2b044b2b}
-      \strng{authorbibnamehash}{ff341df66760410511ffe13c2b044b2b}
-      \strng{authornamehash}{ff341df66760410511ffe13c2b044b2b}
-      \strng{authorfullhash}{ff341df66760410511ffe13c2b044b2b}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{Handbook of Social Indicators and Quality of Life Research}
-      \field{title}{National Accounts of Well-Being}
-      \field{year}{2012}
-      \field{pages}{137\bibrangedash 157}
-      \range{pages}{21}
-    \endentry
     \entry{Dinas2013}{article}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=63a4ea8f889b2d6eb3fde62c023fe9a2}{%
@@ -4595,34 +3287,6 @@
       \field{year}{2013}
       \field{pages}{868\bibrangedash 882}
       \range{pages}{15}
-    \endentry
-    \entry{Durkheim1893}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=132c404883320a7b65da54d2ee256814}{%
-           family={Durkheim},
-           familyi={D\bibinitperiod},
-           given={Émile},
-           giveni={É\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Macmillan}%
-      }
-      \strng{namehash}{132c404883320a7b65da54d2ee256814}
-      \strng{fullhash}{132c404883320a7b65da54d2ee256814}
-      \strng{bibnamehash}{132c404883320a7b65da54d2ee256814}
-      \strng{authorbibnamehash}{132c404883320a7b65da54d2ee256814}
-      \strng{authornamehash}{132c404883320a7b65da54d2ee256814}
-      \strng{authorfullhash}{132c404883320a7b65da54d2ee256814}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{The Division of Labour in Society}
-      \field{year}{1893}
     \endentry
     \entry{Easterlin1974}{inbook}{}
       \name{author}{1}{}{%
@@ -4862,6 +3526,42 @@
       \field{title}{Freedom in the World 2021}
       \field{year}{2021}
     \endentry
+    \entry{FreyStutzer2000}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=85d62cb6459945083935c5843811bc5e}{%
+           family={Frey},
+           familyi={F\bibinitperiod},
+           given={Bruno\bibnamedelima S.},
+           giveni={B\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=1f37814509d5c3165f0d99c4d9418679}{%
+           family={Stutzer},
+           familyi={S\bibinitperiod},
+           given={Alois},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{932080d9f2a3ff3b54b2b6dc99171771}
+      \strng{fullhash}{932080d9f2a3ff3b54b2b6dc99171771}
+      \strng{bibnamehash}{932080d9f2a3ff3b54b2b6dc99171771}
+      \strng{authorbibnamehash}{932080d9f2a3ff3b54b2b6dc99171771}
+      \strng{authornamehash}{932080d9f2a3ff3b54b2b6dc99171771}
+      \strng{authorfullhash}{932080d9f2a3ff3b54b2b6dc99171771}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Economic Journal}
+      \field{number}{466}
+      \field{title}{Happiness, Economy and Institutions}
+      \field{volume}{110}
+      \field{year}{2000}
+      \field{pages}{918\bibrangedash 938}
+      \range{pages}{21}
+    \endentry
     \entry{Haerpfer2022}{dataset}{}
       \name{author}{10}{}{%
         {{un=0,uniquepart=base,hash=d3e37e0ea608ef8f903f0af54b913cea}{%
@@ -4953,173 +3653,6 @@
       \verb 10.14281/18241.27
       \endverb
     \endentry
-    \entry{Haller2006}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=1ea74d23c305ae271b136e0bc824de86}{%
-           family={Haller},
-           familyi={H\bibinitperiod},
-           given={Max},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=ce4561819a44cf3c002ae386468d6ffb}{%
-           family={Hadler},
-           familyi={H\bibinitperiod},
-           given={Markus},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{2d10b0ad0ee4b2e2a111f7b4ebe5413a}
-      \strng{fullhash}{2d10b0ad0ee4b2e2a111f7b4ebe5413a}
-      \strng{bibnamehash}{2d10b0ad0ee4b2e2a111f7b4ebe5413a}
-      \strng{authorbibnamehash}{2d10b0ad0ee4b2e2a111f7b4ebe5413a}
-      \strng{authornamehash}{2d10b0ad0ee4b2e2a111f7b4ebe5413a}
-      \strng{authorfullhash}{2d10b0ad0ee4b2e2a111f7b4ebe5413a}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Social Indicators Research}
-      \field{number}{2}
-      \field{title}{How Social Relations and Structures Can Produce Happiness and Unhappiness: An International Comparative Analysis}
-      \field{volume}{75}
-      \field{year}{2006}
-      \field{pages}{169\bibrangedash 216}
-      \range{pages}{48}
-      \verb{doi}
-      \verb 10.1007/s11205-004-6297-y
-      \endverb
-    \endentry
-    \entry{Kahneman2004}{article}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=d0dcea81f8587e7d56bb5dbe34a39d6c}{%
-           family={Kahneman},
-           familyi={K\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=34526c3bf548080921683822747fad7e}{%
-           family={Krueger},
-           familyi={K\bibinitperiod},
-           given={Alan\bibnamedelima B.},
-           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c1b20b871bba5b7554e50c00b1ca766a}{%
-           family={Schkade},
-           familyi={S\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f80adac13cc206bee44ac5e0c8dfa15f}{%
-           family={Schwarz},
-           familyi={S\bibinitperiod},
-           given={Norbert},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=797cd6d70aa664f29db6478664adeb65}{%
-           family={Stone},
-           familyi={S\bibinitperiod},
-           given={Arthur},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{fda2d383a773a3b6271dea8baf8c82dd}
-      \strng{fullhash}{f329bbbdd91605f60c79c26b94290663}
-      \strng{bibnamehash}{f329bbbdd91605f60c79c26b94290663}
-      \strng{authorbibnamehash}{f329bbbdd91605f60c79c26b94290663}
-      \strng{authornamehash}{fda2d383a773a3b6271dea8baf8c82dd}
-      \strng{authorfullhash}{f329bbbdd91605f60c79c26b94290663}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{American Economic Review}
-      \field{number}{2}
-      \field{title}{Toward National Well-Being Accounts}
-      \field{volume}{94}
-      \field{year}{2004}
-      \field{pages}{429\bibrangedash 434}
-      \range{pages}{6}
-    \endentry
-    \entry{Kline2013}{report}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=363dcbd1a614bc00963eda898f3bd139}{%
-           family={Kline},
-           familyi={K\bibinitperiod},
-           given={Patrick},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f58347226b88750723f89cb2b99cd2e9}{%
-           family={Moretti},
-           familyi={M\bibinitperiod},
-           given={Enrico},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {National Bureau of Economic Research}%
-      }
-      \strng{namehash}{432ba8d57d9bce4692d4b1d17c899880}
-      \strng{fullhash}{432ba8d57d9bce4692d4b1d17c899880}
-      \strng{bibnamehash}{432ba8d57d9bce4692d4b1d17c899880}
-      \strng{authorbibnamehash}{432ba8d57d9bce4692d4b1d17c899880}
-      \strng{authornamehash}{432ba8d57d9bce4692d4b1d17c899880}
-      \strng{authorfullhash}{432ba8d57d9bce4692d4b1d17c899880}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Local Economic Development, Agglomeration Economies, and the Big Push: 100 Years of Evidence from the Tennessee Valley Authority}
-      \field{type}{NBER Working Paper}
-      \field{year}{2013}
-    \endentry
-    \entry{Knight2011}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=6d7c1ea29c1d1d64e19fe44bbc136fe8}{%
-           family={Knight},
-           familyi={K\bibinitperiod},
-           given={John},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=879b4722008de8a10aa1e84e7df32c2e}{%
-           family={Gunatilaka},
-           familyi={G\bibinitperiod},
-           given={Ramani},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{aacfa4fb67c938562f110d9dc51dc97c}
-      \strng{fullhash}{aacfa4fb67c938562f110d9dc51dc97c}
-      \strng{bibnamehash}{aacfa4fb67c938562f110d9dc51dc97c}
-      \strng{authorbibnamehash}{aacfa4fb67c938562f110d9dc51dc97c}
-      \strng{authornamehash}{aacfa4fb67c938562f110d9dc51dc97c}
-      \strng{authorfullhash}{aacfa4fb67c938562f110d9dc51dc97c}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Oxford Development Studies}
-      \field{number}{1}
-      \field{title}{Does Economic Growth Raise Happiness in China?}
-      \field{volume}{39}
-      \field{year}{2011}
-      \field{pages}{1\bibrangedash 24}
-      \range{pages}{24}
-      \verb{doi}
-      \verb 10.1080/13600818.2010.551006
-      \endverb
-    \endentry
     \entry{Krosnick1989}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a5089c9f0c9a15ef61c2cb7f543c5a2e}{%
@@ -5186,34 +3719,6 @@
       \field{pages}{1294\bibrangedash 1317}
       \range{pages}{24}
     \endentry
-    \entry{Liagouras2019}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e9428f2bde90d89e1a50e619da051fa3}{%
-           family={Liagouras},
-           familyi={L\bibinitperiod},
-           given={Georgios},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e9428f2bde90d89e1a50e619da051fa3}
-      \strng{fullhash}{e9428f2bde90d89e1a50e619da051fa3}
-      \strng{bibnamehash}{e9428f2bde90d89e1a50e619da051fa3}
-      \strng{authorbibnamehash}{e9428f2bde90d89e1a50e619da051fa3}
-      \strng{authornamehash}{e9428f2bde90d89e1a50e619da051fa3}
-      \strng{authorfullhash}{e9428f2bde90d89e1a50e619da051fa3}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{New Political Economy}
-      \field{number}{5}
-      \field{title}{Economic Growth, Happiness and Socialism: Durkheim’s Critique of Economic Reason and Beyond}
-      \field{volume}{24}
-      \field{year}{2019}
-    \endentry
     \entry{Luhrmann2017}{article}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=2ad09c146163eed9eb34ed8f7bd94b47}{%
@@ -5253,62 +3758,6 @@
       \field{year}{2017}
       \field{pages}{1\bibrangedash 10}
       \range{pages}{10}
-    \endentry
-    \entry{Maestas2018}{report}{}
-      \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=dfe279360ee8c9a36d847dd924d1fb3b}{%
-           family={Maestas},
-           familyi={M\bibinitperiod},
-           given={Nicole},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=900a8e20eac1140a4e054cf915406f90}{%
-           family={Mullen},
-           familyi={M\bibinitperiod},
-           given={Kathleen\bibnamedelima J.},
-           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=89b56f53126a48cb58c0c2ead94beb17}{%
-           family={Powell},
-           familyi={P\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=46c8825e6d2398605fc8274805f7f32a}{%
-           family={Wachter},
-           familyi={W\bibinitperiod},
-           given={Till},
-           giveni={T\bibinitperiod},
-           givenun=0,
-           prefix={von},
-           prefixi={v\bibinitperiod}}}%
-        {{un=0,uniquepart=base,hash=54c470477eb9ae7940f6a097632eb7fd}{%
-           family={Wenger},
-           familyi={W\bibinitperiod},
-           given={Jeffrey\bibnamedelima B.},
-           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {National Bureau of Economic Research}%
-      }
-      \strng{namehash}{4aa4d7702707e1ac82e8a38c829e9714}
-      \strng{fullhash}{1628167b9cccd00537c19949ec45a429}
-      \strng{bibnamehash}{1628167b9cccd00537c19949ec45a429}
-      \strng{authorbibnamehash}{1628167b9cccd00537c19949ec45a429}
-      \strng{authornamehash}{4aa4d7702707e1ac82e8a38c829e9714}
-      \strng{authorfullhash}{1628167b9cccd00537c19949ec45a429}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{25204}
-      \field{title}{The Value of Working Conditions in the United States and Implications for the Structure of Wages}
-      \field{type}{NBER Working Paper Series}
-      \field{year}{2018}
     \endentry
     \entry{Marshall2018}{report}{}
       \name{author}{3}{}{%
@@ -5425,61 +3874,6 @@
       \field{title}{Institutions, Institutional Change and Economic Performance}
       \field{year}{1990}
     \endentry
-    \entry{OConnor2017}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c9b10bc1999cfe5c6a5055d0a2b8a5f6}{%
-           family={O’Connor},
-           familyi={O\bibinitperiod},
-           given={Kelsey\bibnamedelima J.},
-           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c9b10bc1999cfe5c6a5055d0a2b8a5f6}
-      \strng{fullhash}{c9b10bc1999cfe5c6a5055d0a2b8a5f6}
-      \strng{bibnamehash}{c9b10bc1999cfe5c6a5055d0a2b8a5f6}
-      \strng{authorbibnamehash}{c9b10bc1999cfe5c6a5055d0a2b8a5f6}
-      \strng{authornamehash}{c9b10bc1999cfe5c6a5055d0a2b8a5f6}
-      \strng{authorfullhash}{c9b10bc1999cfe5c6a5055d0a2b8a5f6}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Review of Behavioral Economics}
-      \field{number}{4}
-      \field{title}{Happiness and Welfare State Policy Around the World}
-      \field{volume}{4}
-      \field{year}{2017}
-      \field{pages}{397\bibrangedash 420}
-      \range{pages}{24}
-      \verb{doi}
-      \verb 10.1561/105.00000071
-      \endverb
-    \endentry
-    \entry{OECD2011}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bdbed435a416a918aa494017fda4c7fb}{%
-           family={{OECD}},
-           familyi={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{bdbed435a416a918aa494017fda4c7fb}
-      \strng{fullhash}{bdbed435a416a918aa494017fda4c7fb}
-      \strng{bibnamehash}{bdbed435a416a918aa494017fda4c7fb}
-      \strng{authorbibnamehash}{bdbed435a416a918aa494017fda4c7fb}
-      \strng{authornamehash}{bdbed435a416a918aa494017fda4c7fb}
-      \strng{authorfullhash}{bdbed435a416a918aa494017fda4c7fb}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{How’s Life? Measuring Well-Being}
-      \field{year}{2011}
-    \endentry
     \entry{Oishi2015}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=a0910b06e203895cf97bf6235979d78d}{%
@@ -5552,72 +3946,6 @@
       \field{title}{Redistribution, Inequality, and Growth}
       \field{volume}{SDN/14/02}
       \field{year}{2014}
-    \endentry
-    \entry{Oswald2006}{report}{}
-      \name{author}{2}{}{%
-        {{un=1,uniquepart=given,hash=34633db201e1335cfb8d7b674984a1b4}{%
-           family={Oswald},
-           familyi={O\bibinitperiod},
-           given={Andrew\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=1}}%
-        {{un=0,uniquepart=base,hash=c9c7c0cd51e52f1ad3f6c80b120fcdf8}{%
-           family={Powdthavee},
-           familyi={P\bibinitperiod},
-           given={Nattavudh},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {Institute for the Study of Labor (IZA)}%
-      }
-      \strng{namehash}{dee9f916965d8b8b97db0f05c6610ce2}
-      \strng{fullhash}{dee9f916965d8b8b97db0f05c6610ce2}
-      \strng{bibnamehash}{dee9f916965d8b8b97db0f05c6610ce2}
-      \strng{authorbibnamehash}{dee9f916965d8b8b97db0f05c6610ce2}
-      \strng{authornamehash}{dee9f916965d8b8b97db0f05c6610ce2}
-      \strng{authorfullhash}{dee9f916965d8b8b97db0f05c6610ce2}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{number}{2208}
-      \field{title}{Does Happiness Adapt? A Longitudinal Study of Disability with Implications for Economists and Judges}
-      \field{type}{IZA Discussion Paper}
-      \field{year}{2006}
-    \endentry
-    \entry{Pagan2011}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d1287dd9376d19eab24a63310126b7b2}{%
-           family={Pagán-Rodríguez},
-           familyi={P\bibinithyphendelim R\bibinitperiod},
-           given={Ricardo},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{d1287dd9376d19eab24a63310126b7b2}
-      \strng{fullhash}{d1287dd9376d19eab24a63310126b7b2}
-      \strng{bibnamehash}{d1287dd9376d19eab24a63310126b7b2}
-      \strng{authorbibnamehash}{d1287dd9376d19eab24a63310126b7b2}
-      \strng{authornamehash}{d1287dd9376d19eab24a63310126b7b2}
-      \strng{authorfullhash}{d1287dd9376d19eab24a63310126b7b2}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Socio-Economics}
-      \field{number}{5}
-      \field{title}{Longitudinal Analysis of the Domains of Satisfaction Before and After Disability: Evidence from the German Socio-Economic Panel}
-      \field{volume}{40}
-      \field{year}{2011}
-      \field{pages}{672\bibrangedash 682}
-      \range{pages}{11}
     \endentry
     \entry{Pemstein2024}{report}{}
       \name{author}{8}{}{%
@@ -5804,38 +4132,6 @@
       \field{pages}{600\bibrangedash 621}
       \range{pages}{22}
     \endentry
-    \entry{Powdthavee2017}{article}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c9c7c0cd51e52f1ad3f6c80b120fcdf8}{%
-           family={Powdthavee},
-           familyi={P\bibinitperiod},
-           given={Nattavudh},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c9c7c0cd51e52f1ad3f6c80b120fcdf8}
-      \strng{fullhash}{c9c7c0cd51e52f1ad3f6c80b120fcdf8}
-      \strng{bibnamehash}{c9c7c0cd51e52f1ad3f6c80b120fcdf8}
-      \strng{authorbibnamehash}{c9c7c0cd51e52f1ad3f6c80b120fcdf8}
-      \strng{authornamehash}{c9c7c0cd51e52f1ad3f6c80b120fcdf8}
-      \strng{authorfullhash}{c9c7c0cd51e52f1ad3f6c80b120fcdf8}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Economic Behavior \& Organization}
-      \field{title}{Less Money or Better Health? The Well-Being Valuation of Different Health Conditions with Income Endogeneity}
-      \field{volume}{137}
-      \field{year}{2017}
-      \field{pages}{104\bibrangedash 121}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1016/j.jebo.2017.01.010
-      \endverb
-    \endentry
     \entry{Putnam1993}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=58d11ede2c9722f382a142cb97f56745}{%
@@ -5863,81 +4159,6 @@
       \field{labeltitlesource}{title}
       \field{title}{Making Democracy Work: Civic Traditions in Modern Italy}
       \field{year}{1993}
-    \endentry
-    \entry{Qin2024}{article}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=874b050699ea125e31f92ba1a50a0a35}{%
-           family={Qin},
-           familyi={Q\bibinitperiod},
-           given={Ning},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=8ea6e9df3b284bd3e1fa4968d6ceb2a1}{%
-           family={Kong},
-           familyi={K\bibinitperiod},
-           given={Dongmin},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=42b03d7a28c97c101e0a62ee7baba8f9}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Qiang},
-           giveni={Q\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{74a44fbde29388ad4a254e3962530465}
-      \strng{fullhash}{f9dcd38ec4b99cb2456d6c8710638efc}
-      \strng{bibnamehash}{f9dcd38ec4b99cb2456d6c8710638efc}
-      \strng{authorbibnamehash}{f9dcd38ec4b99cb2456d6c8710638efc}
-      \strng{authornamehash}{74a44fbde29388ad4a254e3962530465}
-      \strng{authorfullhash}{f9dcd38ec4b99cb2456d6c8710638efc}
-      \field{sortinit}{Q}
-      \field{sortinithash}{ce69a400a872ddd02ee7fdb3b38c6abd}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of International Money and Finance}
-      \field{title}{Trade Liberalization and Entrepreneurship: Evidence from China’s WTO Accession}
-      \field{volume}{147}
-      \field{year}{2024}
-      \field{pages}{103155}
-      \range{pages}{1}
-    \endentry
-    \entry{Repucci2021}{book}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=2e20899c4fc9f5fa88da1f8dab3d2bd1}{%
-           family={Repucci},
-           familyi={R\bibinitperiod},
-           given={Sarah},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=63feb693581d7d990ce04d1e38938ebf}{%
-           family={Slipowitz},
-           familyi={S\bibinitperiod},
-           given={Amy},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Freedom House}%
-      }
-      \strng{namehash}{9bb704fab8ba66430b91b39e380ecc7d}
-      \strng{fullhash}{9bb704fab8ba66430b91b39e380ecc7d}
-      \strng{bibnamehash}{9bb704fab8ba66430b91b39e380ecc7d}
-      \strng{authorbibnamehash}{9bb704fab8ba66430b91b39e380ecc7d}
-      \strng{authornamehash}{9bb704fab8ba66430b91b39e380ecc7d}
-      \strng{authorfullhash}{9bb704fab8ba66430b91b39e380ecc7d}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Freedom in the World 2021: Democracy under Siege}
-      \field{year}{2021}
     \endentry
     \entry{Sen1999}{book}{}
       \name{author}{1}{}{%
@@ -6067,6 +4288,42 @@
       \field{pages}{557\bibrangedash 586}
       \range{pages}{30}
     \endentry
+    \entry{StevensonWolfers2008}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=4492593ec3b36af16a215b9dc5ca4100}{%
+           family={Stevenson},
+           familyi={S\bibinitperiod},
+           given={Betsey},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=22e89001d0a128a8b110c57c90e2c403}{%
+           family={Wolfers},
+           familyi={W\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c3330c5ef8379f47a291a2b1fb4f165a}
+      \strng{fullhash}{c3330c5ef8379f47a291a2b1fb4f165a}
+      \strng{bibnamehash}{c3330c5ef8379f47a291a2b1fb4f165a}
+      \strng{authorbibnamehash}{c3330c5ef8379f47a291a2b1fb4f165a}
+      \strng{authornamehash}{c3330c5ef8379f47a291a2b1fb4f165a}
+      \strng{authorfullhash}{c3330c5ef8379f47a291a2b1fb4f165a}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Brookings Papers on Economic Activity}
+      \field{number}{1}
+      \field{title}{Economic Growth and Subjective Well-Being: Reassessing the {Easterlin} Paradox}
+      \field{volume}{2008}
+      \field{year}{2008}
+      \field{pages}{1\bibrangedash 87}
+      \range{pages}{87}
+    \endentry
     \entry{UNSD2023}{book}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=8b3c53c5811927144252304f12172f67}{%
@@ -6091,41 +4348,6 @@
       \field{labeltitlesource}{title}
       \field{title}{UNdata: A World of Information}
       \field{year}{2023}
-    \endentry
-    \entry{Vemuri2006}{article}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=040a6973598486e6dec132f2fbdfb799}{%
-           family={Vemuri},
-           familyi={V\bibinitperiod},
-           given={Amanda\bibnamedelima W.},
-           giveni={A\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=9cea31530438dc868664f38f0f38f35b}{%
-           family={Costanza},
-           familyi={C\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{5542840b5097cc0dc959aef6d489bdd1}
-      \strng{fullhash}{5542840b5097cc0dc959aef6d489bdd1}
-      \strng{bibnamehash}{5542840b5097cc0dc959aef6d489bdd1}
-      \strng{authorbibnamehash}{5542840b5097cc0dc959aef6d489bdd1}
-      \strng{authornamehash}{5542840b5097cc0dc959aef6d489bdd1}
-      \strng{authorfullhash}{5542840b5097cc0dc959aef6d489bdd1}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \true{uniqueprimaryauthor}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ecological Economics}
-      \field{title}{The Role of Human, Social, Built, and Natural Capital in Explaining Life Satisfaction at the Country Level: Toward a National Well-Being Index (NWI)}
-      \field{volume}{58}
-      \field{year}{2006}
-      \field{pages}{119\bibrangedash 133}
-      \range{pages}{15}
     \endentry
     \entry{Wooldridge2021}{report}{}
       \name{author}{1}{}{%

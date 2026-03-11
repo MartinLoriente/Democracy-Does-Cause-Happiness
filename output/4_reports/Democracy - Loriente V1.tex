@@ -64,7 +64,6 @@
 {\multicitedelim}
 {\usebibmacro{postnote}}
 
-
 \DeclareCiteCommand{\cTwo} % Author (Year) (paréntesis negros, con espacio)
 {\usebibmacro{prenote}}
 {%
@@ -81,14 +80,13 @@
 \newcommand{\aaa}[1]{\cOne{#1}} % produces: Author, Year
 \newcommand{\bbb}[1]{\cTwo{#1}} % produces: Author (Year)
 
-
 \newcolumntype{H}{>{\setbox0=\hbox\bgroup}c<{\egroup}@{}}
 \geometry{left=0.9in,right=0.9in,top=0.8in,bottom=0.8in}
 \makeatletter
 \newcommand*\ExpandableInput[1]{\@@input#1 }
 \makeatother
-\edef\savet{./3tables/v18}
-\edef\savef{./2figures/v18}
+\edef\savef{../2_figures/v1}
+\edef\savet{../3_tables/v1}
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
 \newcommand\defComment[2]{\expandafter\def\csname Comment#1\endcsname{#2}}
@@ -167,30 +165,95 @@
 
 \section{Introduction}\label{Introduction}
 
-“The secret of happiness is freedom, and the secret of freedom is courage.” Thucydides, History of the Peloponnesian War
+``The secret of happiness is freedom, and the secret of freedom is courage.’’
+Thucydides, History of the Peloponnesian War
 \vspace*{0.5cm}
 
-Do democratic institutions make people’s lives better? While economic growth is often regarded as the primary engine of improved living standards, democracy may have contributed to human well-being through channels that transcend material prosperity (\aaa{Haller2006}). By expanding political freedoms, fostering social stability, and strengthening individual autonomy, democratic institutions may have enhanced life satisfaction in ways that growth alone cannot achieve. For instance, \bbb{Kudamatsu2012} finds that democratization in sub-Saharan Africa was followed by a significant reduction in infant mortality, primarily through improved public health services rather than increased affluence. Understanding how democracy shapes both objective and subjective dimensions of well-being has therefore become essential for evaluating the broader benefits of democratic governance and informing institutional reform. Yet despite extensive debate, empirical evidence remains limited and fragmented. This paper aims to provide causal evidence on how democracy affects the different dimensions of well-being.
+Democracy is known to shape economic growth, public service delivery, and
+the rule of law---but does it make ordinary people happier? Research
+documents that democratic institutions promote economic growth, expand access
+to public goods, and reduce infant mortality (\aaa{Acemoglu2019};
+\aaa{Kudamatsu2012}). Yet it is far from obvious that these aggregate effects
+translate into higher individual subjective well-being. The critical
+intermediate link is income: if democracy improves lives primarily by raising
+incomes, its effect on happiness depends on whether income gains translate
+into lasting life satisfaction---a relationship that is itself deeply
+contested (\aaa{Clark2014}). The Easterlin Paradox (\aaa{Easterlin1974};
+\aaa{DiTella2008}; though see \aaa{StevensonWolfers2008}) documents that
+rising national income does not reliably produce enduring improvements in
+happiness, as inequality in the distribution of gains, rising aspirations,
+and social comparisons can erode whatever psychological benefits material
+progress delivers (\aaa{Clark2016}). Democracy may also affect well-being
+through non-material channels (protecting civil liberties, reducing political
+repression, and expanding individual agency), but whether these forces
+generate measurable improvements in subjective welfare is equally unclear.
+The question has direct policy relevance: any evaluation of democratic
+governance must account for whether it genuinely improves the lives of those
+living under it. Taken together, the theoretical priors are ambiguous: the
+effect of democratic institutions on individual well-being is genuinely
+uncertain, and ultimately an empirical question (\aaa{FreyStutzer2000}).
 
-Whether democracy improves well-being primarily through economic growth has long remained an open question. If its effects operate only by raising incomes, then the value of democracy would depend on the extent to which economic gains translate into life satisfaction. Empirical evidence remains mixed. While income contributes to happiness (\aaa{Blanchflower2004}; \aaa{BenAfia2019}), marginal gains decline at higher levels (\aaa{Clark2014}), and classic sociological perspectives have questioned the durability of material progress as a source of happiness. The Easterlin Paradox (\aaa{Easterlin1974}; \aaa{DiTella2008}) shows that increases in national income do not necessarily yield long-term improvements in well-being, as inequality, social comparisons, and unemployment often offset temporary income gains (\aaa{Knight2011}; \aaa{Clark2016}; \aaa{Davies2011}). \bbb{Durkheim1893}, as interpreted by \bbb{Liagouras2019}, argued that intensified competition and rising aspirations may offset the psychological benefits of economic advancement. Taken together, these findings imply that economic progress accounts for only part of subjective well-being.
+This paper provides a systematic answer. Using harmonized microdata from more
+than 100 countries spanning four decades, I find that greater exposure to
+democratic institutions robustly increases individual well-being across all
+dimensions examined: income, health, personal autonomy, life satisfaction, and
+happiness. A one-standard-deviation increase in lifetime democratic exposure
+raises self-reported happiness by 0.14 standard deviations, with comparable
+effects on income, health, autonomy, and life satisfaction. These estimates
+are consistently positive and statistically significant for both continuous
+and dichotomous measures of democracy and a wide range of alternative
+specifications and clustering definitions.
 
-Consequently, a broader perspective on the determinants of happiness has emerged. Research highlights employment stability, political freedom, health, social trust, and community life as key drivers of well-being (\aaa{Deaton2008}; \aaa{Kahneman2004}; \aaa{Diener2012}). Social capital, in particular, provides a lasting foundation for life satisfaction (\aaa{Bartolini2014}). Institutional and cultural conditions have also been shown to shape well-being in ways that economic growth alone cannot capture (\aaa{Vemuri2006}; \aaa{Abdallah2008}; \aaa{OECD2011}; \aaa{OConnor2017}). This literature suggests that although growth contributes to well-being, its long-term impact is limited by inequality, social comparison, and non-material factors.
+The main empirical challenge is that wealthier, more stable societies tend
+to be both more democratic and to report higher well-being, making a simple
+cross-country comparison uninformative. The identification strategy exploits
+variation in cumulative democratic exposure across birth cohorts within the
+same country. Two individuals surveyed in the same country and year, but born
+a decade apart, differ in the total years they spent under democratic rule to
+the extent that their country’s democratic status changed over the years
+between their births. Comparing such individuals while absorbing
+time-invariant country characteristics and contemporaneous conditions through
+country, birth-cohort, and survey-year fixed effects, with age included as
+an additional control to address the standard age-period-cohort collinearity,
+isolates the effect of democratic exposure from within-country cohort
+variation. The strategy is validated by showing that democratic exposure
+accumulated before birth, which cannot causally affect individual outcomes,
+is uncorrelated with well-being. Democratic exposure is further instrumented
+using regional democratization waves (\aaa{Acemoglu2019}), obtaining
+estimates of similar sign and magnitude to those from the baseline strategy.
+As exploratory evidence, I show that exposure during ages 18--25, when
+institutional experiences are thought to leave lasting imprints
+(\aaa{Krosnick1989}; \aaa{Dinas2013}; \aaa{Navajas2020}), is the window
+most consistently associated with later well-being, a result interpreted as
+suggestive rather than as an independent identification strategy.
 
-Recent evidence further indicates that public misperceptions about the benefits of democracy can help sustain support for authoritarian regimes. \bbb{Acemoglu2024} show that in Turkey, correcting such misperceptions about democracy and media freedom significantly increased support for opposition candidates. Complementary evidence from \bbb{Acemoglu2023} demonstrates that democracies can also cultivate their own legitimacy: individuals with longer exposure to successful democratic institutions display stronger support for democracy itself, particularly when such regimes deliver economic growth, stability, and good governance. Also, democracy has now been in retreat globally for almost two decades, according to recent assessments (\aaa{Repucci2021}).
+The effects do not appear to operate exclusively through income. Comparing
+individuals exposed to better- and worse-performing democracies (defined
+along dimensions of economic growth, transparency, state capacity, and
+redistribution) reveals that institutional quality substantially amplifies
+democracy’s well-being gains. Importantly, however, positive effects persist
+in lower-performing democracies relative to successful autocracies, pointing
+to expanded freedoms and civic agency as independent contributors to
+individual welfare (\aaa{Sen1999}).
 
-These insights have renewed interest in democracy as an independent determinant of well-being. If economic growth explains only part of the story, democratic institutions may improve people’s lives directly by expanding freedoms, strengthening social stability, promoting health, and fostering individual agency. Empirical studies associate democracy with higher material welfare and greater life satisfaction, indicating that institutional environments play an independent role in shaping human flourishing.
-
-Figure \ref{figure1} summarizes the conceptual framework that guides this analysis and illustrates both the economic and non-economic channels through which democracy may influence well-being. On the economic side, democratic institutions have been shown to stimulate growth by encouraging market-oriented reforms, reinforcing the rule of law, and reducing political instability (\aaa{Acemoglu2019}). These reforms promote investment, human capital accumulation, and job creation, thereby improving material living standards. At the same time, the redistributive effects of democracy are far from uniform. Evidence from \bbb{Acemoglu2015} indicates that although democratization raises fiscal capacity and schooling, it does not systematically reduce inequality, as outcomes depend on structural conditions and institutional capture. However, the effects of democracy extend beyond growth itself, since institutional quality also determines access to public goods, health services, and personal freedoms. Together, these mechanisms suggest that democracy enhances well-being both directly and indirectly, rather than solely through higher income.
-
-A central non-economic mechanism is the expansion of personal autonomy. By safeguarding civil liberties, protecting property rights, and supporting open competition, democratic regimes enhance individuals’ control over their economic and social environments (\aaa{Kline2013}). Although higher income may facilitate greater independence, autonomy has been shown to exert an independent and lasting influence on life satisfaction. Individuals value the freedom to choose, participate, and shape their own trajectories, aspects that contribute to happiness regardless of material conditions (\aaa{Maestas2018}; \aaa{Bloom2015}; \aaa{Aksoy2022}). In this sense, democracy promotes well-being by expanding individual capabilities and civic agency rather than merely increasing economic output.
-
-Beyond autonomy, democracy also strengthens the interaction between material and non-material dimensions of welfare. Economic reforms under democratic governance, such as trade liberalization or fiscal expansion, can promote entrepreneurship and financial independence (\aaa{Qin2024}; \aaa{Cesarini2017}) while simultaneously improving public health. These interrelated effects form a virtuous cycle in which healthier individuals tend to be more productive and earn higher incomes, while greater income supports better health outcomes and enhanced autonomy (\aaa{Oswald2006}). Democratic institutions amplify this cycle by enabling economic and social progress to reinforce one another. Consistent with this mechanism, \bbb{Baicker2019} provide evidence from the Oregon Health Insurance Experiment showing that improved access to health care can enhance individual autonomy and civic participation. Similar evidence from longitudinal studies shows that health conditions have a persistent and substantial impact on life satisfaction, often comparable to that of income (\aaa{Pagan2011}; \aaa{Powdthavee2017}). In sum, democracy has enhanced well-being through interdependent mechanisms. It has supported economic prosperity by fostering reform and stability, while also strengthening freedom, health, and agency. This framework has clarified how democratic governance improves individual lives and informs the empirical analysis that follows.
-
-The timing of exposure to democratic institutions is crucial for understanding their impact on well-being. The impressionable years hypothesis argues that experiences during early adulthood leave lasting imprints on individuals’ values, attitudes, and expectations (\aaa{Krosnick1989}). This idea is supported by evidence showing that exposure to specific institutional environments between ages 18 and 25 shapes long-term beliefs and behaviors (\aaa{Dinas2013}; \aaa{Aksoy2020}; \aaa{Navajas2020}; \aaa{Cotofan2020}). Consistent with this view, our findings indicate that exposure to democracy during this formative period is strongly associated with greater autonomy and higher life satisfaction later in life (along other well-being results, including income, health and happiness). These results align with the capabilities approach from \bbb{Sen1999}, which emphasizes the role of substantive freedoms in enabling individuals to pursue lives they value. Democratic environments therefore contribute not only to material prosperity but also to the development of enduring preferences and capabilities that sustain well-being throughout the life course.
-
-All this evidence indicates that although economic growth has remained an important driver of welfare, its contribution to well-being has been constrained by inequality, rising aspirations, and social comparisons. Democratic institutions, by contrast, have enhanced welfare through both material and non-material channels, with particularly strong effects when exposure has occurred during impressionable years. This perspective has provided a clearer understanding of how democracy has improved multiple dimensions of human well-being.
-
-To establish causality, the analysis has combined harmonized microdata from more than one hundred countries with robust identification strategies, including instrumental variable estimation, alternative fixed effects structures, extensive robustness checks, and placebo exercises. Similar patterns have been obtained in the immigrant subsample from EVS, for whom democratic exposure during impressionable years has been defined in the country of birth. Across all specifications, greater exposure to democratic institutions has consistently produced positive and statistically significant effects on individual well-being, providing causal evidence that democracy has improved people’s lives.
+This paper contributes to three literatures. A growing body of work
+documents that democracy shapes macroeconomic aggregates---growth, inequality,
+and fiscal capacity (\aaa{Acemoglu2019}; \aaa{Acemoglu2015})---but leaves
+unanswered whether these aggregate effects improve individual welfare. This
+paper provides the missing evidence, showing that democracy’s benefits extend
+to personal happiness and life satisfaction at the individual level, extending
+the within-context evidence of \bbb{FreyStutzer2000} to a global, causally
+identified setting. It also contributes to the empirical literature on the
+determinants of subjective well-being, which has focused primarily on income
+(\aaa{Blanchflower2004}; \aaa{DiTellaMacCulloch2006}), employment, and
+health, giving little attention to political institutions. The results show
+that democratic institutions are a robust and quantitatively meaningful causal
+determinant of well-being in a large and heterogeneous cross-country sample.
+Finally, it extends the impressionable years literature (\aaa{Krosnick1989};
+\aaa{Aksoy2020}; \aaa{Acemoglu2023}; \aaa{Navajas2020}), which documents
+that institutional experiences during early adulthood shape long-run beliefs
+and behaviors, by showing that this formative channel also operates on
+well-being outcomes.
 
 
 
@@ -386,7 +449,7 @@ A reasonable concern is that our estimates might simply reflect growing up durin
 
 Sub-sample analyses in Appendix Table \ref{at9} provide additional evidence across demographic and contextual groups. Results by gender are consistent for men and women. Results across city size show minor differences, although larger cities exhibit stronger and more consistent effects, especially for income and autonomy. Age-specific analyses indicate that middle-aged respondents provide the most consistent results. Young individuals are underrepresented in the impressionable years analysis, while older respondents are further removed from their impressionable years, reducing effect size. Lifetime exposure results are generally robust, with some exceptions in older respondents’ income outcomes, potentially reflecting differences in retirement, mortality selection, or cumulative life experiences. Political orientation analyses reveal consistent effects across left, center, and right respondents, indicating that democracy improves well-being across the political spectrum. In the online appendix we add more results related to these heterogeneities. 
 
-We also investigate potential mechanisms linking democratic exposure to well-being. Several channels that could, in principle, generate spurious associations do not appear to mediate the results. Our tests show no evidence that beliefs and religiosity (Appendix Table \ref{at10}), schooling (Appendix Table \ref{at11}), employment status (Appendix Table \ref{at12}), or security and fear (Appendix Table \ref{at13}) account for the estimated effects. Income-related channels are more complex, since political-economy models (\aaa{Alesina1994}; \aaa{Persson1994}) predict redistribution under broader political participation, yet the empirical record reveals substantial heterogeneity. While democracies sometimes expand fiscal capacity or social spending (\aaa{Perotti1996}; \aaa{Ostry2014}), top-tier evidence finds that democratizations have not generated systematic reductions in inequality (\aaa{Acemoglu2019}), partly because early gains accrue to more skilled or connected groups (\aaa{Forbes2000}). This implies that our results are unlikely to be driven by uniform income gains. Consistent with this interpretation, we find that improvements in well-being are larger in countries with stronger redistributive capacity, in line with \bbb{Acemoglu2015}, although redistribution itself does not operate as a direct individual-level mediator. Overall, these patterns suggest that cultural, educational, labor-market, security and simple redistribution channels do not explain the findings. Instead, institutional features related to fiscal capacity, economic growth, transparency and redistribution shape the extent to which democratic exposure translates into higher well-being.
+We also investigate potential mechanisms linking democratic exposure to well-being. Several channels that could, in principle, generate spurious associations do not appear to mediate the results. Our tests show no evidence that beliefs and religiosity (Appendix Table \ref{at10}), schooling (Appendix Table \ref{at11}), employment status (Appendix Table \ref{at12}), or security and fear (Appendix Table \ref{at13}) account for the estimated effects. Income-related channels are more complex, since political-economy models (\aaa{Alesina1994}; \aaa{Persson1994}) predict redistribution under broader political participation, yet the empirical record reveals substantial heterogeneity. While democracies sometimes expand fiscal capacity or social spending (\aaa{Perotti1996}; \aaa{Ostry2014}), top-tier evidence finds that democratizations have not generated systematic reductions in inequality (\aaa{Acemoglu2019}), partly because early gains accrue to more skilled or connected groups (\aaa{Forbes2000}). This implies that our results are unlikely to be driven by uniform income gains. Consistent with this interpretation, we find that improvements in well-being are larger in countries with stronger redistributive capacity, in line with \bbb{Acemoglu2015}, although redistribution itself does not operate as a direct individual-level mediator. Overall, these patterns suggest that cultural, educational, labor-market, security and simple redistribution channels do not explain the findings. Instead, institutional features related to fiscal capacity, economic growth, transparency and redistribution shape the extent to which democratic exposure translates into higher well-being. To examine which dimension of democratic governance is most closely associated with well-being gains, Appendix Tables~\ref{at21}--\ref{at22} decompose the impressionable-years ETD by the five V-Dem component indices (electoral, liberal, participatory, deliberative, and egalitarian democracy); Figure~\ref{af11} summarizes the corresponding coefficient plot. These analyses complement the primary mechanism evidence in Tables~5--6 by identifying which facets of democracy are most predictive of the well-being effect. Appendix Tables~\ref{at23}--\ref{at24} provide descriptive mediation evidence for the growth, institutional quality, and health-investment channels; because the mediators are themselves outcomes of democracy, these regressions are interpreted as descriptive rather than causal.
 
 All these evidence demonstrates that the beneficial effects of democratic exposure are persistent over time, robust across population subgroups, and consistently observed across political orientations. These effects are strengthened by economic performance, institutional quality, and redistributive capacity, yet they do not depend exclusively on any single channel. Overall, the results point to a broad and enduring relationship between democratic institutions and improvements in both material and subjective well-being, sustained by multiple reinforcing mechanisms that reflect the long-term institutional, cultural, and psychological foundations of democratic governance.
 
@@ -1258,6 +1321,142 @@ This paper has shown that democracy causally improves well-being. A natural next
 \end{table}
 
 \clearpage
+
+\begin{table}[h!]
+	\caption{V-Dem Component ETDs and Well-Being --- Impressionable Years (18--25)}
+	\label{at21}
+	\begin{center}
+		\scalebox{0.75}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex}
+				\hline \\
+				\multicolumn{1}{l}{\textbf{Electoral Democracy}} \\
+				\\
+				\ExpandableInput{\savet/comppolyiy} \hline \\
+				\multicolumn{1}{l}{\textbf{Liberal Component}} \\
+				\\
+				\ExpandableInput{\savet/complibiy} \hline \\
+				\multicolumn{1}{l}{\textbf{Participatory Component}} \\
+				\\
+				\ExpandableInput{\savet/comppartipiy} \hline \\
+				\multicolumn{1}{l}{\textbf{Deliberative Component}} \\
+				\\
+				\ExpandableInput{\savet/compdelibiy} \hline \\
+				\multicolumn{1}{l}{\textbf{Egalitarian Component}} \\
+				\\
+				\ExpandableInput{\savet/compegaliy} \hline \\
+				\multicolumn{6}{l}{\parbox{19.5cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Each panel regresses the indicated outcome on the corresponding V-Dem component exposure during impressionable years (ages 18--25), constructed using the same ETD algorithm as the main exposure variables. Components are run in individual regressions, not simultaneously, to avoid multicollinearity. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. All regressions include the baseline fixed effects: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. Sample restricted to respondents aged 25 or older. This table uses V-DEM (1911--2023) and IVS (1981--2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\clearpage
+
+\begin{table}[h!]
+	\caption{V-Dem Component ETDs and Well-Being --- Horse Race, Impressionable Years (18--25)}
+	\label{at22}
+	\begin{center}
+		\scalebox{0.75}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex}
+				\hline \\
+				\ExpandableInput{\savet/horses1c1iy} \hline \\
+				\multicolumn{6}{l}{\parbox{19.5cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. All five V-Dem component exposures during impressionable years (ages 18--25) are included simultaneously. Due to the high correlation among components ($r > 0.70$), standard errors are large and coefficients are unstable; results should be interpreted with caution. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. All regressions include the baseline fixed effects: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. Sample restricted to respondents aged 25 or older. This table uses V-DEM (1911--2023) and IVS (1981--2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\clearpage
+
+\begin{table}[h!]
+	\caption{Descriptive Mediation --- Economic Growth and Institutional Quality Channels}
+	\label{at23}
+	\begin{center}
+		\scalebox{0.75}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex}
+				\hline \\
+				\multicolumn{1}{l}{\textbf{Panel A: Lifetime Democracy (Baseline)}} \\
+				\\
+				\ExpandableInput{\savet/mechAs1c1lt} \hline \\
+				\multicolumn{1}{l}{\textbf{Panel B: Lifetime Democracy + GDP Growth}} \\
+				\\
+				\ExpandableInput{\savet/mechBs1c1lt} \hline \\
+				\multicolumn{1}{l}{\textbf{Panel C: Lifetime Democracy + Transparency + State Capacity}} \\
+				\\
+				\ExpandableInput{\savet/mechCs1c1lt} \hline \\
+				\multicolumn{6}{l}{\parbox{19.5cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Panel A reports baseline lifetime democracy estimates. Panel B adds contemporaneous GDP per capita growth (Maddison). Panel C adds a V-Dem transparency index (1 $-$ corruption score) and a state capacity baseline index. These regressions are descriptive rather than causal: mediators are outcomes of democracy, and their inclusion may introduce bad-control bias. This analysis is complementary to Tables 5 and 6, which provide the paper's primary mechanism evidence. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. All regressions include the baseline fixed effects: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. This table uses V-DEM (1911--2023), Maddison, and IVS (1981--2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\clearpage
+
+\begin{table}[h!]
+	\caption{Descriptive Mediation --- Health Investment Channel}
+	\label{at24}
+	\begin{center}
+		\scalebox{0.75}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex}
+				\hline \\
+				\multicolumn{1}{l}{\textbf{Panel A: Lifetime Democracy (Baseline, Health-Expenditure Sub-Sample)}} \\
+				\\
+				\ExpandableInput{\savet/mechHAs1c1lt} \hline \\
+				\multicolumn{1}{l}{\textbf{Panel B: Lifetime Democracy + Health Expenditure (\% GDP)}} \\
+				\\
+				\ExpandableInput{\savet/mechHBs1c1lt} \hline \\
+				\multicolumn{6}{l}{\parbox{19.5cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Both panels are estimated on the sub-sample of country-years with available health expenditure data (World Bank SH.XPD.CHEX.GD.ZS, 2000--2021). Panel A reports baseline lifetime democracy estimates in this sub-sample for comparability. Panel B adds contemporaneous total health expenditure as a share of GDP. These regressions are descriptive rather than causal: health expenditure is an outcome of democracy, and its inclusion may introduce bad-control bias. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. All regressions include the baseline fixed effects: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. This table uses World Bank WDI (2000--2021), V-DEM (1911--2023), and IVS (1981--2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\clearpage
+
+\begin{table}[h!]
+	\caption{V-Dem Component ETDs and Well-Being --- Lifetime Exposure}
+	\label{at25}
+	\begin{center}
+		\scalebox{0.75}{
+			\begin{tabular}{lccccc}\hline \hline
+				\ExpandableInput{\savet/header.tex}
+				\hline \\
+				\multicolumn{1}{l}{\textbf{Electoral Democracy}} \\
+				\\
+				\ExpandableInput{\savet/comppolylt} \hline \\
+				\multicolumn{1}{l}{\textbf{Liberal Component}} \\
+				\\
+				\ExpandableInput{\savet/compliblt} \hline \\
+				\multicolumn{1}{l}{\textbf{Participatory Component}} \\
+				\\
+				\ExpandableInput{\savet/comppartiplt} \hline \\
+				\multicolumn{1}{l}{\textbf{Deliberative Component}} \\
+				\\
+				\ExpandableInput{\savet/compdeliblt} \hline \\
+				\multicolumn{1}{l}{\textbf{Egalitarian Component}} \\
+				\\
+				\ExpandableInput{\savet/compegallt} \hline \\
+				\multicolumn{6}{l}{\parbox{19.5cm}{\footnotesize \textbf{Notes:}
+						Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Each panel regresses the indicated outcome on the corresponding V-Dem component lifetime exposure (from age 6), constructed using the same ETD algorithm as the main exposure variables. Components are run in individual regressions, not simultaneously, to avoid multicollinearity. *** Significant at the 1\% level; ** Significant at the 5\% level; * Significant at the 10\% level. All continuous outcomes and independent variables are normalized by their standard deviations. All regressions include the baseline fixed effects: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. This table uses V-DEM (1911--2023) and IVS (1981--2022) datasets.
+				}}
+			\end{tabular}
+		}
+	\end{center}
+\end{table}
+
+\clearpage
 \vspace*{0.7cm}
 \begin{figure}[h!]
 	\caption{Democracy and Exposure to Democracy by Year/Cohort}
@@ -1409,6 +1608,21 @@ This paper has shown that democracy causally improves well-being. A natural next
 		} \vspace{-1cm} 
 		\parbox{17cm}{{\scriptsize \textbf{Notes:} 
 				Standard errors, robust to heteroskedasticity and serial correlation, are clustered at the country and survey-year levels and reported in parentheses. Results are shown separately for continuous and dichotomous measures of democracy. This figure plots reduced form coefficient estimates for each one of our measures of an extended version of equation \eqref{2} that simultaneously includes the baseline (post-birth) and the pre-birth measures of exposure to democracy. Pre-Birth Exposure to Democracy is constructed using a country's democracy score before the relevant cohort's birth, using a variant of equation \eqref{1} (see text for details). The instrument for Exposure to Democracy is constructed using regional waves of democratization as Acemoglu et al. (2019). The left-hand side panel uses the dichotomous democracy score, while the right-hand side panel uses the continuous measure. For each outcome, in each panel, we show the placebo estimate (Pre-Birth Exposure to Democracy) from both our baseline specification (specification 1), and an extended specification (specification 2). All regressions include fixed effects for: subregion, gender, language, wave of the survey, cohort, age and dummies of categories identifying the size of the city. The first specification adds fixed effects for country, year of interview and cohort. The second specification adds fixed effects for: region $\times$ year of interview and country $\times$ wave. We also report estimates for Exposure to Democracy from the same specifications (our main variable of interest) for comparison. When the estimates for Exposure to Democracy are statistically different from the estimates for Pre-Birth Exposure to Democracy at 5\%, we depict them in black solid circles and triangles; when they are not statistically different, we depict them in grey hollowed circles and triangles. The whiskers indicate the 95 percent confidence intervals. All coefficients are standardized (beta coefficients). See text for additional details.
+		}}
+	\end{center}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[h!]
+	\caption{V-Dem Component ETDs and Well-Being --- Coefficient Plot (Impressionable Years)}
+	\label{af11}
+	\begin{center}
+		\scalebox{1}{
+			\includegraphics[width=0.95\textwidth]{\savef/FigComp/compiy}
+		}
+		\parbox{17cm}{{\scriptsize \textbf{Notes:}
+				Each panel plots the coefficient (and 95\% confidence interval) from a separate regression of the indicated outcome on the corresponding V-Dem component exposure during impressionable years (ages 18--25). Components are constructed using the same ETD algorithm as the main exposure variables. Electoral, Liberal, Participatory, Deliberative, and Egalitarian correspond to V-Dem indices \texttt{v2x\_polyarchy}, \texttt{v2x\_liberal}, \texttt{v2x\_partip}, \texttt{v2xdl\_delib}, and \texttt{v2x\_egal}, respectively. Components are run in individual regressions, not simultaneously. Standard errors are clustered at the country and survey-year levels. All coefficients are standardized (beta coefficients). All regressions include the baseline fixed effects: gender, survey wave, birth cohort, age, language, town size, sub-region, country, and year of interview. Sample restricted to respondents aged 25 or older. This figure uses V-DEM (1911--2023) and IVS (1981--2022) datasets.
 		}}
 	\end{center}
 \end{figure}

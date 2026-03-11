@@ -36,6 +36,11 @@ Table O8, O9 & O10: Exposure to Successful Democracy. IY (Dichotomous) & LT
 Table O11 & O12: Exposure to Democracy, Leave one Out. IY & LT (Dichotomous)
 Table O13 & O14: Impressionable Years Exposure, Different Time Windows 
 Table O15: Exposure to Democracy 18-25, Alternative Variables
+Table O16: V-Dem Component ETDs, Impressionable Years (Individual Regressions)
+Table O17: V-Dem Component ETDs, Impressionable Years (Horse Race)
+Table O18: Descriptive Mediation — Growth and Institutional Quality Channels
+Table O19: Descriptive Mediation — Health Investment Channel
+Table O20: V-Dem Component ETDs, Lifetime (Individual Regressions)
 
 // SOME USEFUL NUMBERS
 ==============================================================================*/
@@ -2102,6 +2107,174 @@ forv x=2/2{
 	droptabular using "${savet}/appx`x's1c1iy.tex", spaceb("^Mean")
 }
 
+
+
+/*==============================================================================
+Table O16: V-Dem Component ETDs — Individual Regressions (IY, ages 18-25)
+Each column = one outcome; each panel = one V-Dem component.
+Interpretation: which democratic dimension predicts more wellbeing?
+NOTE: components are correlated (r>0.7); interpret individually, not jointly.
+*=============================================================================*/
+gl saveout "${savee}/tot/olsMainIY"
+local comps  "v2x_polyarchy v2x_liberal v2x_partip v2xdl_delib v2x_egal"
+local shorts "poly lib partip delib egal"
+
+*ESTIMATES
+u "${temp}/ivs",replace
+foreach v of local comps {
+    foreach y in $a {
+        reghdfestd `y' compiy_`v' [aw=weight] if age>24, a(${fe1}) cl(${cl1}) version(5)
+        estimates save "${saveout}/comp`v'y`y's1c1iy",replace
+    }
+}
+
+*TABLES: short filenames (no underscores) for LaTeX compatibility
+local nc: word count `comps'
+forv c=1/`nc' {
+    local v:   word `c' of `comps'
+    local lbl: word `c' of `shorts'
+    mata:mata clear
+    foreach y in $a {
+        estimates use "${savee}/tot/olsMainIY/comp`v'y`y's1c1iy.ster"
+        outreg,${opt} merge(comp`lbl'iy) drop(_cons)
+    }
+    outreg using "${savet}/comp`lbl'iy.tex", replay(comp`lbl'iy) tex plain replace fragment nocenter varlabels
+    droptabular using "${savet}/comp`lbl'iy.tex", spaceb("^Mean")
+}
+
+
+/*==============================================================================
+Table O17: V-Dem Component ETDs — Horse Race (IY, ages 18-25)
+All 5 components simultaneously; expect large SEs from multicollinearity.
+Exploratory: which component survives conditional on the others?
+*=============================================================================*/
+gl saveout "${savee}/tot/olsMainIY"
+
+*ESTIMATES
+u "${temp}/ivs",replace
+foreach y in $a {
+    reghdfestd `y' compiy_v2x_polyarchy compiy_v2x_liberal ///
+        compiy_v2x_partip compiy_v2xdl_delib compiy_v2x_egal ///
+        [aw=weight] if age>24, a(${fe1}) cl(${cl1}) version(5)
+    estimates save "${saveout}/horsey`y's1c1iy",replace
+}
+
+*TABLE: 5 outcome columns, all 5 component coefficients
+mata:mata clear
+foreach y in $a {
+    estimates use "${savee}/tot/olsMainIY/horsey`y's1c1iy.ster"
+    outreg,${opt} merge(horses1c1iy) drop(_cons)
+}
+outreg using "${savet}/horses1c1iy.tex", replay(horses1c1iy) tex plain replace fragment nocenter varlabels
+droptabular using "${savet}/horses1c1iy.tex", spaceb("^Mean")
+
+
+/*==============================================================================
+Table O18: Descriptive Mediation — Growth and Institutional Quality
+Panel A: baseline (demlt2 only); Panel B: + GDP growth; Panel C: + transparency + state capacity
+NOTE: Mediators are outcomes of democracy — this is descriptive, not causal mediation.
+*=============================================================================*/
+gl saveout "${savee}/tot/olsMainLT"
+
+*Panel A: Baseline
+u "${temp}/ivs",replace
+foreach y in $a {
+    reghdfestd `y' demlt2 [aw=weight], a(${fe1}) cl(${cl1}) version(5)
+    estimates save "${saveout}/mechAy`y's1c1lt",replace
+}
+
+*Panel B: + GDP growth (growth channel)
+u "${temp}/ivs",replace
+foreach y in $a {
+    reghdfestd `y' demlt2 gdppc2gr [aw=weight], a(${fe1}) cl(${cl1}) version(5)
+    estimates save "${saveout}/mechBy`y's1c1lt",replace
+}
+
+*Panel C: + transparency + state capacity (institutional channel)
+u "${temp}/ivs",replace
+foreach y in $a {
+    reghdfestd `y' demlt2 transparency statecapbase [aw=weight], a(${fe1}) cl(${cl1}) version(5)
+    estimates save "${saveout}/mechCy`y's1c1lt",replace
+}
+
+*TABLES
+foreach panel in A B C {
+    mata:mata clear
+    foreach y in $a {
+        estimates use "${savee}/tot/olsMainLT/mech`panel'y`y's1c1lt.ster"
+        outreg,${opt} merge(mech`panel's1c1lt) drop(_cons)
+    }
+    outreg using "${savet}/mech`panel's1c1lt.tex", replay(mech`panel's1c1lt) tex plain replace fragment nocenter varlabels
+    droptabular using "${savet}/mech`panel's1c1lt.tex", spaceb("^Mean")
+}
+
+
+/*==============================================================================
+Table O19: Descriptive Mediation — Health Investment Channel
+Panel A: baseline in health-expenditure sub-sample (2000-2021); Panel B: + healthexp
+NOTE: Mediators are outcomes of democracy — this is descriptive, not causal mediation.
+NOTE: Sample is smaller (WB data starts 2000); Panel A re-estimates baseline for comparability.
+*=============================================================================*/
+gl saveout "${savee}/tot/olsMainLT"
+
+*Panel A: Baseline in health-exp sub-sample
+u "${temp}/ivs",replace
+keep if !missing(healthexp)
+foreach y in $a {
+    reghdfestd `y' demlt2 [aw=weight], a(${fe1}) cl(${cl1}) version(5)
+    estimates save "${saveout}/mechHAy`y's1c1lt",replace
+}
+
+*Panel B: + health expenditure (health investment channel)
+u "${temp}/ivs",replace
+keep if !missing(healthexp)
+foreach y in $a {
+    reghdfestd `y' demlt2 healthexp [aw=weight], a(${fe1}) cl(${cl1}) version(5)
+    estimates save "${saveout}/mechHBy`y's1c1lt",replace
+}
+
+*TABLES
+foreach panel in HA HB {
+    mata:mata clear
+    foreach y in $a {
+        estimates use "${savee}/tot/olsMainLT/mech`panel'y`y's1c1lt.ster"
+        outreg,${opt} merge(mech`panel's1c1lt) drop(_cons)
+    }
+    outreg using "${savet}/mech`panel's1c1lt.tex", replay(mech`panel's1c1lt) tex plain replace fragment nocenter varlabels
+    droptabular using "${savet}/mech`panel's1c1lt.tex", spaceb("^Mean")
+}
+
+
+/*==============================================================================
+Table O20: Component ETDs — Lifetime Exposure (Appendix to O16)
+Same as O16 but using LT (lifetime) exposure instead of IY.
+*=============================================================================*/
+gl saveout "${savee}/tot/olsMainLT"
+local comps  "v2x_polyarchy v2x_liberal v2x_partip v2xdl_delib v2x_egal"
+local shorts "poly lib partip delib egal"
+
+*ESTIMATES
+u "${temp}/ivs",replace
+foreach v of local comps {
+    foreach y in $a {
+        reghdfestd `y' complt_`v' [aw=weight], a(${fe1}) cl(${cl1}) version(5)
+        estimates save "${saveout}/comp`v'y`y's1c1lt",replace
+    }
+}
+
+*TABLES: short filenames (no underscores) for LaTeX compatibility
+local nc: word count `comps'
+forv c=1/`nc' {
+    local v:   word `c' of `comps'
+    local lbl: word `c' of `shorts'
+    mata:mata clear
+    foreach y in $a {
+        estimates use "${savee}/tot/olsMainLT/comp`v'y`y's1c1lt.ster"
+        outreg,${opt} merge(comp`lbl'lt) drop(_cons)
+    }
+    outreg using "${savet}/comp`lbl'lt.tex", replay(comp`lbl'lt) tex plain replace fragment nocenter varlabels
+    droptabular using "${savet}/comp`lbl'lt.tex", spaceb("^Mean")
+}
 
 
 /*==============================================================================
